@@ -1,0 +1,46 @@
+Indicators of Compromise for ANDR/HiddAd-T malware
+
+cf. https://sophos.wordpress.com/en-us/?p=55524
+
+Thanks to Trend Micro:
+https://blog.trendmicro.com/trendlabs-security-intelligence/adware-disguised-as-game-tv-remote-control-apps-infect-9-million-google-play-users/
+https://documents.trendmicro.com/assets/AdwareFoundonGooglePlay_Appendix.pdf
+
+Web hosts used for command-and-control and ad delivery
+
+cdn.partycross.com
+dialog.usatek.eu
+dialog-4a78.kxcdn.com
+goldapp-bcf4.kxcdn.com
+mny-3f29.kxcdn.com
+remoteapp-3d8f.kxcdn.com
+remotesettings-3f29.kxcdn.com
+
+Android app links on Play Market - live (as of 2019-02-13)
+
+https://play.google.com/store/apps/details?id=com.hemanlia.cityracing.parking
+https://play.google.com/store/apps/developer?id=Hemanlia
+https://play.google.com/store/apps/details?id=com.wastickerapps.flags.stickers
+https://play.google.com/store/apps/details?id=com.wastickerapps.heart.stickers
+https://play.google.com/store/apps/details?id=com.wastickerapps.animals.stickers
+https://play.google.com/store/apps/details?id=com.wastickerapps.espana.stickers
+https://play.google.com/store/apps/details?id=com.wastickerapps.nodrugs.stickers
+https://play.google.com/store/apps/developer?id=Teapilkate
+
+Filenames of files used for C2 instructions and advertising delivery
+
+cros1.txt
+cros2.txt
+cros3.txt
+cross.txt
+cross1.txt
+cross2.txt
+cross3.txt
+crossver.jpg
+remote.txt
+settings.txt
+settings_tvbrasil.txt
+settings_tvspanish.txt
+settings_tvusa.txt
+
+
