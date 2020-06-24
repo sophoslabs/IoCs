@@ -1,0 +1,89 @@
+Indicator_Type,Data,Note
+Description,Indicators from the Glupteba malware report,https://news.sophos.com/en-us/2020/06/24/glupteba-report/
+bitcoin_address,15y7dskU5TqNHXRtu5wzBpXdY5mT4RZNC6,previously used for C2 updates
+bitcoin_address,1CgPCp3E9399ZFodMnTSSvaf5TpGiym2N1 ,previously used for C2 updates
+command_line_parameter,/31337,
+command_line_parameter,/31339,
+command_line_parameter,/31340,
+domain,1.podcast.best,
+domain,anotheronedom.com,"C2 server, 2020-02-17"
+domain,bestblues.tech,CDN server (payloads)
+domain,easywbdesign.com,"C2 server, 2020-05-07"
+domain,gamedate.xyz,winboxscan.exe C2 server
+domain,getfixed.xyz,"C2 server, 2020-03-28"
+domain,gfixprice.xyz,"C2 server, 2020-03-28"
+domain,maxbook.space,"C2 server, 2020-05-13"
+domain,robotatten.com,"C2 server, 2020-01-24"
+domain,sleepingcontrol.com,"C2 server, 2020-02-14"
+domain,sndvoices.com,"C2 server, 2020-04-08"
+domain,whitecontroller.com,C2 server
+domain,myonetime.top,C2 server
+domain,venoxcontrol.com,"C2 server, 2019-06-19"
+domain_path,myonetime.top/w.php,
+file_path,%APPDATA%\EpicNet Inc\CloudNet,
+file_path,%TEMP%\csrss\,
+file_path,%TEMP%\csrss\smb\,
+file_path,%TEMP%\wup,
+file_path,%WINDIR%\rss,
+file_path,%WINDIR%\rss\csrss.exe,
+file_path,%WINDIR%\windefender.exe,
+file_path_name,"""%TEMP%\csrss",
+file_path_name,%APPDATA%\EpicNet Inc\CloudNet\cloudnet.exe,
+file_path_name,%TEMP%\app.exe,
+file_path_name,%WINDIR%\System32\drivers\Winmon.sys,
+file_path_name,%WINDIR%\System32\drivers\WinmonFS.sys,
+filename,cloudnet.exe,
+filename,dsefix.exe,
+filename,e7.exe,
+filename,windefender.exe,
+filename,Winmon.sys,
+filename,WinmonFS.sys,
+filename,WinmonFS32.sys,
+filename,WinmonFS64.sys,
+filename,WinmonProcessMonitor32.sys,
+filename,WinmonProcessMonitor64.sys,
+filename,WinmonSystemMonitor-10-64.sys,
+filename,WinmonSystemMonitor-7-10-32.sys,
+filename,WinmonSystemMonitor-7-64.sys,
+filename ,deps.zip,
+mutex,Global\h48yorbq6rm87zot,
+mutex,Global\Mp6c3Ygukx29GbDk ,
+mutex,Global\nbyjrjaxyahi4pq5,Set by Winboxscan MikroTik router exploit tool
+mutex,Global\wupEvent31337,
+mutex,Global\xneEvent31337,
+mutex,Global\y7ze3fznx1u0yc2z,
+registry_path_key,HKEY_USERS\%s\Software\Microsoft\InstallKey,%s here refers to the user's SID under Windows
+registry_path_key,HKEY_USERS\%s\Software\Microsoft\RegisterAppOk ,%s here refers to the user's SID under Windows
+registry_path_key,HKEY_USERS\%s\Software\Microsoft\RegisterAppProcessing,%s here refers to the user's SID under Windows
+registry_path_key,HKEY_USERS\%s\Software\Microsoft\TestApp,%s here refers to the user's SID under Windows
+SHA-256,73fddd441a764e808ed6d6b8f3d0d13713e61221aa3cfef7da91cdaf112fe061,"deprecated, vulnerable VBoxDrv.sys driver version 1.6"
+SHA-256,414035cc96d8bcc87ed173852a839ffbb45882a98c7a6f7b821e1668891deef0 ,"DSEFix.exe (grey hat tool from https://github.com/hfiref0x/DSEFix, benign)"
+SHA-256,04d71e8af8b5cbec912b82b6ebef7c19c5b888873dfd4609b1e38b2a6c398b2e,watchdog.exe
+SHA-256,0b2a84359501923d1aa6ccd4e03b3f1b619e01d978efae45feea34a4d0ffed04,cloudnet.exe 
+SHA-256,20e983e90144c385996eeb2edb584d654d898c34725e149682170f870ee12870,vc.exe
+SHA-256,407c70f0c1a1e34503dae74dd973cf037d607e3c4deb8f063d33f2142f1baf71,app.exe
+SHA-256,6b0d90a0571ec870fa26372a1c5d83d06e8febca130a8f710e0c389a3054e05c,routerdns.exe
+SHA-256,83bbe9e7b7967ecbc493f8ea40947184c6c7346c6084431fceea0401a6279d29,app.exe
+SHA-256,8d19c59db26a3e0a3251c5f05e143558bf009ed0b46fb9b6151f98441407ae8b,winboxscan-0502.exe
+SHA-256,9d222075d256e1f4435d0bec37d88ffe0ed022063c28cbc9a2ed546f5bcc5b8dea,profile-0225.exe
+SHA-256,9e4f09faee3eba3ae271b241cbaf0cb3621845ef83608a8abb3df8791e6c36e,d2.exe
+SHA-256,dec11036bca8384f81c0c1d534e1f37fd2864c974dad020f32b835af3c7c4e28,updateprofile.exe
+SHA-256,eb35bb221de38f5953f923cd349b4c85a50145329152a8aaa01e4cd8602a560e,cloudnet.exe 
+SHA-256,469953521e9b64eac07f02fecf3488406c65ec1f3d5c182363c8ba0664a4b640,"patch.exe (grey hat tool from https://github.com/hfiref0x/UPGDSED, benign)"
+url,http://1.podcast.best/ru53332/,RTMD in URI
+url,http://capmusic.ru/ru53332/,RTMD in URI
+url,http://fundbook.xyz/ru53332/,No string ID in URI
+url,http://hotaction.online/ru53332/,No string ID in URI
+url,http://netoftime.com/ru53332/,RTMD in URI
+url,https://hotbooks.xyz/ru5555/,FMLD in URI
+url,https://infocarnames.ru/ru53332/,RTMD in URI
+url,https://maxbook.site/ru5555/,FMLD in URI
+url,https://setbird.website/ru53332/,RTMD in URI
+url_path,%s/upload/%s/samples/,%s here refers to the unique identifier the bot assigns to the infected host
+url_path,/api/cloudnet-url?,
+url_path,/api/install--failure,
+url_path,/api/router-scan-results-rand,
+url_path,/app/app.exe,
+url_path,/app/watchdog.exe?t=,
+url_path,/ru53332/,
+url_path,/ru5555/,
