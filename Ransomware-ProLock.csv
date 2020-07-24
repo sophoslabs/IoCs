@@ -1,0 +1,27 @@
+Indicator_Type,Data,Note
+Description,Indicators from ProLock ransomware,
+file_path_name,C;\ProgramData\WinMgr.bmp,Image file containing ProLock executable code
+file_path_name,C:\ProgramDaa\WinMgr.xml,XML file used for creation of ProLock ransomware task in Windows Task Scheduler
+file_path_name,C:\ProgramData\run.bat,Batch file used to create ProLock ransomware task
+file_path_name,C:\ProgramData\clean.bat,Batch file containing base64-encoded Powershell script that invokes ProLock executable
+file_path_name,C:\Windows\System32\Tasks\WinMgr,Task created to execute ProLock
+file_name,[HOW TO RECOVER FILES].txt,ProLock ransom note file
+url_path,http://185.212.128.8/B/,Download point for clean.bat
+IP address,185.212.128.8,ProLock C&C host
+sha_1,9cae5fcefc8bc9b748b4b16549e789e27ae816df,clean.bat ProLock Powershell dropper sample 1
+sha_1,a037439ad7e79dbf4a20664cf10126c93429e350,run.bat ProLock launcher script
+sha_256,18661f8c245d26be1ec4df48a9e186569a77237f424f322f00ef94652b9d5f35,Run.bat ProLock launcher script
+sha_1,0ce3614560e7c1ddbc3b8f56f3e45278de47d3bb,clean.bat ProLock Powershell dropper sample 2
+sha_256,b262b1b82e5db337d367ea1d4119cadb928963896f1aff940be763a00d45f305,clean.bat ProLock Powershell dropper sample 2
+sha_1,4f125d890a8f98c9c7069b0bb2b5625c7754fad6,WinMgr.xml ProLock task scheduler configuration file
+sha_256,2f0e4b178311a260601e054b0b405999715084227e49ff18a19e1a59f7b2f309,WinMgr.xml ProLock task scheduler configuration file
+sha_1,e2a961c9a78d4c8bf118a0387dc15c564efc8fe9,WinMgr.bmp file carrying ProLock executable (sample 1 and 2 identical)
+sha_256,a6ded68af5a6e5cc8c1adee029347ec72da3b10a439d98f79f4b15801abd7af0,WinMgr.bmp file carrying ProLock executable (sample 1 and 2 identical)
+sha_256,dfbd62a3d1b239601e17a5533e5cef53036647901f3fb72be76d92063e279178,ProLock executable sample 3 (memory extracted)
+sha_1,81d5888bb8d43d88315c040be1f51db6bb5cf64c,ProLock executable sample 3 (memory extracted)
+registry_path_key,HKU\.DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet,Prolock sets to 0 (off)
+registry_path_key,HKU\.DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect,Prolock sets to 1 (on)
+registry_path_key,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tasks\{1738D1D9-01DA-41FC-B106-6F4DF75D08C9}\Path,"sets values Type: REG_SZ, Length: 16, Data: \WinMgr"
+registry_path_key,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tasks\{1738D1D9-01DA-41FC-B106-6F4DF75D08C9}\Hash,"sets values Type: REG_BINARY, Length: 32, Data: 56 4F 39 36 66 75 E5 89 94 FF 87 0F 38 FC 15 FB"
+registry_path_key,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tree\WinMgr\Id,"sets values Type: REG_SZ, Length: 78, Data: {1738D1D9-01DA-41FC-B106-6F4DF75D08C9}"
+registry_path_key,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tree\WinMgr\Index,"Sets values Type: REG_DWORD, Length: 4, Data: 1"
