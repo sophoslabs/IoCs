@@ -1,6 +1,6 @@
 Indicator_Type,Data,Note
 Description,Indicators from ProLock ransomware,
-file_path_name,C;\ProgramData\WinMgr.bmp,Image file containing ProLock executable code
+file_path_name,C:\ProgramData\WinMgr.bmp,Image file containing ProLock executable code
 file_path_name,C:\ProgramDaa\WinMgr.xml,XML file used for creation of ProLock ransomware task in Windows Task Scheduler
 file_path_name,C:\ProgramData\run.bat,Batch file used to create ProLock ransomware task
 file_path_name,C:\ProgramData\clean.bat,Batch file containing base64-encoded Powershell script that invokes ProLock executable
