@@ -1,0 +1,24 @@
+Process name,Application
+agentsvc.exe,A component of Panda Security's antivirus
+dbgeng50.exe,A component of IBM's Rational Rose software modeling tool
+dbsnmp.exe,Oracle intelligent agent executable)
+excel,Microsoft Excel
+firefox,Mozilla Firefox browser
+infopath,Microsoft InfoPath
+isql ,Interactive SQL parser utility distributed with Sybase
+mbamtray,A component of Malwarebytes antivirus
+msaccess,Microsoft Access database
+mspub,Microsoft Publisher
+mydesktop,Virtual desktop interface
+mysql,mySQL database
+ntrtscan ,Trend Micro antivirus
+ocssd ,Oracle Cluster Synchronization Services daemon
+onenote,Microsoft OneNote
+oracle,Oracle database
+outlook,Microsoft Outlook
+pccntmon,Trend Micro antivirus
+powerpoint,Microsoft PowerPoint
+sqbcoreservice ,Redgate SQL Backup agent
+thunderbird,Mozilla Thunderbird mail client
+visio,Microsoft Visio
+winword,Microsoft Word
