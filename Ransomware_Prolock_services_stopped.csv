@@ -1,0 +1,157 @@
+Service,Description
+CSFalconService,CrowdStrike Falcon
+McAfeeFramework,McAfee  Common Framework
+Alerter,Windows administrative alerts
+AcronisAgent,Acronis Backup
+Acronis VSS Provider,Acronis Backup
+BackupExecAgentAccelerator,Veritas Backup Exec
+BackupExecDeviceMediaService,Veritas Backup Exec
+BackupExecJobEngine,Veritas Backup Exec
+BackupExecManagementService,Veritas Backup Exec
+BackupExecRPCService,Veritas Backup Exec
+BackupExecVSSProvider,Veritas Backup Exec
+DFSR,Microsoft Distributed Filesystem Replication
+EPIntegrationService,BitDefender Endpoint Protection
+EPProtectedService,BitDefender Endpoint Protection
+EPSecurityService,BitDefender Endpoint Protection
+EPUpdateService,BitDefender Endpoint Protection
+MB3Service,Malwarebytes
+MBAMService,Malwarebytes
+MBEndpointAgent,Malwarebytes
+MSExchangeES,Microsoft Exchange Event Service
+MSExchangeMGMT,Microsoft Exchange Management Service
+MSExchangeMTA,Microsoft Exchange Mail Transfer Agent
+MSExchangeSA,Microsoft Exchange System Attendant
+MSExchangeSRS,Microsoft Exchange Site Replication Service
+MSExchangeADTopology,Microsoft Exchange Active Directory Topology Service
+MSExchangeDelivery,Microsoft Exchange Mailbox Transport Delivery
+MSExchangeDiagnostics,Microsoft Exchange Diagnostics
+MSExchangeEdgeSync,Microsoft Exchange Edge Synchronization
+MSExchangeHM,Microsoft Exchange Health Manager
+MSExchangeHMRecovery,Microsoft Exchange Health Manager Recovery
+MSExchangeIS,Microsoft Exchange Information Store
+MSExchangeMailboxReplication,Microsoft Exchange Mailbox Repiication
+MSExchangeRPC,Microsoft Exchange RPC Client Access
+MSExchangeRepl,Microsoft Exchange Repiication Service
+MSExchangeServiceHost,Microsoft Exchange Service Host
+MSExchangeTransport,Microsoft Exchange Transport
+MSExchangeUM,Microsoft Exchange 2016 Unified Messaging
+MSExchangeUMCR,Microsoft Exchange 2016 Unified Messaging Call Router
+MSOLAP$*,All instances of Microsoft SQL Server Analysis Services OLAP
+MSSQLSERVER,Microsoft SQL Server
+MsDtsServer,Microsoft SQL Server
+MySQL57,MySQL
+OSearch15,Microsoft SharePoint
+OracleClientCache80,Oracle Names
+QuickBooksDB25,QuickBooks
+SPAdminV4,Microsoft SharePoint
+SPSearchHostController,Microsoft SharePoint
+SPTraceV4,Microsoft SharePoint
+SPUserCodeV4,Microsoft SharePoint
+SPWriterV4,Microsoft SharePoint
+SQLBrowser,Microsoft SQL Server
+SQLSafeOLRService,Idera SQLsafe Backup
+SQLsafe Backup Service,Idera SQLsafe Backup
+SQLSERVERAGENT,Microsoft SQL Server
+SQLTELEMETRY,Microsoft SQL Server
+SQLBackups,Microsoft SQL Server
+SQLAgent$*,Microsoft SQL Server
+MSSQL$*,Microsoft SQL Server
+MSMQ,Microsoft Message Queuing
+ReportServer,Microsoft SQL Server
+ReportServer$*,Microsoft SQL Server
+SQLWriter,Microsoft SQL Writer service (SQL shadow copy)
+SQLBackupAgent,Redgate SQL Backup
+Symantec System Recovery,Symantec System Recovery
+SyncoveryVSSService,Syncovery
+VeeamBackupSvc,Veeam Backup
+VeeamCatalogSvc,Veeam Backup
+VeeamCloudSvc,Veeam Backup
+VeeamEndpointBackupSvc,Veeam Backup
+VeeamEnterpriseManagerSvc,Veeam Backup
+VeeamMountSvc,Veeam Backup
+VeeamNFSSvc,Veeam Backup
+VeeamRESTSvc,Veeam Backup
+Veeam Backup Catalog Data Service,Veeam Backup
+epag,BitDefender Endpoint Protection
+epredline,BitDefender Endpoint Protection
+mozyprobackup,Mozy Backup
+masvc,McAfee  VirusScan Enterprise
+macmnsvc,McAfee  VirusScan Enterprise
+mfemms,McAfee Management Service
+McAfeeDLPAgentService,McAfee DLP Agent
+psqlWGE,Pervasive PSCQL
+swprv,Microsoft Shadow Copy
+wsbexchange,Windows Server Backup connector for Microsoft Exchange
+WinVNC4,RealVNC VNC Server
+TMBMServer,Trend Micro
+tmccsf,Trend Micro
+tmlisten,Trend Micro
+VSNAPVSS,StorageCraft ShadowProtect
+stc_endpt_svc,StorageCraft ShadowControl
+wbengine,Microsoft Windows Backup Block Level Backup Engine
+bbagent,Barracuda Backup
+NasPmService,NAS Power Management Service
+BASupportExpressStandaloneService_N_Central,Solarwinds Be Anywhere Suppor Express
+BASupportExpressSrvcUpdater_N_Central,Solarwinds Be Anywhere Suppor Express
+hasplms,Alladin HASP
+EqlVss,Equallogic VSS
+EqlReqService,Equallogic VSS
+RapidRecoveryAgent,Quest Rapid Recovery
+YTBackup,Yosemite Server Backup
+vhdsvc,Microsoft Hyper-V
+TeamViewer,TeanViewer remote desktop
+MSOLAP$SQL_2008,Microsoft SQL Server 2008 OLAP
+MSOLAP$SYSTEM_BGC,Microsoft SQL Server/BGC  Payroll  software
+MSOLAP$TPS,Microsoft SQL Server
+MSOLAP$TPSAMA,Microsoft SQL  Transaction Processing Service
+MSSQL$BKUPEXEC,Microsoft SQL / Backup Exex
+MSSQL$ECWDB2,Microsoft SQL Server
+MSSQL$PRACTICEMGT,Microsoft SQL Server/ Wolters Kluwer accounting software
+MSSQL$PRACTTICEBGC,Microsoft SQL Server/ Wolters Kluwer accounting software
+MSSQL$PROD,Microsoft SQL Server
+MSSQL$PROFXENGAGEMENT,Microsoft SQL Server/ Wolters Kluwer accounting software
+MSSQL$SBSMONITORING,Microsoft Small Business Server
+MSSQL$SHAREPOINT,Microsoft SQL Server/ Microsoft SharePoint
+MSSQL$SOPHOS,Microsoft SQL Server/ Sophos Enterprise Console
+MSSQL$SQL_2008,Microsoft SQL Server 2008 Express
+MSSQL$SQLEXPRESS,Microsoft SQL Server 2008 Express
+MSSQL$SYSTEM_BGC,Microsoft SQL Server/BGC  Payroll  software
+MSSQL$TPS,Microsoft SQL Server / Transaction Processing Server
+MSSQL$TPSAMA,Microsoft SQL Server / Transaction Processing Server
+MSSQL$VEEAMSQL2008R2,Microsoft SQL Server Veeam connector
+MSSQL$VEEAMSQL2012,Microsoft SQL Server Veeam connector
+MSSQLFDLauncher,Microsoft SQL Server Full-text filter daemon launcher
+MSSQLFDLauncher$PROFXENGAGEMENT,Microsoft SQL Server FDL / Wolters Kluwer
+MSSQLFDLauncher$SBSMONITORING,Microsoft SQL Server FDL/ Small Business Server
+MSSQLFDLauncher$SHAREPOINT,Microsoft SQL Server FDL/ SharePoint
+MSSQLFDLauncher$SQL_2008,Microsoft SQL Server FDL/SQL Server 2008 Express
+MSSQLFDLauncher$SYSTEM_BGC,Microsoft SQL Server FDL/BGC  Payroll  software
+MSSQLFDLauncher$TPS,Microsoft SQL Server FDL/ Transaction Processing Server
+MSSQLFDLauncher$TPSAMA,Microsoft SQL Server FDL/ Transaction Processing Server
+MSSQLSERVER,Microsoft SQL Server
+MSSQLServerADHelper,Microsoft SQL Server FDL/ Transaction Processing Server
+MSSQLServerADHelper100,Microsoft SQL Server FDL/ Transaction Processing Server
+MSSQLServerOLAPService,Microsoft SQL Server OLAP
+SQLAgent$BKUPEXEC,Backup Exec SQL Agent
+SQLAgent$CITRIX_METAFRAME,Citrix Metaframe SQL Agent
+SQLAgent$CXDB,CheckMarx Static Application Security Testing
+SQLAgent$ECWDB2,Windows Server failover clustering
+SQLAgent$PRACTTICEBGC,Microsoft SQL Server/ Wolters Kluwer accounting software
+SQLAgent$PRACTTICEMGT,Microsoft SQL Server/ Wolters Kluwer accounting software
+SQLAgent$PROD,Microsoft SQL Server
+SQLAgent$PROFXENGAGEMENT,Microsoft SQL Server FDL / Wolters Kluwer
+SQLAgent$SBSMONITORING,Microsoft SQL Server FDL/ Small Business Server
+SQLAgent$SHAREPOINT,Microsoft SQL Server FDL/ SharePoint
+SQLAgent$SOPHOS,Microsoft SQL Server/ Sophos Enterprise Console
+SQLAgent$SQL_2008,Microsoft SQL Server 2008 Express
+SQLAgent$SQLEXPRESS,Microsoft SQL Server 2008 Express
+SQLAgent$SYSTEM_BGC,Microsoft SQL Server/BGC  Payroll  software
+SQLAgent$TPS,Microsoft SQL Server / Transaction Processing Server
+SQLAgent$TPSAMA,Microsoft SQL Server / Transaction Processing Server
+SQLAgent$VEEAMSQL2008R2,Microsoft SQL Server/Veeam SQL backup
+SQLAgent$VEEAMSQL2012,Microsoft SQL Server/Veeam SQL backup
+ReportServer$SQL_2008,Microsoft SQL Server Reporting Services 2008
+ReportServer$SYSTEM_BGC,Microsoft SQL Server Reporting Services 2008 / BGC payroll software
+ReportServer$TPS,Microsoft SQL Server Reporting Services 2008/Transaction Processing Server
+ReportServer$TPSAMA,Microsoft SQL Server Reporting Services 2008/Transaction Processing Server
