@@ -17,7 +17,6 @@ file_path_name,%temp%\kk4kk.log,Presence of this file - (ode.bin) compromised th
 file_path_name,./xr -o lplp.ackng.com:444 --opencl --donate-level=1 --nicehash -B --http-host=0.0.0.0 --http-port=65529,linux miner command
 ip,167.71.87.85,
 port,65529,Active Listen Port Indicate - the machine is already compromised
-url_parameter,date&comp_name&guid&mac&os&is64&user&domain&drive&card&mem&isadmin&partial_if.bin_md5&partial_m6.bin_md5&partial_kr.bin_md5&minerversion&minepoolip&totalhashrate&yptimr&timestamp&0.3,$params
 url_path,hxxp://167.71.87.85/20.dat?$params,Malicious PE executable(smb & mimikatz exploitation)
 url_path,hxxp://d.ackng.com/if_mail.bin?$params ,Malicious attachment spamming module
 url_path,hxxp://d.ackng.com/kr.bin?$params ,other miner Kill module
