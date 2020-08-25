@@ -1,0 +1,49 @@
+Indicator_Type,Data,Note
+Description,Indicators for Lemon_Duck malware,https://news.sophos.com/en-us/2020/08/25/lemon_duck-cryptominer-targets-cloud-apps-linux
+domain,d.ackng.com,
+domain,lplp.ackng.com,
+domain,t.amynx.com,
+domain,t.jdjdcjq.top,
+domain,t.zer9g.com,other_backup_server
+domain,t.zz3r0.com,other_backup_server
+domain_port,lplp.ackng.com:444,malicious mining pool server
+domain_port,p.b69kq.com:443,malicious mining pool server
+domain_port,p.k3qh4.com:443,malicious mining pool server
+File,blackball,schedule tasks - confirms machine is compromised
+File,nvd.zip,
+File,xr.zip,
+file_path_name,%temp%\godmali4.txt,Presence of this file - Spam Module (if_mail.bin) compromised the machine
+file_path_name,%temp%\kk4kk.log,Presence of this file - (ode.bin) compromised the machine
+file_path_name,./xr -o lplp.ackng.com:444 --opencl --donate-level=1 --nicehash -B --http-host=0.0.0.0 --http-port=65529,linux miner command
+ip,167.71.87.85,
+port,65529,Active Listen Port Indicate - the machine is already compromised
+url_parameter,date&comp_name&guid&mac&os&is64&user&domain&drive&card&mem&isadmin&partial_if.bin_md5&partial_m6.bin_md5&partial_kr.bin_md5&minerversion&minepoolip&totalhashrate&yptimr&timestamp&0.3,$params
+url_path,hxxp://167.71.87.85/20.dat?$params,Malicious PE executable(smb & mimikatz exploitation)
+url_path,hxxp://d.ackng.com/if_mail.bin?$params ,Malicious attachment spamming module
+url_path,hxxp://d.ackng.com/kr.bin?$params ,other miner Kill module
+url_path,hxxp://d.ackng.com/ln/xr.zip ,"Tar archived ,ELF executable Miner"
+url_path,hxxp://d.ackng.com/m6.bin?$params,Miner binary  & Reflective Injection module
+url_path,hxxp://d.ackng.com/m6g.bin?$params,Miner binary (graphic card support) & Reflective Injection module
+url_path,hxxp://d.ackng.com/nvd.zip,Monero miner
+url_path,hxxp://d.ackng.com/ode.bin?$params,Malicious executable download module
+url_path,hxxp://t.amynx.com/7p.php?0.8*ipc*%username%*%computername%*+[Environment]::OSVersion.version.Major,2nd level malicious powershell component
+url_path,hxxp://t.amynx.com/a.jsp?[attack_vector]_20200820&%username%+%computername%+UUID+random_no,2nd level malicious powershell component
+url_path,hxxp://t.amynx.com/eb.jsp?0.8*%username%*%computername%,Eternal Blue 
+url_path,hxxp://t.amynx.com/ebo.jsp?0.8*%username%*%computername%,Eternal Blue 
+url_path,hxxp://t.amynx.com/ipc.jsp?0.8,Mimikatz threat vector
+url_path,hxxp://t.amynx.com/ipco.jsp?0.8,Mimikatz threat vector
+url_path,hxxp://t.amynx.com/ln/a.asp?src_date_*whoami*hostname*guid,Linux Core malicious shell script
+url_path,hxxp://t.amynx.com/ln/core.png?0.8*ssh*whoami*hostname,SSH bruteforce
+url_path,hxxp://t.amynx.com/ln/core.png?0.8*ssho*whoami*hostname,SSH bruteforce
+url_path,hxxp://t.amynx.com/ln/core.png?rds,Redis Compromise
+url_path,hxxp://t.amynx.com/ln/core.png?rdso,Redis Compromise
+url_path,hxxp://t.amynx.com/ln/core.png?yarn,UnAuthenticated Hadoop Cluster Compromise
+url_path,hxxp://t.amynx.com/ln/core.png?yarno,UnAuthenticated Hadoop Cluster Compromise
+url_path,hxxp://t.amynx.com/ms.jsp?0.8*%computername%,MSSql Brute Force threat vector
+url_path,hxxp://t.amynx.com/mso.jsp?0.8*%computername%,MSSql Brute Force threat vector
+url_path,hxxp://t.amynx.com/rdp.jsp,RDP bruteforce threat vector
+url_path,hxxp://t.amynx.com/rdpo.jsp,RDP bruteforce threat vector
+url_path,hxxp://t.amynx.com/smgh.jsp?0.8*%computername%,SmbGhost threat vector
+url_path,hxxp://t.amynx.com/smgho.jsp?0.8*%computername%,SmbGhost threat vector
+url_path,hxxp://t.amynx.com/usb.jsp?0.8*%computername%,LNK Remote Code Execution 
+url_path,hxxp://t.jdjdcjq.top/ln/a.asp?src_date_*whoami*hostname*guid,Linux Core malicious shell script
