@@ -1,0 +1,321 @@
+﻿indicator_type,Data,Note
+domain,abdurantom.com, FakeAlert scam domain
+domain,airwiseq.cf,FakeAlert host
+domain,appconnect.bekapro.xyz,FakeAlert host
+domain,apps-notification.com,FakeAlert host
+domain,goodthings.ml,
+domain,helpiossuprrt.info,FakeAlert tracker/C&C domain
+domain,highsecureus.com, FakeAlert mobile scam domain
+domain,ios-service-billing1-xps.azurewebsites.net,
+domain,lookee.info, FakeAlert tracker/C&C domain
+domain,m.smita.club, FakeAlert tracker/C&C domain
+domain,peachtrackerus.com,FakeAlert tracker/C&C domain
+domain,popads.net, FakeAlert malvertising network
+domain,popcash.net, FakeAlert malvertising network
+domain,promobi-shield.eu,FakeAlert tracker/C&C domain
+domain,qwertyasia.com ,FakeAlert tracker/C&C domain
+domain,qwertytracks.com,FakeAlert tracker/C&C domain
+domain,qwertytrackz.com ,FakeAlert tracker/C&C domain
+domain,satecgs.xyz,FakeAlert host
+domain,serverconnect.boraer.xyz,FakeAlert tracker/C&C domain
+domain,support-main.com,FakeAlert host
+domain,support.dheje.xyz,FakeAlert host
+domain,support.lolopod.xyz,FakeAlert host
+domain,support.marusia.xyz,FakeAlert host
+domain,support.paluns.xyz,FakeAlert host
+domain,system-update-alert.com,FakeAlert host
+domain,system-update-alert.com,FakeAlert host
+domain,top.support-quick.com,FakeAlert host
+domain,trackoo.info,FakeAlert tracker/C&C domain
+domain,trafiq.party,FakeAlert tracker/C&C domain
+domain,yourphoneboost.com,FakeAlert host
+filename,attach_atual_88462.html,Mal/FakeAlert-B browserlock web page
+filename,blue.php,FakeAlert tech support scam server script
+filename,DKQdsrdTvDq7HXA%5B1%5D.html,Mal/FakeAlert-B browserlock web page
+filename,Edx-198742%5B1%5D.htm,Mal/FakeAlert-B browserlock web page
+filename,Edx-564124%5B1%5D.htm,Mal/FakeAlert-B browserlock web page
+filename,Edx-746131%5B1%5D.htm,Mal/FakeAlert-B browserlock web page
+filename,Edx-841792%5B1%5D.htm,Mal/FakeAlert-B browserlock web page
+filename,Edx-852739%5B1%5D.htm,Mal/FakeAlert-B browserlock web page
+filename,Edx-875928%5B1%5D.htm,Mal/FakeAlert-B browserlock web page
+filename,Edx-918472%5B1%5D.htm,Mal/FakeAlert-B browserlock web page
+filename,This+computer+is+BLOCKED.html,Mal/FakeAlert-B browserlock web page
+ip,108.61.198.134,FakeAlert host
+ip,116.202.171.47,FakeAlert host
+ip,143.110.135.219,FakeAlert host
+ip,167.71.56.43,FakeAlert host
+ip,178.128.254.224,FakeAlert host
+ip,18.130.240.77,FakeAlert host
+ip,195.22.26.248, FakeAlert and malware host
+ip,3.8.191.167,Mal/FakeAlert-B
+ip,3.8.23.195,FakeAlert tech support scam host
+ip,47.135.30.181,FakeAlert host
+ip,78.141.234.87,FakeAlert host
+ip,94.237.92.139,FakeAlert host
+ip,94.237.96.181,FakeAlert host
+md5, e3a73294721aa7e82c0e7a36b1e5da42, FakeAlert HTML page
+md5, ef5df3c338d5d0c9e2ce712f899c52fd, FakeAlert HTML page
+sha1,010f93d36fecaae33cc2600ba53046d30f2fcdf6,Mal/FakeAlert-B
+sha1,07062a4dc1d928e03934faddefbb385907ee5005,Mal/FakeAlert-B
+sha1,07290ff4c92d4a1c02b55df768855fb9a2a0f7be,Mal/FakeAlert-B
+sha1,0900f96dcb250f001096236e54d15293eacc5652,Mal/FakeAlert-B
+sha1,09852d146040540583ba1807b68b14db8853f4ce,Mal/FakeAlert-B
+sha1,09b3db25987716cdd64a175f3e9b7488413e7bd7,Mal/FakeAlert-B
+sha1,09fe2337801dbbede3fde335115ad148ef705675,Mal/FakeAlert-B
+sha1,0a2fc327dbbf37755bdd57b5c4b4725234d0d031,Mal/FakeAlert-B
+sha1,0b7200d3b267442555d5ae431a6f653615aab7f6,Mal/FakeAlert-B
+sha1,0bde97977adbdd0fabc863a4b00b34eb5d706c1d,Mal/FakeAlert-B
+sha1,0c18d1695556aa9826d5c90311e8930a62797bb4,Mal/FakeAlert-B
+sha1,0cb76bb42663f37fc8c4b804afc611b0ccd8c58c,Mal/FakeAlert-B
+sha1,0e6720bad33632efa66134fb28fd7d9e5fb9085a,Mal/FakeAlert-B
+sha1,0ea7d30010cff4212fd9510a5b6d1286c0bb6503,Mal/FakeAlert-B
+sha1,0f6bf3ac9375ce826bfd4d4da2193c8a33429a21,Mal/FakeAlert-B
+sha1,1195f7e747a0f3cfd38b3d2e0aaca27c2266e10c,Mal/FakeAlert-B
+sha1,125c42739da097ba85b7d64e66fb4733aa97ecbf,Mal/FakeAlert-B
+sha1,125cf94652a2ea9ccebdf710bfeca1856963a4a5,Mal/FakeAlert-B
+sha1,134c989cc8ade87e1c5ad617e4a0c56ba2d7fd5c,Mal/FakeAlert-B
+sha1,13cc3023f8717fb1874301c6a6de906d4b4a3b9e,Mal/FakeAlert-B
+sha1,16d5df2134f7e3e3d164cc66a4180b88057e60ba,Mal/FakeAlert-B
+sha1,16e8015fa982aa89d0fcb32a44cc28716b349011,Mal/FakeAlert-B
+sha1,178d78b7150d011c6c2e0933675ad3181c19bbab,Mal/FakeAlert-B
+sha1,17aef2f420a9363cb069f468f744ea28753c3b09,Mal/FakeAlert-B
+sha1,17dbdcec1d2becac8eb182681b3a0d961936e2f4,Mal/FakeAlert-B
+sha1,18d4b5ae14a69bdad6cb371542740b7dd6bc07cd,Mal/FakeAlert-B
+sha1,1c3a54caaed0df892a77a689d218b189edd0b314,Mal/FakeAlert-B
+sha1,1cd46164e16a2cca559316f58a5be1213477c20e,Mal/FakeAlert-B
+sha1,1d2cd1974ff7035b28f1c81f35f37e16249c5e8d,Mal/FakeAlert-B
+sha1,1e705527a35d1240157859ebe207f0c1c47a0ab8,Mal/FakeAlert-B
+sha1,1f5ac8b895722959d88ba11c6c64c5bf7c8b2fca,Mal/FakeAlert-B
+sha1,20f5529297c0ceebb5b884614f51bb3c9758fd86,Mal/FakeAlert-B
+sha1,212b3673b74f75c1f369769608b9f3a880c8325d,Mal/FakeAlert-B
+sha1,2199a28eb46a8d8b48baadef6f73281d71895dc4,Mal/FakeAlert-B
+sha1,21f30552eee154f4bf796c4beb5b64c9a614ec27,Mal/FakeAlert-B
+sha1,22c0761df9dea93ff796b9e2381ee7224ef41e40,Mal/FakeAlert-B
+sha1,2347160ad09377663d1f6c5dd0bb04cbe4674d8b,Mal/FakeAlert-B
+sha1,24c092a8bec04cf0362437c60fb0c9d8309188f5,Mal/FakeAlert-B
+sha1,2577211579af75199cbf09e033f4e5808d2159af,Mal/FakeAlert-B
+sha1,28e461a970da7704c557ecd062da1f67e4c25d9b,Mal/FakeAlert-B
+sha1,290f32ca7a6e3e359cb2fc08ff2d85112917280e,Mal/FakeAlert-B
+sha1,296a28d04eed80d183242866309663ae74ab4b7f,Mal/FakeAlert-B
+sha1,29ab96f3a8eb5179ee7a8264cab8b23c1fe2852e,Mal/FakeAlert-B
+sha1,2b1b0618233b86a527b324323f1650e18a9c1fcc,Mal/FakeAlert-B
+sha1,2cf9c0a1d6b3332d346b5850b16f6d0921af4e93,Mal/FakeAlert-B
+sha1,2f499c511b571ecc51fc45074ec7610ff9e5b303,Mal/FakeAlert-B
+sha1,301fccb352e9a5aae78da954a0197d24b93bc058,Mal/FakeAlert-B
+sha1,342ca85363486b467752f769fd3d227c19ce43fe,Mal/FakeAlert-B
+sha1,35462e633bca50327de417e895048d3ffca62dc3,Mal/FakeAlert-B
+sha1,37aad9fc261267fa44fc115ca03d0f049089b83a,Mal/FakeAlert-B
+sha1,39b738ed069bfe13c500ab8af32e42558fc28c8b,Mal/FakeAlert-B
+sha1,3ba5b015996bbd56c6563e5c827e564edf165eb9,Mal/FakeAlert-B
+sha1,3d022dc0552ebe58928c36d6a00a33641fcad280,Mal/FakeAlert-B
+sha1,3d724691fceaa0ca3c2de9c9850737a58fca2481,Mal/FakeAlert-B
+sha1,3def5381acea16e9ed7c1147563f24d1341f756d,Mal/FakeAlert-B
+sha1,3e7ca7d958efe89233aedf2278f6a42b53160d2d,Mal/FakeAlert-B
+sha1,3ef5cfb4d7f9f93d3e4fbf15c5a107c872981958,Mal/FakeAlert-B
+sha1,41af60c2b44f58ead42f30ae05a6491768927d8b,Mal/FakeAlert-B
+sha1,4326a105dbe4d77a7dd7735692faa22da15a29aa,Mal/FakeAlert-B
+sha1,442287704c367eb1a5d451c29cab775cabf9e2d8,Mal/FakeAlert-B
+sha1,45553b47770e637a3ce4a5b22ab7f893d441c288,Mal/FakeAlert-B
+sha1,466c9ee4689b0533728ff42c486de5b6a5d84ab3,Mal/FakeAlert-B
+sha1,472f732fd67cb7864e37a97df76ccdfd05c9d801,Mal/FakeAlert-B
+sha1,473491f4f8e51f52e81ddbcecf595bf98351f470,Mal/FakeAlert-B
+sha1,48070ba74544ae5fa7786158696a9050398e2b6f,Mal/FakeAlert-B
+sha1,4813e2a612c4cd7c29148d6980f20b6db6a68574,Mal/FakeAlert-B
+sha1,484447eff8a3d397fdfcd48d70ee1d535559a656,Mal/FakeAlert-B
+sha1,4849b1ff7728997be415cefb490eba41a36dd3e6,Mal/FakeAlert-B
+sha1,495f5aaa984ae6e13d2a405a68f230b376fb1d0e,Mal/FakeAlert-B
+sha1,4bd30303619d0fd1b8dae1fd472ea770c776174d,Mal/FakeAlert-B
+sha1,4c6fe5d398d71e6be2e43031afb8ed33e1a43163,Mal/FakeAlert-B
+sha1,4e58ccc2736fc4ad8bce116badc5bdef2c6ab735,Mal/FakeAlert-B
+sha1,4f4f33ca9a25a273e46832a6ae035d82dba205bb,Mal/FakeAlert-B
+sha1,4f5e87a4ecb2342be0986df67d8a3ae82acea648,Mal/FakeAlert-B
+sha1,50ce73877a0e0621eec377df2a3315a5a47a633f,Mal/FakeAlert-B
+sha1,518eda4da587b677d8fbd8544501b78675fced7b,Mal/FakeAlert-B
+sha1,5237b4692f4f7c4c33ee6adbb435c788acd97ed1,Mal/FakeAlert-B
+sha1,53610c2a6d5b1a1b3abff225362ba3acee9a423f,Mal/FakeAlert-B
+sha1,53d05b42725467ac1730d74f19f89bd84e4e8a5f,Mal/FakeAlert-B
+sha1,53dea514eceb1e7183de9cf2278ed8928fd507b3,Mal/FakeAlert-B
+sha1,556cf92c02de23425adaaef709b455c3aaa02702,Mal/FakeAlert-B
+sha1,5663ee011e02b0a6e883873e28ae613726d4f8ba,Mal/FakeAlert-B
+sha1,581853f052247a455738d37f6c27d5ac8dbcfbdd,Mal/FakeAlert-B
+sha1,584bac2600debc031a02e6dfad2977cdff301375,Mal/FakeAlert-B
+sha1,58a61c7a2b46ccfd58a3e005b86e1bb6adfaaa21,Mal/FakeAlert-B
+sha1,59b26e3d00bd9f0b8d606e411e3b2cc97845566e,Mal/FakeAlert-B
+sha1,59e4cafd1f36ad999a72389fd1fb7470395e70da,Mal/FakeAlert-B
+sha1,5b8bda286bcda032d260331fee9890946532386f,Mal/FakeAlert-B
+sha1,5d110d5d7e6caa08eb0a2f70b0cf1c3df935dd9a,Mal/FakeAlert-B
+sha1,5d873c4e969028b15efe5acf60cdaf0c75c7c158,Mal/FakeAlert-B
+sha1,5e3e906972585b1a73fbb2088218c34848673d6f,Mal/FakeAlert-B
+sha1,5f9d15a07c72f106058152e43e40f29f5acab5ab,Mal/FakeAlert-B
+sha1,61358eb332c1165f2fc8a26ccbb17bf84e087cd9,Mal/FakeAlert-B
+sha1,62d02fee5833f10b0c745ad7eeda4e35483723db,Mal/FakeAlert-B
+sha1,62ddba944fdeb9b12f3a3d76d1d0a246ea33044c,mal/FakeAlert-B
+sha1,635250ed17e2af02b3957629992b60decf1b2f44,Mal/FakeAlert-B
+sha1,6513aa18ebe7bde48f625de5b928dbeb71c521a9,Mal/FakeAlert-B
+sha1,65f7a41f96943e7a8f670effbc71151bd8c1018f,Mal/FakeAlert-B
+sha1,69b53b5755c965a19fdfef918ef5674d0a006255,Mal/FakeAlert-B
+sha1,6a2f30eca5fc0b4ee0892269baa3e5a999f9a75c,Mal/FakeAlert-B
+sha1,6aa8b9d0635ef7f0033a9ebcb6f343da204b5aba,Mal/FakeAlert-B
+sha1,6ada9f093b56ed6d560a0654f4d72889f3a6578b,Mal/FakeAlert-B
+sha1,6be5efe83cba17b4c7e064bc802602badfc5459f,Mal/FakeAlert-B
+sha1,6dea62129556e092d379849c2c54c864d562e1e0,Mal/FakeAlert-B
+sha1,6e6b6aa5eb8e83cd28dd1ab20c9ff141a6856f9f,Mal/FakeAlert-B
+sha1,6eb3cb0eb88c50061287dbcd3538948541a501cc,Mal/FakeAlert-B
+sha1,6eccef5ddced37de396390f42c0e27758986b62a,Mal/FakeAlert-B
+sha1,6f40e9a8ea06f4a44621d04ac6dd0c04e9784398,Mal/FakeAlert-B
+sha1,6faef32869f70aa674c9d83b1cba374595f095d7,Mal/FakeAlert-B
+sha1,6fe5c1c455ee631fa09b39835716a220f2dda490,Mal/FakeAlert-B
+sha1,703658ab16fa161ccd17d721b3a5546c8a336dec,Mal/FakeAlert-B
+sha1,716227495afb54e968f6a79f43c1101b6a19933c,Mal/FakeAlert-B
+sha1,723ed76c96c1d511102fcfe2f0419a25ce1eeb2e,Mal/FakeAlert-B
+sha1,72f1df1ff1348e597c51284e8b67c38d7df1a282,Mal/FakeAlert-B
+sha1,743c14ebdafa97244ac1c13cae6a07e6879ac8ad,Mal/FakeAlert-B
+sha1,744ffff00f362e891e906b951cd26c26ca7e34d8,Mal/FakeAlert-B
+sha1,749d49f4c8b33a97ec8464c9e91818f6e3b2da1d,Mal/FakeAlert-B
+sha1,74b48dd9d89bfc519914025ac2098f62728610c2,Mal/FakeAlert-B
+sha1,77d261ab34380a6a2c7f273ace4eeb73e288a54d,Mal/FakeAlert-B
+sha1,7a4df67e96a406e5fe7d23df0e97630e49f0952a,Mal/FakeAlert-B
+sha1,7b9fc51e6cffc6e1dd4a35e4fcb31902e01f9a35,Mal/FakeAlert-B
+sha1,7bca3af5f1d31244d13507da5a7a558730e82dd4,Mal/FakeAlert-B
+sha1,7c9551586bcc949ca1e95bffc08444998c17b45a,Mal/FakeAlert-B
+sha1,7ce6d73b117ec3d298d9e0d5b5cae8be35ada12e,Mal/FakeAlert-B
+sha1,7ee2d553dcaa480a68f4e697504598b874dfc752,Mal/FakeAlert-B
+sha1,7f8c58bf4a9c920a5f4b806b74ff3e3ba628a450,Mal/FakeAlert-B
+sha1,7fca95bd737b402d835afe0909666e0a5c21df2a,Mal/FakeAlert-B
+sha1,82a90901273e543ae69ce835e9abf7c9bb2c4507,Mal/FakeAlert-B
+sha1,82c45454a995033a299ab4ec47f709cc926ca7ae,Mal/FakeAlert-B
+sha1,859e3faf1fb9d36167b1837d116cba020492c9e9,Mal/FakeAlert-B
+sha1,87c88ac9b27cab21c8bcb8c8095a259765534140,Mal/FakeAlert-B
+sha1,88b069bfe1e740673a04f73680a304d0bf89b7f8,Mal/FakeAlert-B
+sha1,8a0aab53aa3b86cd205cf96de1b129c6a5756f28,Mal/FakeAlert-B
+sha1,8a75ff624d9c689b6ad8aa1cc587d09290fe1e58,Mal/FakeAlert-B
+sha1,8ab850a37e448811f12dc8cc3ec498d8f939d11f,Mal/FakeAlert-B
+sha1,8b21c6680b6e8a0cf88983356e871c87df8a4b17,Mal/FakeAlert-B
+sha1,8b59f4154e1ea566f6153c6c1bcafc2319ef83ce,Mal/FakeAlert-B
+sha1,8c51f7ecfa12cb6c50db14fcf01b392332c69cbb,Mal/FakeAlert-B
+sha1,8c8e6d430f2ea516438052bc6819cc0e767a8668,Mal/FakeAlert-B
+sha1,8f2ab93c152a01fc493b41232adfcd9c4bcc5003,Mal/FakeAlert-B
+sha1,8f37203f8cd17f35dd768d39841916eae17a5c36,Mal/FakeAlert-B
+sha1,8f7e1847e6291629a6d3ee09f7c711123f2dc933,Mal/FakeAlert-B
+sha1,9082f8f192d2abd364fe4ef9c5fc4632b5732639,Mal/FakeAlert-B
+sha1,918df03673c01ae984ce0f1cf5044650377806e0,Mal/FakeAlert-B
+sha1,931546f387f942b6614ceea529f0e45a9de92d41,Mal/FakeAlert-B
+sha1,95d8d57fc11f1dc3aeea8413b177b0b7d21a3a00,Mal/FakeAlert-B
+sha1,96a280ee6c853e00fd4ee49e53384a556cd0d283,Mal/FakeAlert-B
+sha1,9a0e1e1df5d0d95ac50adbe2268c133ed916a232,Mal/FakeAlert-B
+sha1,9a2bb87947b17e479791a9bc7fa230cdd1b34bc4,Mal/FakeAlert-B
+sha1,9c7d77cbf1cd406a53952dd875a8a05e33c49037,Mal/FakeAlert-B
+sha1,9d2ea046f645dc6aca14c280e5eb3c0f1be947f3,Mal/FakeAlert-B
+sha1,9d8ef08eca0a565058160e234e8a68ef11bb8d5f,Mal/FakeAlert-B
+sha1,9e693ced35892cb27493cdd2bd07d91e411460b4,Mal/FakeAlert-B
+sha1,9e873ec9190f504524ec3f73e2b2368d74d2983d,Mal/FakeAlert-B
+sha1,a02b177684329e6345ca7ce5492e29595cc187eb,Mal/FakeAlert-B
+sha1,a03740dbca96c1ec283626a09322e76adde59777,Mal/FakeAlert-B
+sha1,a04fe9145731b9c048e28e2b51a71780692410de,Mal/FakeAlert-B
+sha1,a0caf420a6a11508fe28782a09174841421fb6a4,Mal/FakeAlert-B
+sha1,a2380a1bf130ca4fde2f14a482eda7beace7de2d,Mal/FakeAlert-B
+sha1,a2fad11174b05c3b40de2e67c072bf2d3f10ce90,Mal/FakeAlert-B
+sha1,a3f5b694abf979a0d5b564813ef97d0815d9e309,Mal/FakeAlert-B
+sha1,a53b6bb612abfeaaf42bfc0185321a4d71651b62,Mal/FakeAlert-B
+sha1,a658a45d673757bd61bbb4242fb21e747dd0c96f,Mal/FakeAlert-B
+sha1,a683802400eaa9dbbda31ddb08c5a8934421f20c,Mal/FakeAlert-B
+sha1,a7a0fb676cf186909be1e9cecca398b1c93bd75f,Mal/FakeAlert-B
+sha1,a8e23c04abae6697bdf0ebbd5804c7f27fce2360,Mal/FakeAlert-B
+sha1,aa94f5d2dc68e52b33ade59d5674058d32549cb7,Mal/FakeAlert-B
+sha1,abebed4266fcc36e99b1f65ba6c471bc07055f9d,Mal/FakeAlert-B
+sha1,ac4f0a17dd44d7d8ec56a3b99f4f1c02bafabbbc,Mal/FakeAlert-B
+sha1,ac54acce64d4ba63747013c81168ab1d4b1f0677,Mal/FakeAlert-B
+sha1,ad4adb2a285fe6bc4e7eaea8d2cbc6b9549bf7d1,Mal/FakeAlert-B
+sha1,adb9e1b8b563b6202818dfff6efadb4c0cb0723a,Mal/FakeAlert-B
+sha1,ae6435bc85338f1e4f200668b4915a0461a9d1f0,Mal/FakeAlert-B
+sha1,af3a4cf781e503f679847bdac758cecc9fe8b64d,Mal/FakeAlert-B
+sha1,af5beda3d811b36a0de6226efb2f621926d1748a,Mal/FakeAlert-B
+sha1,af79dbc45256c283a6cda19c06dcc408a7f2b7d8,Mal/FakeAlert-B
+sha1,aff7c891f379e8b027a490f62cd453e69756c191,Mal/FakeAlert-B
+sha1,b05aa9a25b872f82e7e2ffdbc3725532c8768bd3,Mal/FakeAlert-B
+sha1,b0df2787c8e452b6a061bfd0362f4c3f32f0295a,Mal/FakeAlert-B
+sha1,b260f74c849792d07c3d45694d4535c0367471df,Mal/FakeAlert-B
+sha1,b2738b67b8e5e8f00c1642612b1a4c5c7927a48f,Mal/FakeAlert-B
+sha1,b4ef01fa44ba82b7adc8c95c3da021a2eec30e71,Mal/FakeAlert-B
+sha1,b5d2b0f894aa863d5cd8d2413c3b75f2f13d6e9a,Mal/FakeAlert-B
+sha1,b5e8282e2bed74bd2f057fc526b1ae6c457dc6e4,Mal/FakeAlert-B
+sha1,b7df707ea6df93294c3884c6c5249a5742c4a3e9,Mal/FakeAlert-B
+sha1,ba47e28f4dae43c2823e35670fe0ce6e33acf783,Mal/FakeAlert-B
+sha1,bb6bfd218429dff3784eecf696f05bfa3bfeb709,Mal/FakeAlert-B
+sha1,bbb5e8716817b3e7ebeb0194f66cdbee312058b9,Mal/FakeAlert-B
+sha1,bfc8172695ff4b838bfc84851ac2cff301230428,Mal/FakeAlert-B
+sha1,c19009d30f8fa018a2714f0e6fcd77a09ce0766a,Mal/FakeAlert-B
+sha1,c21d2205ac9dba5e8c9bd2610e8d8809fe3be317,Mal/FakeAlert-B
+sha1,c62c82199dc4edb9868a39f0bdc3b87756a7d7e3,Mal/FakeAlert-B
+sha1,c8404f976f5ae5b5761033b8954f86975eb89005,Mal/FakeAlert-B
+sha1,c8c2b447eb010771c34c607ad0b0ddb1e46cf70f,Mal/FakeAlert-B
+sha1,c9aa35c3fe045501693cba9054432238478b4ea2,Mal/FakeAlert-B
+sha1,ca2d9b4666c71ebc6b0c862d942d9de7ebd69f05,Mal/FakeAlert-B
+sha1,cc679b9cbcdcc6638e7dc994a79da4a928e28950,Mal/FakeAlert-B
+sha1,cc91a6b5515fefb2bc426257f18ef5b718b7a1fa,Mal/FakeAlert-B
+sha1,cd2824b7ac4e3ff50109822a44a38439c7e1df84,Mal/FakeAlert-B
+sha1,cdc3f032134c838955728c8d541ef896b550ef19,Mal/FakeAlert-B
+sha1,cdcb7fcc7328d6258690739d3f16e29a2aafa467,Mal/FakeAlert-B
+sha1,ce087c2b6408dfe8dfc0139f825a9b161262f7c0,Mal/FakeAlert-B
+sha1,ce38b773dd03ec116f04e7af59a077390eaee87d,Mal/FakeAlert-B
+sha1,cf25467ca5335f64ee3fbb5f918d034c88bff3b2,Mal/FakeAlert-B
+sha1,cf43b12f137653e7c08d938dacbc227a9cf2624b,Mal/FakeAlert-B
+sha1,cffe79bde6c108ad1bb884eb0b8c38e6cf3f589b,Mal/FakeAlert-B
+sha1,d022bcebd7cc7f98bac6a3b98ea1ce6fb45b3a97,Mal/FakeAlert-B
+sha1,d0c11b684aa7aa65f20f829eb1872d4fb653ec2b,Mal/FakeAlert-B
+sha1,d1abd2063137ada324db91ea049c43444a15d05e,Mal/FakeAlert-B
+sha1,d2c514c84432e4b6264ef062e2b5b4f257fa5404,Mal/FakeAlert-B
+sha1,d389712a9855c033775bf314e5c39536ac2ac075,Mal/FakeAlert-B
+sha1,d4313a94be2341906cdc1e523f866b01d9afbce7,Mal/FakeAlert-B
+sha1,d4d458059178b00d130a8f9c36a2e1ea8eb4ebce,Mal/FakeAlert-B
+sha1,d62b2ee29a43b26828426b4a2450dec5e8853904,Mal/FakeAlert-B
+sha1,d62ed4948a081c02aa777723b15b2e2a286f4d67,Mal/FakeAlert-B
+sha1,d6b1b3575b627d2af93e59e2f9a4ee5d9ce7b247,Mal/FakeAlert-B
+sha1,d718535b855449e053b3f6880d92faffeca1d763,Mal/FakeAlert-B
+sha1,d9a4d86a3624328ea0028a5090fb54ab21bf4fce,Mal/FakeAlert-A
+sha1,dae6b901ba965ef42e0c5c143abc29028686598a,Mal/FakeAlert-B
+sha1,db2ec6a63ecc871bbd7ca3749d7f85181ad548e6,Mal/FakeAlert-B
+sha1,dc57f8a55d3f94cfea101d7acfb4ef545dfc06a1,Mal/FakeAlert-B
+sha1,dca8e48e29d3eafc99aa87e0fe7584c0b586cbcc,Mal/FakeAlert-B
+sha1,dd2056924f96cb4c343606ca955b6bb45f4ce0fe,Mal/FakeAlert-B
+sha1,df55c191e447488b8afaa0fca96cb542565a5871,Mal/FakeAlert-B
+sha1,dfa988ad7dcd37179da8b1b3ccc8dca661c9696c,Mal/FakeAlert-B
+sha1,dfb679d37fc36b3eff621fa4be2f808954e827bb,Mal/FakeAlert-B
+sha1,dfd66ff55de36ac806e958f055c1820ff8c73b82,Mal/FakeAlert-B
+sha1,e458fb06c40949e0dcb2934e337d6e387a87973b,Mal/FakeAlert-B
+sha1,e89fbbb2c84ed14a80dfec274a25bd3b87e75f0b,Mal/FakeAlert-B
+sha1,ea07dad6f4e56e4b09a57956d6045cb31f487df5,Mal/FakeAlert-B
+sha1,ea8d4d0f35d68119e417a08ebb2b85d7e6006e5b,Mal/FakeAlert-B
+sha1,ebf33f85ae12b05c9f30da036204b01151b155b8,Mal/FakeAlert-B
+sha1,ec8dab5996e81c5012518d7e606b2fafc27dbff0,Mal/FakeAlert-B
+sha1,ece199f0ef805e88c68ae253e3beffad5e33dbe8,Mal/FakeAlert-B
+sha1,eede45a4869a64f32fe8fcb4f39bd518f3efbdda,Mal/FakeAlert-B
+sha1,efc44d61b98050b6f8b8e0b190633111541bb76c,Mal/FakeAlert-B
+sha1,f3e7e0d5e1636385cf08079bd847ce502c0fe596,Mal/FakeAlert-B
+sha1,f6ce0ddc283dcc8d7484bd5856a9fc8ff4c13d53,Mal/FakeAlert-B
+sha1,f6d56f2ebddd6b87b70105b09e6726cfcd4958aa,Mal/FakeAlert-B
+sha1,f6f125f7ef2bc0b8be7d9e53cefc31cd63be41f1,Mal/FakeAlert-B
+sha1,f6ff1b4cfab826dd6e252cf2ab1cc1f77f780276,Mal/FakeAlert-B
+sha1,fab19c2f562173a37f8997ab16c2e64425848a7e,Mal/FakeAlert-B
+sha1,fc0330990cbefeb1f094c4e905a74aa100c92ece,Mal/FakeAlert-B
+sha1,fc54c9c5aeebdf34ea313f484eec889f667b28b0,Mal/FakeAlert-B
+sha1,fd35f6abfec7bff9bf2f79f6a1c47bbde2e3752d,Mal/FakeAlert-B
+url_path,/YXEDdhdsbfhgdfhdgf9xSQ /DF1010_010RB_jhs01AW.php,Microsoft Edge targeted FakeAlert tech support scam server script
+url_path,/YXEDdhdsbfhgdfhdgf9xSQ /index.html,Microsoft Edge Mal/FakeAlert-B browserlock web page
+url_path,/YXEDdhdsbfhgdfhdgf9xSQ /js/script.js,Microsoft Edge FakeAlert script file
+url_path,/YXFFdhdsbfhgdfhdgf9xSQ/index.html,Firefox Mal/FakeAlert-B browserlock web page
+url_path,/YXFFdhdsbfhgdfhdgf9xSQ/js/script.js,Firefox FakeAlert script file
+url_path,/YXFFdhdsbfhgdfhdgf9xSQ/W101010101J.php,Firefox FakeAlert tech support scam server script
+url_path,/YXFFdhdsbfhgdfhdgf9xSQ/W101010101J.php,Firefox FakeAlert tech support scam server script
+url_path,/YXIEdhdsbfhgdfhdgf9xSQ/Auth0101_010101015.php ,Internet Explorer FakeAlert tech support scam server script
+url_path,/YXIEdhdsbfhgdfhdgf9xSQ/blue.php ,Internet Explorer FakeAlert tech support scam server script
+url_path,/YXIEdhdsbfhgdfhdgf9xSQ/index.html,Internet Explorer Mal/FakeAlert-B browserlock web page
+url_path,/YXIEdhdsbfhgdfhdgf9xSQ/js/script.js,Internet Explorer FakeAlert script file
+url_path,/YXMAdhdsbfhgdfhdgf9xSQ/index.html,Safari/MacOS Mal/FakeAlert-B browserlock web page
+url_path,/YXMAdhdsbfhgdfhdgf9xSQ/index.js,Safari/MacOS FakeAlert script file
+url_path,/YXMAdhdsbfhgdfhdgf9xSQ/js/index.css,Safari/MacOS FakeAlert CSS file
+url_path,/YXMAdhdsbfhgdfhdgf9xSQ/mac.png,Safari/MacOS FakeAlert page image file
+url_path,/YXMCdhdsbfhgdfhdgf9xSQ/blue.php,Chrome FakeAlert tech support scam server script
+url_path,/YXMCdhdsbfhgdfhdgf9xSQ/index.html,Chrome Mal/FakeAlert-B browserlock web page
+url_path,/YXMCdhdsbfhgdfhdgf9xSQ/index.js,Chrome FakeAlert script file
+url_path,/YXMCdhdsbfhgdfhdgf9xSQ/js/script.js,Chrome FakeAlert script file
