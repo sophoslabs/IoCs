@@ -1,17 +1,18 @@
-﻿indicator_type,Data,Note
-domain,abdurantom.com, FakeAlert scam domain
+indicator_type,Data,Note
+description,,From the story https://news.sophos.com/en-us/2020/09/09/faking-it-the-thriving-business-of-fake-alert-web-scams/
+domain,abdurantom.com,FakeAlert scam domain
 domain,airwiseq.cf,FakeAlert host
 domain,appconnect.bekapro.xyz,FakeAlert host
 domain,apps-notification.com,FakeAlert host
 domain,goodthings.ml,
 domain,helpiossuprrt.info,FakeAlert tracker/C&C domain
-domain,highsecureus.com, FakeAlert mobile scam domain
+domain,highsecureus.com,FakeAlert mobile scam domain
 domain,ios-service-billing1-xps.azurewebsites.net,
-domain,lookee.info, FakeAlert tracker/C&C domain
-domain,m.smita.club, FakeAlert tracker/C&C domain
+domain,lookee.info,FakeAlert tracker/C&C domain
+domain,m.smita.club,FakeAlert tracker/C&C domain
 domain,peachtrackerus.com,FakeAlert tracker/C&C domain
-domain,popads.net, FakeAlert malvertising network
-domain,popcash.net, FakeAlert malvertising network
+domain,popads.net,FakeAlert malvertising network
+domain,popcash.net,FakeAlert malvertising network
 domain,promobi-shield.eu,FakeAlert tracker/C&C domain
 domain,qwertyasia.com ,FakeAlert tracker/C&C domain
 domain,qwertytracks.com,FakeAlert tracker/C&C domain
@@ -46,15 +47,15 @@ ip,143.110.135.219,FakeAlert host
 ip,167.71.56.43,FakeAlert host
 ip,178.128.254.224,FakeAlert host
 ip,18.130.240.77,FakeAlert host
-ip,195.22.26.248, FakeAlert and malware host
+ip,195.22.26.248,FakeAlert and malware host
 ip,3.8.191.167,Mal/FakeAlert-B
 ip,3.8.23.195,FakeAlert tech support scam host
 ip,47.135.30.181,FakeAlert host
 ip,78.141.234.87,FakeAlert host
 ip,94.237.92.139,FakeAlert host
 ip,94.237.96.181,FakeAlert host
-md5, e3a73294721aa7e82c0e7a36b1e5da42, FakeAlert HTML page
-md5, ef5df3c338d5d0c9e2ce712f899c52fd, FakeAlert HTML page
+md5,e3a73294721aa7e82c0e7a36b1e5da42,FakeAlert HTML page
+md5,ef5df3c338d5d0c9e2ce712f899c52fd,FakeAlert HTML page
 sha1,010f93d36fecaae33cc2600ba53046d30f2fcdf6,Mal/FakeAlert-B
 sha1,07062a4dc1d928e03934faddefbb385907ee5005,Mal/FakeAlert-B
 sha1,07290ff4c92d4a1c02b55df768855fb9a2a0f7be,Mal/FakeAlert-B
