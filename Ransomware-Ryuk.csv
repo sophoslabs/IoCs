@@ -1,0 +1,48 @@
+﻿Indicator_type,Data,Note
+domain,chainnss.com,C2 used for reverse shell
+domain,fastbloodhunter.com,C2 used for reverse shell
+domain,mn.fastbloodhunter.com,C2 Cobalt Strike
+domain,mn.fastbloodhunter.com/templates,C2 Cobalt Strike
+file_path,C:\PerfLogs\*.exe,any executable files in the Performance Logs folder
+file_path,C:\ProgramData\c331b9e8724cb2dd8a2f\,Troj/Cobalt-J - multiple Cobalt Strike components found here
+file_path,c:\programdata\sqav\,File path used by Trickbot
+file_path,C:\share$\,File path used by Troj/Ryuk-AP
+file_path_name,c:\perflogs\Arti64.dll,Troj/Agent-BFQ
+file_path_name,C:\PerfLogs\cc1.exe,Troj/Ryuk-AR
+file_path_name,C:\PerfLogs\fx11_only_current_pc_for_crypt_x86.exe,Troj/Ryuk-AQ
+file_path_name,c:\perflogs\m8.exe,Troj/Ryuk-AP
+file_path_name,C:\PerfLogs\mm1.exe,Troj/Ryuk-AR
+file_path_name,C:\PerfLogs\RyukReadMe.html,Ryuk ransom note
+file_path_name,C:\PerfLogs\xXx.exe,Troj/Ryuk-AP
+file_path_name,C:\PerfLogs\zZz.exe,
+file_path_name,c:\programdata\sqav\itvs.exe,Troj/Trickbo-ZA
+file_path_name,C:\share$\xxx.exe,Troj/Ryuk-AP
+file_path_name,C:\temp\nr6r.exe,Consider any executable files in the temp folder suspicious
+file_path_name,c:\users\[username]\appdata\local\microsoft\windows\inetcache\ie\tp7uyqhh\print_document.exe,Troj/Agent-BFQS (Emotet) - Consider any executable files running from within the browser cache folder suspicious
+file_path_name,C:\Users\ntadmin\Pictures\svhost32.exe,Troj/Cobalt-J - Consider any executable files in the Pictures folder suspicious
+file_path_name,C:\Windows\Temp\adf\adf.bat,
+file_path_name,C:\Windows\Temp\MRT\socks.exe,Troj/Trickbo-ZA - Consider any executable files in the temp folder suspicious
+file_path_name,c:\windows\temp\mrt\socks32.dll,Consider any DLL files loaded from the temp folder suspicious
+file_path_name,C:\Windows\Temp\Puhebes.exe,Mal/Inject-GQ - Consider any executable files in the temp folder suspicious
+filename,3iue88e0.exe,GMER - known file hash
+filename,P64.exe,Troj/Cobalt-J
+ip,104.248.83.13,C2 Cobalt Strike
+sha256,0856b3c06805d3935b1db325c4e9c9131572b4cf09f07d989911495807775cab,Troj/Cobalt-J
+sha256,0d6a7a2c2d9ae89bf54f199fb63c67424d6e242777060971ee53b62dedad4096,dropper
+sha256,21cb81424dc1921344bd1cd9ad7c870fbcaadbe2e9f499d7863e9a06d7de6ee0,Troj/Ryuk-AR
+sha256,32e51accf5a30da12e43b3c7f83867577fcd6fb363d7773a743ab1bbb9653d06,Troj/Trickbo-ZA
+sha256,3f58610586c87bb8b9f2e93768c5f289fe39ca8570902165df5d340bedc62247,Mal/Inject-GQ
+sha256,3f58610586c87bb8b9f2e93768c5f289fe39ca8570902165df5d340bedc62247,Mal/Inject-GQ
+sha256,4685e91b859b372b955c11d8d68fd562fad478520a2f4a05c46d1fe6fb991b61,Troj/Cobalt-J
+sha256,6c7f43434e5db8703c0a47dedeeab976159d8704bfbe2e4ff65405f38d508e9d,Troj/Agent-BFQS (Emotet)
+sha256,92f124ea5217f3fe5cbab1c37a961df0437d5a9cbde1af268c60c4b3194b80ed,Troj/Ryuk-AR
+sha256,9a11e1b2a6821857e1990a004447e35692d04e5b7d237697fbcc90b5198e3719,Troj/Cobalt-J
+sha256,ba2a96dae66324df5bbb0751a04c538722ad49daa12d51625f8a1890608b1168,Troj/Cobalt-J
+sha256,c1f753047a0a5679aea0f675846364ea2f1fc4f9370f6caa89d0bfb1feb561f1,dropper
+sha256,c8076d0aa251a8c767e5f4c32c29588d46ffbed1709acaf9ca38b9d02ef7e276,Troj/Agent-BFQ
+sha256,c9b06152ac1c851eaed84ee052c374341ed89d9a6e5a5d97bd0e4b941c01a274,Troj/Cobalt-J
+sha256,d0d7a8f588693b7cc967fb4069419125625eb7454ba553c0416f35fc95307cbe,Troj/Ryuk-AP
+sha256,D7333223DCC1002AAE04E25E31D8C297EFA791A2C1E609D67AC6D9AF338EFBE8,Troj/Ryuk-AQ
+sha256,e8a3e804a96c716a3e9b69195db6ffb0d33e2433af871e4d4e1eab3097237173,GMER - misused potentially beneficial app
+sha256,edd0675e0fcce16ae7cbb1f10fbb8407ca5e0a188eab9682f43744c95e09f1c9,
+sha256,ff5e6fbf14c5eb35c1b4f24e4b08b30ba2e512a4b25ab7b652f0567edb94097e,Troj/Cobalt-J
