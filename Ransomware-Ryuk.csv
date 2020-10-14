@@ -1,4 +1,5 @@
 ﻿Indicator_type,Data,Note
+Description,IoCs of a Ryuk ransomware attack,https://news.sophos.com/en-us/2020/10/14/inside-a-new-ryuk-ransomware-attack/
 domain,chainnss.com,C2 used for reverse shell
 domain,fastbloodhunter.com,C2 used for reverse shell
 domain,mn.fastbloodhunter.com,C2 Cobalt Strike
