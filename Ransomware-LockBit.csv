@@ -1,0 +1,23 @@
+Indicator_type,Data,Note
+Description,Files from the Lockbit ransomware report,https://news.sophos.com/en-us/2020/10/21/lockbit-attackers-uses-automated-attack-tools-to-identify-tasty-targets/
+file_path_name,C:\Windows\System32\CloudBAK.exe,Renamed PowerShell.exe
+file_path_name,C:\Windows\System32\defrag32.exe,Renamed PowerShell.exe
+file_path_name,C:\Windows\System32\diagnosticMem.exe,Renamed PowerShell.exe
+file_path_name,C:\Windows\System32\Ras.exe,Renamed PowerShell.exe
+file_path_name,C:\Windows\System32\wermgupd.exe,Renamed PowerShell.exe
+file_path_name,C:\Windows\System32\wermreport.exe,Renamed PowerShell.exe
+filename,1_Remote Desktop Connectio~.lnk ,LNK file for backdoor persistence
+filename,Remote Desktop Connection.lnk,Mal/PowLnkObf-A LNK file for backdoor persistence
+ip,142.91.170.175,LockBit persistent backdoor downloader
+ip,142.91.170.6,LockBit backdoor C&C
+sha256,0b6cb591f1a0db7d74d8e802000fce9a61bfe520922eefbad1166d1f7c13d222,LNK file for backdoor persistence
+sha256,397138156bb09696045398ca709bcaa73e0fe7cc48be9b6654f29bce0c535015,Log obfuscation data for LockBit
+sha256,4250172289cf5e82f5decd7b72d3455538faf7dc26c97abfcfa243aae2a66d8e,LockBit Task Scheduler data file
+sha256,443cd5c871a7e0e75284c10c279a9d19156c44d2a038f35c3abd83ecd52cb14c,Mal/PSDL-J PowerShell
+sha256,49614c9b05cceea11c341e790283ee75606bd304dc0c9899a1d4a036bda33f8a,Mal/PowLnkObf-A LNK file for backdoor persistence
+sha256,560f5444461de30e9b2f00a8cb37f4c6d736bb35cc9fb85894b198c59508cde7,Log obfuscation data for LockBit
+sha256,5819b1d4ee001e387223a7a6fc1ad4a476e45ccd75b354932108073985c05b95,LockBit PowerShell backdoor
+sha256,af5511fd2bfda3970d7ed82d0138ff9388f17f55fcfbbee0ee37e9608c91bb65,LockBit PowerShell backdoor
+sha256,e6f11f2dd14c5fde7695a3b6185fbeb1bfc7376ad58597d6969c0307585858b0,Log obfuscation data for LockBit
+sha256,ff61e09fbd4515297004a025b0ef1d502548a9f4a1ba3bf25ebfb93ac18fbf27,Mal/PSDL-J PowerShell
+url,https://docs.google.com/spreadsheets/d/11C7pdR3r_VeOPQXpRCGtUEJoftKO1wB7ZFfX0t94XTw/edit#gid=0&range=B1,LockBit backdoor installer loader URL
