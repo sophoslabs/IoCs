@@ -1,0 +1,9 @@
+﻿Indicator_type,Data,Note
+Description,IoCs of a Buer Loader attack tied to Ryuk ransomware,https://news.sophos.com/en-us/2020/10/28/hacks-for-sale-inside-the-buer-loader-malware-as-a-service
+sha256,5b607f001ba62e042344d30b65cad2774df2deb50e0b92c33da85e9338c123c4,Buer Loader unpacked malware
+sha256,6c7f43434e5db8703c0a47dedeeab976159d8704bfbe2e4ff65405f38d508e9d,Buer Loader dropper
+filename,print_document.exe,Buer Loader dropper
+ip,104.248.83.13,Buer Loader command and control IP
+sha256,32616f41a71fc7a4286736a6fc77da2a555dbc8301a8bd5fbdbab231955a42c5,Buer Loader dropper
+filename,RTM.DLL,Buer Loader dropper
+sha256,10943b90969722bf359e4b039d2953e02072e03e0a7f1bdb1dea09d9197288b1,Buer Loader dropper
