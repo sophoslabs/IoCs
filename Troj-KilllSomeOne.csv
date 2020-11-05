@@ -1,0 +1,16 @@
+﻿Indicator_type,Data,Note
+Description,IOCs of KilllSomeOne malware,https://news.sophos.com/en-us/2020/11/04/a-new-apt-uses-dll-side-loads-to-killlsomeone
+sha256,085d67b6051e1ed53d20b8602d4d0f98ecd35f7a,KillSomeOne malicious DLL loader
+sha256,1c45ea4338bcb17ce29f0efae6dea0944ea768d3,KillSomeOne malicious DLL loader
+sha256,be8a9509e63110cc5659ba2a8dc03c3bfbe0a10d,KillSomeOne malicious DLL loader
+sha256,bf22ee46c7953040c00d3bfa63b52c3cff20b9fa,KillSomeOne malicious DLL loader
+sha256,9c959ffa4b5a2f75b3d50083b6dbf0cd21c140b7,KillSomeone Loader
+file_path_name,C:\Users\B\Desktop\0.1\major\UP_1\Release\akm.pdb,PDB path in strings for KillSomeone
+file_path_name,C:\Users\B\Desktop\0.1\major\UP_1\Release\functionhex.pdb,PDB path in strings for KillSomeone
+file_path_name,C:\Users\B\Desktop\0.1\major\UP_1\Release\hex.pdb,PDB path in strings for KillSomeone
+file_path_name,C:\Users\guss\Desktop\Recent Work\UDP SHELL\0.7 DLL\UDPDLL\Release\UDPDLL.pdb,PDB path in strings for KillSomeone
+file_path_name,C:\Users\guss\Desktop\Recent Work\U\U_P\KilllSomeOne\0.1\Function_hex\hex\Release\hex.pdb,PDB path in strings for KillSomeone
+file_path_name,C:\Users\guss\Desktop\Recent Work\U\U_P\KilllSomeOne\0.1\hex\hex\Release\hex.pdb,PDB path in strings for KillSomeone
+file_path_name,C:\Users\guss\Desktop\Recent Work\U\U_P\KilllSomeOne\0.1\msvcp\Release\DismCore.pdb,PDB path in strings for KillSomeone
+file_path_name,C:\Users\guss\Desktop\Recent Work\U\U_P\KilllSomeOne\0.1\msvcp\Release\mpsvc.pdb,PDB path in strings for KillSomeone
+ip,160.20.147.254,KillSomeOne C&C server
