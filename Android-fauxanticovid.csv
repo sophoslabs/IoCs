@@ -1,0 +1,25 @@
+﻿Indicator_type,Data,Note
+Description,"Indicators of bogus ""tousanticovid"" Android malware",https://news.sophos.com/en-us/2020/12/18/fishy-french-covid-contact-tracing-app-is-a-data-thief-pest/
+sha256,4bbca6222f38ba4996a85bbc38c1ce6cf03e4a417dca28513c24c5799388add2,"""dog.sail.battle"" APK"
+sha256,7d7a99bb0893762b0b520666c55871614cfb6ffa5159ca5862d70c048d92889e,"""dog.sail.battle"" classes.dex payload"
+sha256,0ab6112b07b5c5c9cd0399c202b55c781ddf07539b13f90e12659e209d623500,"""trust.dragon.more"" APK"
+sha256,4fe6e62eed2ba12104e19ccc691e157a38d7f8f60acfbfcb5ca2184624256df7,"""trust.dragon.more"" classes.dex payload"
+sha256,c1dd9c26671fddc83c9923493236d210d7461b29dd066f743bd4794c1d647549,"""tuna.obvious.trust"" APK"
+sha256,72d5e65c99d24da89431fd445a57c7ed7aa34d4b97a4084cc7ef51b1a49e3cd9,"""tuna.obvious.trust"" classes.dex payload"
+sha256,5a4b556ab46d9e1e86e9cc1f7a233d53c589ecd3ba820ee7255a488f1c145311,"""tuna.obvious.trust"" json payload"
+sha256,c34367f5395f513b8ee0dedcd5502aed69172e71004a80c1f896ca97e05f4f62,patch.ring0 payload
+domain,newwaystadium.top,
+domain,bandofdna.top,
+domain,clubmasters.top,
+domain,jrdonnald.top,
+domain,differentplayers.top,
+ip,8.208.96.239,
+ip,8.208.103.115,
+ip,47.254.175.73,
+ip,47.254.146.169,
+,,
+,,
+,,
+,,
+,,
+,,
