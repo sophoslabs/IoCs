@@ -1,0 +1,48 @@
+﻿Indicator_type,Data,Note
+Description,"Indicators of ""pakchat"" Android malware",https://news.sophos.com/en-us/2020/12/21/new-android-spyware-targets-users-in-pakistan/
+domain,kv33.zapto.org,
+domain,pakchat.online,
+domain,tplinsurance.xyz,
+domain,pmdu.info,
+domain_port,kv33.zapto.org:8887,
+url,pmdu.info/download/pak_citizen_portal_219.apk,SHA256 0785e57d59fe9651ac7452ec9c4b04dec2185dfcefad10ce9b0fa077c4aaac02
+ip,172.241.27.67,kv33.zapto.org
+ip,212.73.150.142,tplinsurance.xyz
+ip,46.183.221.240,pakchat.online
+ip,5.2.78.240,pmdu.info
+sha256,0785e57d59fe9651ac7452ec9c4b04dec2185dfcefad10ce9b0fa077c4aaac02,Pakistan Citizen Portal (com.govpk.citizensportal)
+sha256,139d59594d40def4d4036427f6529fe1d67de9862f7caca2d7ccf33b7fb72bfb,(test app)
+sha256,21e1af612302288812ab92f1786739e1877c278c520ed26e247f9b6536d0fe4b,TPL Insurance (com.tpl.insuranceapp)
+sha256,25444f614123d80c6dbfde4947a7af2c0ae3ce57ffbbafa7af7ff1aa8e65b77c,(test app)
+sha256,2bb5041907b8d74f2c123de67175a6da8747a3c1a817d006a797e863ef2f82d2,(test app)
+sha256,333603e999459ab1ba6f3b2b95a44d06f16abf9bbd3afbd80790ea9f88b24c83,(test app)
+sha256,385ef5bc6e02d7438e3c7f4b77030560435f2bf186de1d949a0855824cd88df0,(test app)
+sha256,6af0070f460effd0610939dda17429740d07d3d5ac496de88870b6160bb93224,Pakistan Salat Time (com.tos.salattime.pakistan)
+sha256,6bc9cf05d24024bf47bf6f3afddf62768bf99a065114a069674f5a0f8218b0c4,Pakistan Citizen Portal (com.govpk.citizensportal)
+sha256,77b6efb8d3e2be11da3d87dc18aa65e69d02f6615762dd62a15c40cae69dc421,(test app)
+sha256,89630dcc54e2d0f76bee8ece998b3daebee16a429309950576548ee343723cda,(test app)
+sha256,9ad611b1b01be253d460c33c673fd9270daba6af323c3a216ca7f2cf1f298443,class_tpl.dex DEX file payload
+sha256,bbe147df50234100c7d47b8a26cb3675484c2661bf2554ec327a58f37493a86b,(test app)
+sha256,be8250766f6669f84a4a73471fea6605a7a54ac255f601aefbc0ce810e11e858,Mobile Packages Pakistan (com.blogspot.istcpublishers.mobilepackagespakistan)
+sha256,dd2efee37ca82813bc1948aaeccbda4b6c025b5ba9c1c5f0ddbf590c6c5d0ac8,TPL Insurance (com.tpl.insuranceapp)
+sha256,df8c823f648fd33236955d47a9c4b15e320fbd9d031516b6985441b527e888a8,Registered SIMs Checker (com.siminformation.checker)
+sha256,e93b499f7b286bac53b1d39b25caa5d6ab0cabe30393e23b0946ebba49d34d53,Pakistan Chat (com.PakistanChatMessenger)
+sha256,ec776cdf07bfc3d153dbb94c975e0e5bf5bd7ebd1558994ea7ce765ec9561d9f,(test app)
+sha256,fd91516432e63b0a100059ed2de0ed559965ee24c9aee37ec4b9146e0d0a4ed1,class.dex DEX file payload
+url_path,/Chat_view/api/device_info.php,
+url_path,/Chat_view/api/dex/class.dex,
+url_path,/Chat_view/api/file_manager.php,
+url_path,/Chat_view/api/json/call_log.php,
+url_path,/Chat_view/api/json/contact.php,
+url_path,/Chat_view/api/json/log_data.php,
+url_path,/Chat_view/api/json/message.php,
+url_path,/Chat_view/api/location.php,
+url_path,/insurance/products/device_info.php,
+url_path,/insurance/products/dex/class_tpl.dex,
+url_path,/insurance/products/file_manager.php,
+url_path,/insurance/products/json/call_log.php,
+url_path,/insurance/products/json/contact.php,
+url_path,/insurance/products/json/log_data.php,
+url_path,/insurance/products/json/message.php,
+url_path,/insurance/products/location.php,
+url_path,/mobisync,
