@@ -1,5 +1,5 @@
 ﻿Indicator_type,Data,Note
-Description,"Indicators of ""pakchat"" Android malware",https://news.sophos.com/en-us/2020/12/21/new-android-spyware-targets-users-in-pakistan/
+Description,"Indicators of ""pakchat"" Android malware",https://news.sophos.com/en-us/2021/01/12/new-android-spyware-targets-users-in-pakistan/
 domain,kv33.zapto.org,
 domain,pakchat.online,
 domain,tplinsurance.xyz,
