@@ -1,0 +1,81 @@
+﻿Indicator_type,Data,Note
+Description,Indicators of MrbMiner cryptojacking software,https://news.sophos.com/en-us/2021/01/21/mrbminer-cryptojacking-to-bypass-international-sanctions/
+domain,vihansoft.ir,C2 and payload domain
+domain,mrbfile.xyz,payload domain
+domain,mrbftp.xyz,payload domain
+domain,mrbpool.xyz,Cryptocurrency destination domain
+domain,poolmrb.xyz,Cryptocurrency destination domain
+domain_port,vihansoft.ir:3341,
+ip,145.239.225.15,
+ip,54.36.10.77,
+sha256,1fdbd98e98ef5d6486b48542047d9c7d10421404692eded90ec892d39df35e78,assm.exe downloader
+sha1,06052037bf8505bbc0f9dbbeb5ded23c742c21dc,hostx.dll
+sha1,1149d9360a80a1723cac36a34c5e61af6ec0a1f4,linuxservice.tar.gz
+sha1,16c2fc6cea484b8eef3dc984992d1f2d4a328300,win.dll
+sha1,171d361344d8fe86b4cda379f4f56175efb30561,linuxservice.tar.gz
+sha1,213956d187ba1bf429362bd60ace89ea39fc78d4,xmr.tar.gz (xmrig miner)
+sha1,2238a2ca85e2017b16361317f68d8ee8566dd3eb,vhost.tar.gz
+sha1,26ebb2593878fd667b73ee92bd49ca0db735b652,linux-os.tar.gz
+sha1,2e0735bc403b2df432b6f8de649625d9d0c18340,sys.dll
+sha1,2e0735bc403b2df432b6f8de649625d9d0c18340,sys2.dll
+sha1,324f678744e2d0eaa305a6efc6b7121e7730f5d5,Hostx.zip
+sha1,324f678744e2d0eaa305a6efc6b7121e7730f5d5,hostx2.dll
+sha1,32988daeb08736a9a3982eacddfbd7efb447f678,agentz.zip
+sha1,366892fb08a0bd15248a256bc28d3deae1deb317,sys.dll
+sha1,366892fb08a0bd15248a256bc28d3deae1deb317,sys2.dll
+sha1,37c72bfd7fac968f31ed3f7b0db4b395249d72d6,hostx2.zip
+sha1,3b814debba2f063c24e76e49d18e43e5f3ef012a,d.zip
+sha1,431159bea4ee95ea35bdcd9a9413dd3079d447f8,hostz.zip
+sha1,4fbdaddec288b6af10621ef527d89dc82db88fa4,sys3.dll
+sha1,53f63e6b0e41b1ebcb43feeed23aa4fc7b4fa827,assm.ex
+sha1,65bf885571ec5d934d7e1fcdeee121ce02c20cb2,agentx.zip
+sha1,68b0b699fe55a5d802745298b366403a08249bf6,syslib.dll
+sha1,7369c59499db291759b20b10eda2502408ad4ede,armv.tar.gz (xmrig miner)
+sha1,80ed476aba352c37c7d75b94721b471e17667a18,arm.tar.gz
+sha1,925ad7bea193d4a19d053c41a9ab12f2996cd2a9,p.zip
+sha1,976950d86215709cb6fe33dbe7497ddc7e0684a0,InstallService2.ex
+sha1,9976681f4c77fdf3566e8ad20dbc4cc5e8a332cb,sys.dll
+sha1,?976950d86215709cb6fe33dbe7497ddc7e0684a0,k.ex
+sha1,?b97c739713ae05a6823974c972d7b49e2b5cab48,pack.zip
+sha1,a21c84c6bf2e21d69fa06daaf19b4cc34b589347,kprocesshacker.sys
+sha1,a94d9db3046ec3c9a9278ea5f1f4d93afb043b41,agentx.dll
+sha1,aa143648ec22bf05762fc96f5acbf4fe5d6d5dc6,SqlServer.dll
+sha1,aa3b9ff3a458c7b9e13eac11e1d172ccf5ec9492,host.zip
+sha1,aa56debae96df8ad4a3287db3e4c20b0bf6ea073,osx.tar.gz
+sha1,b241e489452568d15cb4672f2108a63dfda75201,sys2.dll
+sha1,c246db1ae246e16b1afa95e6c90fefaf0c1d0592,Agent.zip
+sha1,f0972e86d8fbbca91f409de4bfe8efc3208b7a42,sys.dll
+sha1,f0972e86d8fbbca91f409de4bfe8efc3208b7a42,sys.zip
+sha1,f634dd1f9f8ad37eb03f303a2645886acad6ed0e,InstallService.ex
+url,http://145.239.225.15/linuxservice.tar.gz,
+url,http://145.239.225.15/vhost.tar.gz,
+url,http://145.239.225.15/xmr.tar.gz,
+url,http://54.36.10.77/35/sys.dll,
+url,http://54.36.10.77/sys.dll,
+url,http://mrbfile.xyz/35/,
+url,http://mrbfile.xyz/35/sys.dll,
+url,http://mrbfile.xyz/Agenty.zip,
+url,http://mrbfile.xyz/Agentz.zip,
+url,http://mrbfile.xyz/Hosty.zip,
+url,http://mrbfile.xyz/Hostz.zip,
+url,http://mrbfile.xyz/PowerShellInstaller.exe,
+url,http://mrbfile.xyz/agenty.zip,
+url,http://mrbfile.xyz/agentz.zip,
+url,http://mrbfile.xyz/sql,
+url,http://mrbfile.xyz/sql/SqlServer.dll,
+url,http://mrbfile.xyz/sql/sqlServer.dll,
+url,http://mrbfile.xyz/sql/syslib.dll,
+url,http://mrbfile.xyz/sys.dll,
+url,http://mrbftp.xyz/sql/syslib.dll,
+url,http://vihansoft.ir/Agent.zip,
+url,http://vihansoft.ir/Agentx.zip,
+url,http://vihansoft.ir/Hostx.zip,
+url,http://vihansoft.ir/P.zip,
+url,http://vihansoft.ir/d.zip,
+url,http://vihansoft.ir/favicon.ico,
+url,http://vihansoft.ir/host.zip,
+url,http://vihansoft.ir/k.exe,
+url,http://vihansoft.ir/p.zip,
+url,http://vihansoft.ir/pack.zip,
+url,http://vihansoft.ir/sys.dll,
+url,﻿http://54.36.10.77/linuxservice.tar.gz,
