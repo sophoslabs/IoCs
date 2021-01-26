@@ -1,5 +1,5 @@
 Indicator_type,Data,Note
-sha256,e7ccbcc9f500272f8b6422e9900c5131768cc9ca074e6cb8cc92bce385a7ee2e,Netfilim ransomware
+sha256,e7ccbcc9f500272f8b6422e9900c5131768cc9ca074e6cb8cc92bce385a7ee2e,Netfilim (Nemty) ransomware
 sha256,3cd9b8f675d4718c4d73a9b1656836790a058b8ba46c1e0f254d46775ab06556,Cobalt Strike
 command_line_parameter,-nop -w hidden -c IEX ((new-object net.webclient).downloadstring,Powershell command
 domain,aes.one,C2
