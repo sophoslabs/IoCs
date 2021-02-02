@@ -1,0 +1,23 @@
+﻿Indicator_type,Data,Note
+sha256,af0eeca2ba88ec11bbbcfa46a3976ac80904b98a68eaccb7236f096a51cfcb7b,Agent Tesla loader packed installer (older type)
+sha1,73b814d8eb2b47b2d4be1be8c9efe365cd43badd,Agent Tesla loader
+sha1,22216dfc1e168e188e4f10236368bda51a550d79,Agent Tesla loader - reader DLL
+sha1,7b87c864a7157ee8d6bab9f471110b848ac7a91d,Agent Tesla loader - RunPE DLL
+sha1,ae10b34487219fad4002de03b0fa848950461dc1,Troj/Tesla-AW
+sha256,90c99275bfea4f4084d07b4a0a044f81e6c9fbe19fba688a7fe8a0be46004acf,First stage Downloader for Agent Tesla
+sha1,aea98d7b068b0c418d1b3d96537e848aeb4440c0, Agent Tesla Loader Stage 2
+sha1,196623be81dbe59e560aba504d081c54b23b822,Troj/Tesla-BE
+sha256,5ace35afbf13d16d5b21ae38befde4a0418c4fffabe3c09f06888eb5aa83c063,Downloader for Agent Tesla
+sha256,c1fa48c0b9c81541dc2ba39db3fc1c410f6231e8df9aa69c02bdd1c8549b453a,Downloader for Agent Tesla
+URL,https://hastebin.com/raw/opozuvaril,source document for Agent Tesla downloads
+URL,https://hastebin.com/raw/usejavazuv,source document for Agent Tesla downloads
+sha1,27a8473b2817fd75eeed9995d67ca9c2761131fa,Agent Tesla v2
+sha1,3cb0429986c10dc6eb2cb4d242cef112014e20e1,Agent Tesla v2
+sha1,42fb3937aff3b4d245fb221e4b54334b76f56bf6,Agent Tesla v2
+sha1,45c4c2b9ce3b2b14e86389eb3c129fe930b6f765,Agent Tesla v2
+sha1,671333726bcbe73bc5344f827aca50b1b4c7f32b,Agent Tesla v2
+sha1,5d8e29c210eff0c6f8066293b804333e61c42285,Agent Tesla v3
+sha1,98b45781cfaa31b38873ec716603578f13ec1049,Agent Tesla v3
+sha1,8e90a85256b4670daaf4c59a518d80efd0be9a39,Agent Tesla v3
+sha1,a458b19290921bd73d6c8d665eb79cd9978577f3,Agent Tesla v3
+sha1,7bb14616fd3a35798f38a919c9dd73f240c9464b,Agent Tesla v3
