@@ -1,0 +1,18 @@
+﻿Indicator_type,Data,Note
+Description,IoCs from the Conti ransomware report,https://news.sophos.com/en-us/2021/02/16/conti-ransomware-evasive-by-nature/
+domain,docns.com,Cobalt Strike C2
+domain,tapavi.com,Cobalt Strike C2
+domain,contirecovery.best,
+url_path,/Menus.aspx,Used by Cobalt Strike component. Source: https://github.com/xx0hcd/Malleable-C2-Profiles/blob/master/normal/trevor.profile
+url_path,/menus.aspx,Used by Cobalt Strike component. Source: https://github.com/xx0hcd/Malleable-C2-Profiles/blob/master/normal/trevor.profile
+url_path,/us/ky/louisville/312-s-fourth-st.html,Used by Cobalt Strike component. Source: https://github.com/xx0hcd/Malleable-C2-Profiles/blob/master/normal/trevor.profile
+ip,23.106.160.174,resolved docns.com
+ip,23.82.140.137,resolved tapavi.com
+sha256,3b375dcda1f6019d986de1f7ae3458657e623c4f401c121e660add55d36a9e8c,backup.dll (Cobalt Strike component)
+sha256,4e3d8806e6c9ba334166f12ffe4e27dbde203425c882fccf1e452f77355b7d25,backup.dll (Cobalt Strike component)
+sha256,e974c09f204b99bfcdeb9fe4a561a28e064c612132829919f8b99a838c2b2106,backup.dll (Cobalt Strike component)
+sha256,af218e34e12216d56e5c6c86704804866100aa09ccb9160bc4029492c3f1f959,x64.dll (Cobalt Strike component)
+sha256,591677b54eb556e7e840670eccb2d62434e336af6d3908394d17cb26e99c4733,s1.dll (Cobalt Strike component)
+MD5,C7BCB3B84244A22E6EE9699CFBD86DC9F27FC677,doc.dll (Cobalt Strike component)
+sha256,2d3b859f2ad3f0e296fd29c1abc5eb80b4dabe7c0b9d9a3b44821c9ed8e015b1,aa64.dll (Cobalt Strike component)
+sha256,63625702e63e333f235b5025078cea1545f29b1ad42b1e46031911321779b6be,conti.exe (ransomware payload)
