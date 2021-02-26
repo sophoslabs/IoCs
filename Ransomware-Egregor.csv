@@ -1,0 +1,13 @@
+﻿Indicator_type,Data,Note
+Description,IOCs of Egregor attacks,
+sha1,695b506c07779ba0e543fabfd63752c0ac44a13d,Egregor ransomware detected as Mal/Sekhmet-A  and Troj/Ransom-GCN
+sha1,d8cbce281626bb5c14f59a979e243e6b260363ba,"SystemBC, detected as Mal/EncPk-APV"
+sha1,59ca484e8d766ec7980d6c2a297b4d401dc386f5,"Cobalt Strike payload, detected as ATK/Cobalt-P"
+sha1,f73e31d11f462f522a883c8f8f06d44f8d3e2f01,Egregor ransomware detected as Troj/Ransom-GCG
+sha1,bd8c52bb1f5c034f11f3048e2ed89b7b8ff39261,"Egregor ransomware variant, detected as Troj/Agent-BFPD and Troj/Ransom-GCT"
+sha1,c3467862e0e410ad2eb72cb3d810199499db017d,Mal/QbotVbs-A (Qbot) detected concurrently with Egregor
+filepath,C:\perflogs\clang.dll,Drop point for Egregor in Cobalt Strike attack
+command_line_parameter,"rundll32.exe  C:\Windows\sed.dll,DllRegisterServer -passegregor1313 --full",Egregor execution command line
+command_line_parameter,"rundll32.exe  C:\Windows\sed.dll,DllRegisterServer -passegregor1313 --full",Egregor execution command line
+command_line_parameter,"C:\WINDOWS\system32\cmd.exe /c """"e.bat"" -passegregor1313""",Egregor execution command line
+command_line_parameter,"rundll32.exe C:\perflogs\clang.dll,DllRegisterServer -peguard6",Egregor execution command line
