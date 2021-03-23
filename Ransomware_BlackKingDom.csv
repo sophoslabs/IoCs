@@ -1,0 +1,18 @@
+Indicator_type,Data,Note
+Description,Files from the Black KingDom ransomware report,https://news.sophos.com/en-us/2021/03/23/black-kingdom/ ?
+file_path_name,c:\Windows\System32\(16 random alphabet characters).exe,webshell drops ransomware to the %SYSTEM%
+url,hxxp://yuuuuu44[.]com/vpn-service/$(f1)/crunchyroll-vpn,Where $(f1) is a randomly-generated 16-alphabetic character string
+domain,yuuuuu44.com,Domain used to host malware payloads
+ip,104.21.89.10,IP address used to host the yuuuuu44 domain
+ip,172.64.80.0/20,IP address range used to host the yuuuuu44 domain
+ip,185.220.101.204,Tor exit node - malware delivery
+ip,185.220.101.216,Tor exit node - malware orchestration
+sha256,b9dbdf11da3630f464b8daace88e11c374a642e5082850e9f10a1b09d69ff04f,Ransomware executable
+sha256,c4aa94c73a50b2deca0401f97e4202337e522be3df629b3ef91e706488b64908,Ransomware executable
+sha256,a387c3c5776ee1b61018eeb3408fa7fa7490915146078d65b95621315e8b4287,Ransomware executable
+sha256,815d7f9d732c4d1a70cec05433b8d4de75cba1ca9caabbbe4b8cde3f176cc670,Ransomware executable
+sha256,910fbfa8ef4ad7183c1b5bdd3c9fd1380e617ca0042b428873c48f71ddc857db,Ransomware executable
+sha256,866b1f5c5edd9f01c5ba84d02e94ae7c1f9b2196af380eed1917e8fc21acbbdc,Ransomware executable
+sha256,c25a5c14269c990c94a4a20443c4eb266318200e4d7927c163e0eaec4ede780a,Ransomware executable
+sha256,62615438CF8F7DE6600D16A493C28BBBD3B052CCC4F9414DFE1CF031681E226F,ChackPassPL.aspx webshell - not publicly released
+sha256,800E036CF9DA316193BECABC6ACE688634709CD898AE81893E80B635DCAA06D0,ChackIdIO.aspx webshell - not publicly released
