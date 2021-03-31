@@ -1,0 +1,30 @@
+﻿Indicator_type,Data,Note
+Description,IoCs related to Astro Locker ransomware,https://news.sophos.com/en-us/2021/03/31/sophos-mtr-in-real-time-what-is-astro-locker-team/
+command,C:\Windows\SysWow64\NOTEPAD.EXE C:\Windows\locker_64.dll.log ,
+command,makecab  lsass.dmp lsass.dmp.cab ,
+command,procdump64.exe  -accepteula -ma lsass.exe lsass.dmp ,
+command,"rundll32.exe  locker_64.dll,DllRegisterServer /SCAN:L ",
+command,"rundll32.exe  locker_64.dll,DllRegisterServer ",
+command,"schtasks  /Create /RU <domain>\<username> /SC DAILY /ST 03:42 /TN ""updater"" /TR ""regsvr32.exe /i C:\Users\<username>\AppData\wininit64.dll"" /F ",
+command,taskhost.exe regsvr32.exe /i C:\Users\<username>\AppData\wininit64.dll ,
+domain,139.60.161.68 ,Cobalt Strike
+domain,185.38.185.87,IcedID
+domain,45.134.21.8,Cobalt Strike
+domain,46.21.153.135,Cobalt Strike
+domain,albanallahacrab.club,IcedID
+domain,dclogictrust.com ,Cobalt Strike
+domain,masskwearing.cyou,IcedID
+domain,padishahmurrka.best,IcedID
+domain,uragusexgre.club,IcedID
+filename,locker_64.dll,Mount Locker ransomware
+filename,RecoveryManual.html ,Ransom note
+filename,wininit64.dll,RDP backdoor
+service,%COMSPEC% /C echo copy c:\\wininit64.dll c:\\Users\\<username>\\appdata ^> %SYSTEMDRIVE%\\WINDOWS\\Temp\\jEmLSzCoDrwddqjU.txt > \\WINDOWS\\Temp\\LtWMjPKPlFsUiCKD.bat & %COMSPEC% /C start %COMSPEC% /C \\WINDOWS\\Temp\\LtWMjPKPlFsUiCKD.bat,Named with random 16-digit string
+service,%COMSPEC% /C echo REG ADD HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options\\utilman.exe /f /v Debugger /t REG_SZ /d %windir%\\system32\\cmd.exe ^> %SYSTEMDRIVE%\\WINDOWS\\Temp\\DDEjIHhcFicEzhmu.txt > \\WINDOWS\\Temp\\mchdhcdhpdBvOxXF.bat & %COMSPEC% /C start %COMSPEC% /C \\WINDOWS\\Temp\\mchdhcdhpdBvOxXF.bat,Named with random 16-digit string
+service,%COMSPEC% /C echo dir c:\\ ^> %SYSTEMDRIVE%\\WINDOWS\\Temp\\xJqUhSaZPqxAjHzn.txt > \\WINDOWS\\Temp\\mOWsUypRQFwlZMkF.bat & %COMSPEC% /C start %COMSPEC% /C,Named with random 16-digit string
+service,%COMSPEC% /C echo whoami ^> %SYSTEMDRIVE%\\WINDOWS\\Temp\\FaUocMGJjmCAbJMr.txt > \\WINDOWS\\Temp\\uxvbnnSkrkOMnsJg.bat & %COMSPEC% /C start %COMSPEC% /C,Named with random 16-digit string
+sha256,0a671d9d7ca62274e5e210813d02d860846baf59188e2a07522cd3a1cc3f9cc0 ,RDP backdoor
+sha256,2c44444d207a78da7477ae1af195d4265134e895bebb476f7b2c003f1467a033 ,Mount Locker ransomware DLL
+scheduled task,regsvr32.exe /i C:\Users\<username>\AppData\wininit64.dll,Name: updater 
+scheduled task,regsvr32.exe /i C:\Program Files\Google\Drive\wininit64.dll,Name: updater 
+scheduled task,regsvr32.exe /i C:\AMD\WU-CCC2\ccc2_install\wininit64.dll,Name: regsvr32
