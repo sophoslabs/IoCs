@@ -1,0 +1,7 @@
+﻿Indicator_type,Data,Note
+Description,IOCs from https://news.sophos.com/en-us/2021/04/13/compromised-exchange-server-hosting-cryptojacker-targeting-other-exchange-servers/,
+sha256,54a37cc18dae575965f73cc260cedf5b2d4e356ab53070cc3577c6d0bf125211 ,QuickCPU.dat
+sha256,4324ba1ca3a4db940dee5de14644e31268df081047b2681b8e33a1f3da7bae9a,QuickCPU.exe (old version)
+sha256,3dabd3bf16f5856d504d0ae20d3d3c9c6c74ccee562964292bb4565dda91a0e8,QuickCPU.exe (new version)
+sha256,6539bbb8cbf33b050d544283f51ccc52ec040b62e3c706d20bd0fe4e221212e3 ,run.bat (old)
+sha256, 3ad9da14e7f7e68e31d6cb6a8cab13e1eb45cb147371edbf0e4ed3e5262b9f51 ,run.bat (new)
