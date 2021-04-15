@@ -1,0 +1,35 @@
+﻿Indicator_type,Data,Note
+Description,IOCs from https://news.sophos.com/en-us/2021/04/15/bazarloader-deploys-a-pair-of-novel-spam-vectors/,
+MD5,21807bf30699429100f07c674e9f52f0,BazarCall .xlsb payload
+MD5,441a9b57a778665b0689986265a59caf,BazarCall .xlsb payload
+MD5,494e8dc63210ed59ab012ebb5be1a283,BazarCall .xlsb payload
+MD5,c941c4a83663fa976cf0367844900bc6,BazarCall .xlsb payload
+MD5,c9ea53bdb7010f189f3c4566a854c543,BazarCall .xlsb payload
+sha256,44c15c76277adcfa5fa07b746c7083a4ee874751b678091edd56a003b0312c9c,BazarCall .xlsb payload
+sha256,71CD6CB93FCF508761B72FAC05BC96A07697718EB928C72FC7731DAB457B3606,
+sha256,52bbe09c7150ea66269c71bac8d0237fb0e6b0cae4ca63ab19807c310d6a1a0b,AnnualReport.exe sample originally hosted on Slack
+sha1,E53166CA0F09AD46795CD8F5A1C9A4A2D5B21415,BazarCall .dll payload
+sha1,634892C91F5DDFAB0891FE7E004E50E46FE60CEF,BazarCall .dll payload
+sha1,165403FD23EE320564B9B455F234B60B02BA1FF8,BazarCall .dll payload
+sha1,52458F4E9449A66235486CD8ADB52FD2DE332814,BazarCall .xlsb payload
+sha1,8A487C189EDD6E3CC32CEE7709AA4E0C21D07491,BazarCall .dll payload
+sha1,52458F4E9449A66235486CD8ADB52FD2DE332814,BazarCall .xlsb payload
+sha1,D86639B31A7EB172C064C72788D1FBF4DC1440E6,BazarCall .xlsb payload
+sha1,D3213224DAD1803840F7878BCC1DF85CA38DEED2,BazarCall .xlsb payload
+sha1,CF0FCC2C856E800B360E545359FCA9A367489424,BazarCall .doc payload
+sha1,634892C91F5DDFAB0891FE7E004E50E46FE60CEF,BazarCall .dll payload
+sha1,3B52CC3F5C58316827C183D664E21344993A5502,BazarCall .xlsb payload
+sha1,E0AEF96555318BAC394065C9721C0310CA0DF091,BazarCall .dll payload
+sha1,3B52CC3F5C58316827C183D664E21344993A5502,BazarCall .xlsb payload
+sha1,BDB0E0889D3EC7AF0398B08ECE2F45ED1844D85D,BazarCall .dll payload
+certificate serial,21e3cae5b77c41528658ada08509c392,serial number for the digital signing certificate issued to Network Design International Holdings Limited used to sign some Bazar executables
+ssl_certificate,06765c5f039002c614a35d36a14597e86ef20370,TLS certificate serial number for CN = amadeamadey.at OU = Amadey Org O = Amadey TM L = Bohn S = Bohn C = AT
+command_line,"cmd.exe /c certutil -decode %PUBLIC%\{sample.123} %PUBLIC%\{sample.456} && rundll32  %PUBLIC%\{sample.456},{function)",
+path,%PUBLIC%,
+path,c:\users\public\,
+domain,australiatourism.bazar,
+domain,bestsightsofwildaustralia.bazar,
+domain,restinaustraliaplace.bazar,
+domain,sightsofsydney21.bazar,
+domain,sydneynewtours.bazar,
+domain,vacationinsydney2021.bazar,
