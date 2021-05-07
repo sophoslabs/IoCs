@@ -1,5 +1,50 @@
 ﻿Indicator_Type,Data,Note
-Description,Indicators for Lemon_Duck malware,https://news.sophos.com/en-us/2020/08/25/lemon_duck-cryptominer-targets-cloud-apps-linux
+Description,https://news.sophos.com/en-us/2021/05/07/new-lemon-duck-variants-exploiting-microsoft-exchange-server/,Indicators for Lemon_Duck malware (2021-05-07)
+domain,d.hwqloan.com,
+domain,t.hwqloan.com,
+domain,ps2.jusanrihua.com,
+domain,t.ouler.cc,
+domain,ps2.hwqloan.com,CS Server
+domain,vhosts.hwqloan.com,CS Server
+domain,cs2.sqlnetcat.com,CS Server
+domain,t.sqlnetcat.com,
+domain,t.netcatkit.com,
+domain,t.890.sh,
+domain_port,api.890.la:6363,malicious mining pool server
+domain_port,api.678.sh:6363,malicious mining pool server
+File,m6.exe,Monero miner executable
+File,blackball,schedule tasks - confirms machine is compromised
+File,C:\inetpub\wwwroot\aspnet_client\wanlin.aspx,webshell
+File,C:\inetpub\wwwroot\aspnet_client\wanlin.txt,webshell
+File,C:\inetpub\wwwroot\aspnet_client\js\demo\wanlins.aspx,webshell
+File,C:\inetpub\wwwroot\aspnet_client\js\demo\wanlin.txt,webshell
+username,netcat,username created by the attacker
+sha256,a5c0006b8117b5976ace4b6445901a83db110d82cb76d71f25400ba137f09f74,CS Beacon
+sha256,6be5847c5b80be8858e1ff0ece401851886428b1f22444212250133d49b5ee30,Malicious Executable - Launch & download CS Strike Payload
+url_path,hxxp://t.netcatkit.com/eb.jsp?0.9*$env:username*$env:computername,Eternal Blue 
+url_path,hxxp://t.netcatkit.com/ebo.jsp?0.9*$env:username*$env:computername,Eternal Blue 
+url_path,hxxp://t.hwqloan.com/ipc.jsp?0.9,Mimikatz threat vector
+url_path,hxxp://t.hwqloan.com/ipco.jsp?0.9,Mimikatz threat vector
+url_path,hxxp://t.hwqloan.com/ln/core.png?0.9*ssh*whoami*hostname,SSH bruteforce
+url_path,hxxp://t.hwqloan.com/ln/core.png?0.9*ssho*whoami*hostname,SSH bruteforce
+url_path,hxxp://t.hwqloan.com/ln/core.png?rds,Redis Compromise
+url_path,hxxp://t.hwqloan.com/ln/core.png?rdso,Redis Compromise
+url_path,hxxp://t.hwqloan.com/ln/core.png?yarn,UnAuthenticated Hadoop Cluster Compromise
+url_path,hxxp://t.hwqloan.com/ln/core.png?yarno,UnAuthenticated Hadoop Cluster Compromise
+url_path,hxxp://t.hwqloan.com/ms.jsp?0.9*%computername%,MSSql Brute Force threat vector
+url_path,hxxp://t.hwqloan.com/mso.jsp?0.9*%computername%,MSSql Brute Force threat vector
+url_path,hxxp://t.hwqloan.com/rdp.jsp,RDP bruteforce threat vector
+url_path,hxxp://t.hwqloan.com/rdpo.jsp,RDP bruteforce threat vector
+url_path,hxxp://t.hwqloan.com/smgh.jsp?0.9*%computername%,SmbGhost threat vector
+url_path,hxxp://t.hwqloan.com/smgho.jsp?0.9*%computername%,SmbGhost threat vector
+url_path,http://t.netcatkit.com/usb.jsp?lnk_0.9,LNK Remote Code Execution 
+url_path,hxxp://t.hwqloan.com/logic.jsp?0.9*%computername%,Oracle Weblogic Server Compromise - windows
+url_path,hxxp://t.hwqloan.com/logico.jsp?0.9*%computername%,Oracle Weblogic Server Compromise - windows
+url_path,hxxp://t.hwqloan.com/ln/core.png?logic,Oracle Weblogic Server Compromise - linux
+url_path,hxxp://t.hwqloan.com/ln/core.png?logico,Oracle Weblogic Server Compromise - linux
+url_path,hxxp://ps2.jusanrihua.com/ps,Cobalt Strike Payload
+,,
+Description,https://news.sophos.com/en-us/2020/08/25/lemon_duck-cryptominer-targets-cloud-apps-linux,(previous indicators for Lemon_Duck malware from 2020-08-25 below)
 domain,d.ackng.com,
 domain,lplp.ackng.com,
 domain,t.amynx.com,
