@@ -1,0 +1,17 @@
+﻿Indicator_type,Data,Note
+Description,Indicators from https://news.sophos.com/en-us/2021/06/17/vigilante-antipiracy-malware/,
+sha256,c2d123f21ac2fe15d8fa52160d585e5e8a462131cfcb5d4843d5a57c0bdd9877,Adobe Acrobat Pro DC v2020.009.20067
+sha256,f038e5112800e85863cde581916f245365ee9f50e2541f6eaebf0c5364ddf941,Adobe Photoshop 2020 v21.1.3.190 (x64x86) Pre-Activated
+sha256,3c4461c25826a3e28d6e5512df7936e0233636a2c223a36165f4a557936997ff,Aiseesoft PDF Converter Ultimate - 3 3 26 incl Patch
+sha256,562fc59ccebffe1d3cacb3d1595de19daf9c491797ef68a54259bf7adc0495f3,Among Us v2020.9.24s
+sha256,ed030a7868a7221d00ab66ba395b6a699718c52c8c752fe3e7b9f21ae4a8ba85,Command and Conquer Remastered Collection - PLAZA
+sha256,053bbe330a53d1185a1c94f062f67cac4a317d78909c026be31d413fe28a087b,Left 4 Dead 2 (v2.2.0.1 Last Stand + DLCs + MULTi19)
+sha256,02490797444bd8dfe45e3e604b168241ee099ec5e8906af863e5ed43b054cd9a,Malwarebytes - Anti-Malware Premium 3.6.1.2711 - Pre-Activated
+sha256,ed030a7868a7221d00ab66ba395b6a699718c52c8c752fe3e7b9f21ae4a8ba85,Nuance Dragon Professional Individual v15.60.200 Fix
+sha256,91f52611bac57f78ac5274bc43237861b0cf2e3f8550f9a1de7f5cbef1d3b83f,PassFab Android Unlocker v2.1.1.3
+sha256,bd641f525bb195b8dccacd8c218ec98dfff82801cf4eee5320669d8c84e11c4e,StartIsBack ++ v2.9.5
+sha256,f8beb912038cbd43d151cedcd4c0e6d3ec463b64b30941da68419af868d267bb,Minecraft 1.12.2 Cracked [Full Installer] [Online] [Server List]
+sha256,84F38AE6C2C3971DAB7ECE54E8F895F607A2F264A76691C52C521CD418A569C4,Microsoft Visual Studio Enterprise 2019 v16.0.4Final
+sha256,fb66cfcbca8b3b2bba43affed0d34cb0bd4df4e44278be2f4c1690003dbc2e2c ,ProcessHacker.jpg payload
+domain,1flchier.com,
+path,/blink.php?name=,
