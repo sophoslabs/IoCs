@@ -1,6 +1,8 @@
 ﻿Indicator_type,Data,Note
 Description,IoCs of various payloads delivered by Gootloader,https://news.sophos.com/en-us/2021/03/01/gootloader-expands-its-payload-delivery-options/
 Description,Threat hunting rule is available here,https://github.com/sophoslabs/IoCs/blob/master/Troj-gootloader.yara
+Description,SophosLabs is hiring threat hunters and malware analysts in Sydney, Budapest, Vancouver, and Oxford-adjacent Abingdon
+Description,Please visit https://careers.sophos.com/go/Sophos-Labs-Jobs/740302/ and apply today
 SHA1,8731316018d005690046909f86b10a2130cfe75c,Cobalt Strike
 SHA1,04ac4430395e4bb5c8e78e3c6a277f108da36124,Gootkit
 SHA1,d7469da6a523239a9f2eee26d944aa9076c87bfa,Gootkit
@@ -16,3 +18,5 @@ SHA1,f6525c66ab292d394ff7ec3da9beca8c45919788,Registry loader
 SHA1,02efc02a97e2223a85deea842eacebe9eb86aa0f,REvil
 SHA1,c51d97e76b018918504533ffdc05b06bae420912,REvil
 SHA1,f1acf90d5a42eba5b601ebe1b954be72d1c5b0b2,REvil
+IP,5.8.18.7,Gootloader mothership
+domain,my-game.biz,Gootloader mothership
