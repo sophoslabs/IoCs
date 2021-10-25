@@ -1,0 +1,22 @@
+﻿Indicator_type,Data,Notes
+sha256,30ee628504faea18dc99602971aafbc05a0b05dc964797edf49633f67cd178e2,"NPM UA-Parser package, containing legitimate UAParser.js 0.7.28 and three malicious payload files"
+sha256,e6cba23d350cb1f049266ddf10f872216f193c5279017408b869539df2e73c83,"Malicioius JS install script, detected as JS/BadNode-A"
+sha256,f4c800066e56dd32d20299c451fe6a2b60a3563f7f1915f8ca8db9916d810b5c,Malicious .BAT file (BAT/BadNode-A)
+sha256,21e68b048024ba0cc5a2a94ecbc3a78c626ec7d5d705829a82ea4715131d0509,Malicious Linux shellscript (SH/BadNode-A)
+sha256,7f986cd3c946f274cdec73f80b84855a77bc2a3c765d68897fbc42835629a5d5,XMRig Miner (PUA) for Windows
+sha256,2a3acdcd76575762b18c18c644a745125f55ce121f742d2aad962521bc7f25fd,Malicious DLL packer carrying DanaBot (Mal/EncPk-AQC)
+sha256,ea131cc5ccf6aa6544d6cb29cdb78130feed061d2097c6903215be1499464c2e,Linux XMRig Miner
+sha256,bb8ccdcf17761f1e86d8ebbc1a12b123929c48c5eea4739b7619bd53728d412b,New version of malicious DLL packer
+filename,preinstall.js,"Malicioius JS install script, detected as JS/BadNode-A"
+filename,preinstall.bat,Malicious .BAT file (BAT/BadNode-A)
+filename,preinstall.sh,Malicious Linux shellscript (SH/BadNode-A)
+filename,create.dll,Copy of sdd.dll packer
+url, https://citationsherbe.at/sdd.dll,Malicious DLL packer download URL
+url,http://159.148.186.228/download/jsextension,Linux XMRig Miner download URL
+url,http://159.148.186.228/download/jsextension.exe,Windows XMRig Miner download URL
+ip,194.76.225.46,C2 for Mal/EncPk-AQC
+ip,159.148.186.228,C2 for Mal/EncPk-AQC
+ip,185.158.250.216:443,C2 for Mal/EncPk-AQC
+ip,45.11.180.153:443,C2 for Mal/EncPk-AQC
+ip,194.76.225.61:443,C2 for Mal/EncPk-AQC
+ip,185.173.36.219,C2 for Mal/EncPk-AQC
