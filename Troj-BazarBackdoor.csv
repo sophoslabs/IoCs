@@ -1,0 +1,72 @@
+﻿Indicator_type,Data,Note
+Description,IoCs related to the BazarLoader App Installer attack,https://news.sophos.com/en-us/2021/11/11/bazarloader-call-me-back-attack-abuses-windows-10-apps-mechanism/
+sha-256,c268bcfc1a86038c6e3239f9c180bfb7b64070bd5f5705aa8c78eaf48a1d0879,Adobe.appinstaller
+sha-256,9cc1eb38573dab0f77bf68ade1c405202a5eaa348f71fd17475e382ec686464f,Adobe_1.2.0.0_x64.appx
+sha-256,5814f2fd96f79f8bd036a5897c12aa2d46bd707007f8b212a7a6e2220fcc206d,Adobe_1.7.0.0_x64.appx
+sha-256,3da7decd89b75a0394e4ea2dd457eb50c58d99323eadc4e2b45b2664a4c57f1c,Adobe_1.7.0.0_x64.appx
+sha-256,17d76d6066c983e94d9a83a8e274c2e94d4f1bb4fbe14837bac3287357e02550,Adobe_1.7.0.0_x64.appx
+sha-256,a5ce2bdd42fb0c9f51e218c879cc1d492a02cc096b3f0776482c98a63f6a3061,Adobe_1.7.0.0_x64.appx
+sha-256,f7872201d5d1047b13210efcb7c4e339e87a5be614609d9d031b5e72afdac16a,Adobe_1.7.0.0_x64.appx
+sha-256,06e2545b339a3f79f663988450970cc058f5061f4e0e3a57c172dc1b467ede98,Adobe_1.7.0.0_x64.appxbundle
+sha-256,4f5d04dbfdcf0417a1a684905bd63f6d84318379cacdb327b0ee938e51a6338c,Adobe_1.7.0.0_x64.appxbundle
+sha-256,3acde97a7e72bec3154e52db25c0e6bb5039be8194f5c1c51385307e72be174d,Adobe_1.7.0.0_x64.appxbundle
+sha-256,241c65c57f3d554ca9c65e03c9fab6fcb9856636e25d2ec34cf43a2df5c5e743,Adobe_1.7.0.0_x64.appxbundle
+sha-256,f35146695e848765a89c69439732fbd72a784288ff7e898d34c729cdc83442dd,Adobe_1.7.0.0_x64.appxbundle
+sha-256,f88fb86ed586f75897e7ace07228f55e9261ff8ae9ced2725b4b67aa8dfcae10,Adobe_1.7.0.0_x64.appxbundle
+sha-256,ff158e1e58beb2059747936fbc47c45450bc3429a582376594d8662ff8edf024,data.dll (DragTest.exe)
+sha-256,e0e2d3b1ca9bfedc671a1f1a7f274b399287c112671ef02d7eeac12a822aa2dc,data.dll (DragTest.exe)
+sha-256,846752d746a8fa749fa27d11190a43f5bebde4925ca2e767a7d231b8ffd6d0c8,data.dll (DragTest.exe)
+sha-256,8d96965c940c90b1d8b865cf7774a4e6b4f54f686f07fa63479f591e3ded4f23,data.dll (DragTest.exe)
+sha-256,6c424efeb2b528ba5396c903fcef1fc8f2f04452deea5160d149723473528db9,data.dll (DragTest.exe)
+sha-256,9f3cc120479a68b3ddee7dc0dbffdc9e598968ec53b623a222b3ac7c49661bf1,data.dll (DragTest.exe)
+sha-256,b275d8fbc140c8ee81b357cc1691d7da86987bf864d618634191b54c3e2b192d,SecurityFix.exe
+sha-256,b20c155f9f13d31b79ae5da6df0a14677c26408c5f65b84b68a40a1fa9808863,SecurityFix.exe
+sha-256,6d0b343d692fc6441c49cda331e259d51d1543824526090aba89d987bbbb6924,SecurityFix.exe
+sha-256,b6ebc8664a09388d2cc3832a1c702eb8eb41f619f7933f1912d5e10c1fa4444e,SecurityFix.exe
+URL,hastrama.com/segment/billion,C2 URL
+URL,dfgerta.com/segment/billion,C2 URL
+URL,adobeview.z13.web.core.windows.net/Adobe.appinstaller,source URL
+URL,storage.googleapis.com/adobe-pdf-review/report.html,source URL
+URL,adobeview.z13.web.core.windows.net/report.html,source URL
+URL,storage.googleapis.com/preview-pdf/report.html,source URL
+URL,openpdf.z5.web.core.windows.net/report.html,source URL
+URL,adobe-views.azurewebsites.net/report.html,source URL
+URL,adobe-pdf-review.azurewebsites.net/Adobe.appinstaller,source URL
+URL,adobe-pdf-review.azurewebsites.net/report.html,source URL
+ssl_certificate_serial,309368b122ab63103dddd4ad6321a82c,Signing certificate serial #
+domain,asdlfkasklf.com,C2 domain
+domain,aslflasf.com,C2 domain
+domain,dfgerta.com,C2 domain
+domain,falomana.com,C2 domain
+domain,gakosafd.com,C2 domain
+domain,gasdfasdf.com,C2 domain
+domain,hansdfps.com,C2 domain
+domain,hastrama.com,C2 domain
+domain,holarty.com,C2 domain
+domain,holydolyna.com,C2 domain
+domain,jaortamnana.com,C2 domain
+domain,jaratymanr.com,C2 domain
+domain,jarghan.com,C2 domain
+domain,jhabv.com,C2 domain
+domain,joramanmnb.com,C2 domain
+domain,joramanmnbman.com,C2 domain
+domain,jptymana.com,C2 domain
+domain,kartynab.com,C2 domain
+domain,kjraeiba.com,C2 domain
+domain,koralaba.com,C2 domain
+domain,koratanaba.com,C2 domain
+domain,koratyma.com,C2 domain
+domain,korayaba.com,C2 domain
+domain,kormala.com,C2 domain
+domain,lolalvatan.com,C2 domain
+domain,maratanab.com,C2 domain
+domain,nanbaora.com,C2 domain
+domain,naratymena.com,C2 domain
+domain,olagamanas.com,C2 domain
+domain,qwasdfp.com,C2 domain
+domain,romotara.com,C2 domain
+domain,zxonazxc.com,C2 domain
+domain,adobeview.z13.web.core.windows.net,source domain
+domain,adobepdf.z13.web.core.windows.net,source domain
+domain,adobe-view.azurewebsites.net,source domain
+domain,adobe-pdf-review.azurewebsites.net,source domain
