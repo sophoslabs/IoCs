@@ -1,0 +1,23 @@
+﻿Indicator_type,Data,Notes
+sha256,33f79a64fee300f60541a96e2b0c4bcec3aac6f717dff52baa9da7ed803ed6f3,app.lite.bot
+sha256,56becf7125a1596e30f80befb986ae96e18da5be40cc3f78ac0c35ae7a4e17ae,app.lite.bot
+sha256,57afc0eac8b23d955b75585d5ca7b086a7e17df94b9cb276847ec1c5fe6b6c1a,org.light.upgrade
+sha256,c054f6597665fccd18751a88d15488657ff19a286dbd4aac7ecb773b0df60c4d,app.lite.bot
+sha256,db511ead013e21f51303dd4f6a856418f88d72a7f95c0b2ace0c3ba80866bdf6,com.example.telegram
+sha256,57bc6b95ecea7e0ca34174f1190de1e9664408311c973866b853d24f41b0e760,com.example.telegram
+sha256,e00179c7bc76f90864f32275de183f76730cd4a99173c0b6fd6504afa02c8d55 ,com.example.sec_chat
+certificate_serial,ece521e38c5e9cbea53503eaef1a6ddd204583fa,
+certificate_serial,d00cb9a0ab2313ee74b931a2ff7783ff3c490dac,
+certificate_serial,61ed377e85d386a8dfee6b864bd85b0bfaa5af81,
+certificate_serial,9b3a506c105d3b5ab4bd7549a8102a99ec3796cc,
+url,hxxps://www.jose-ross.com/api/api_portal,
+url,hxxps://donald-grigg.site/api/FZnW8Y,
+url,hxxps://donald-grigg.site/api/zsDFwsa,
+url,hxxps://donald-grigg.shop/api/FZnW8Y,
+filename,org.light.upgrade,
+filename,app.lite.bot,
+filename,com.example.telegram,
+filename,com.example.sec_chat,
+domain,jose-ross.com,
+domain,donald-grigg.site,
+domain,donald-grigg.shop,
