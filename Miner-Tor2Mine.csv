@@ -1,0 +1,32 @@
+Indicator_type,Data,Notes
+domain,dns.msftncsi.comeu.minerpool.pw,C2 for Tor2Mine
+domain,eu.minerpool.pw,C2 for Tor2Mine (miner panel)
+domain,asq.d6shiiwz.pw,C2 for Tor2Mine
+filename,java.exe,Tor2Mine miner variant (java.exe)
+filename,kallen.ps1,Mimikatz Powershell
+filename,check1.ps1,Persistence / installation script
+filename,checking.ps1,Persistence / installation script
+filename,del.ps1,competitive miner removal script
+ip,107.181.187.132,C2 for Tor2Mine variant 1
+ip,83.97.20.83,C2 for Tor2Mine variant 1
+ip,185.10.68.123,C2 for Tor2Mine (miner panel)
+ip,83.97.20.81,C2 for Tor2Mine
+sha256,b3af7ce4b4ee2f0fc8f44a6011cf35817bd82d6fcbb9ff15cb364f075b140e6a,Tor2Mine main dropper script variant 1
+sha256,413997e04e573b6035709852d7e82e25f7510ab9744e69eaea9edf17db546cc4,Tor2Mine miner variant (java.exe)
+sha256,b78571cdc8e361703fa144b9d1625d9f198bd85725cca70a70fccff6ab04477c,Tor2Mine main dropper script variant 2
+sha256,c1fc58d49031e17317613a2c29013253492a8ce63d126f6588f4345be41bc779,v1.exe Tor2Mine script dropper
+sha256,bdae90d511ca8b0be15fb05efd6ff4e530c945333ab8b4938c3d5c38143f2d6a,Tor2Mine 64-bit variant miner
+sha256,cdb0e63ea62e96836cdb6096b90bf812909cdc323ba3d98ee4561fa067a28030,Tor2Mine script dropper executable
+sha256,19fed775072fff292c8905473b7ca8fa072e29ecc8ea54d0373d1988d8f595e3,Tor2Mine del.ps1
+sha256,2e215eaa2f75db97677d10feac7b2f0c4b231f2729190d209964be2adddd1acd,Wscript/WMI spreader dropped in nested %TEMP% folders
+sha256,2bc17d049db076d9d590dd7fee6d2695e818de8a863a2281c241f2608d0154b2,check.hta Tor2Mine dropper script
+url,http://v1.fym5gserobhh.pw/php/func.php,Tor2Mine C2 remote code source
+url,http://eu1.minerpool.pw/upd.hta,Tor2Mine C2 remote code source
+url,http://asd.s7610rir.pw/win/checking.hta,Tor2Mine C2 remote code source
+url,http://107.181.187.132/test/32.exe,Tor2Mine 32-bit variant miner source
+url,http://107.181.187.132/del.bat,remote batch script
+url,http://res1.myrms.pw/upd.hta,Tor2Mine remote update script source
+url,https://qm7gmtaagejolddt.onion.to/check.hta,check.hta Tor2Mine dropper script source
+url, http://107.181.187.132/test/64.exe,Tor2Mine 64-bit variant miner source
+url,http://asq.d6shiiwz.pw/win/checking.ps1,Persistence / installation script
+url,http://83.97.20.81/win/checking.ps1,Persistence / installation script
