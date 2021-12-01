@@ -2,6 +2,8 @@ Indicator_type,Data,Notes
 domain,dns.msftncsi.comeu.minerpool.pw,C2 for Tor2Mine
 domain,eu.minerpool.pw,C2 for Tor2Mine (miner panel)
 domain,asq.d6shiiwz.pw,C2 for Tor2Mine
+domain,eu1.ax33y1mph.pw,C2 for Tor2Mine
+domain,pa.kl2a48yh.pw,C2 for Tor2Minw
 filename,java.exe,Tor2Mine miner variant (java.exe)
 filename,kallen.ps1,Mimikatz Powershell
 filename,check1.ps1,Persistence / installation script
@@ -30,3 +32,4 @@ url,https://qm7gmtaagejolddt.onion.to/check.hta,check.hta Tor2Mine dropper scrip
 url, http://107.181.187.132/test/64.exe,Tor2Mine 64-bit variant miner source
 url,http://asq.d6shiiwz.pw/win/checking.ps1,Persistence / installation script
 url,http://83.97.20.81/win/checking.ps1,Persistence / installation script
+url,https://pa.kl2a48yh.pw/upd.hta,Persistence / update script
