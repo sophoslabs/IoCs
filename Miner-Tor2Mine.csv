@@ -3,7 +3,9 @@ domain,dns.msftncsi.comeu.minerpool.pw,C2 for Tor2Mine
 domain,eu.minerpool.pw,C2 for Tor2Mine (miner panel)
 domain,asq.d6shiiwz.pw,C2 for Tor2Mine
 domain,eu1.ax33y1mph.pw,C2 for Tor2Mine
-domain,pa.kl2a48yh.pw,C2 for Tor2Minw
+domain,pa.kl2a48yh.pw,C2 for Tor2Mine
+domain,asd.s7610rir.pw,C2 for Tor2Mine
+domain,asq.swhw71un.pw,C2 for Tor2Mine
 filename,java.exe,Tor2Mine miner variant (java.exe)
 filename,kallen.ps1,Mimikatz Powershell
 filename,check1.ps1,Persistence / installation script
