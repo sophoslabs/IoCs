@@ -1,0 +1,7 @@
+Indicator_type,Data,Note
+Description,IoCs related to the CABless CVE-2021-40444 maldoc RAR attack,https://news.sophos.com/en-us/2021/12/21/attackers-test-cab-less-40444-exploit-in-a-dry-run/
+sha-256,170eaccdac3c2d6e1777c38d61742ad531d6adbef3b8b031ebbbd6bc89b9add6,Profile.rar attachment
+sha-256,d346b50bf9df7db09363b9227874b8a3c4aafd6648d813e2c59c36b9b4c3fa72,Document.docx
+sha-256,776df245d497af81c0e57fb7ef763c8b08a623ea044da9d79aa3b381192f70e2,Formbook payload (abb01.exe)
+IP,104.244.78.177,
+URL,hxxp://104.244.78.177/abb01.exe,Formbook payload (abb01.exe)
