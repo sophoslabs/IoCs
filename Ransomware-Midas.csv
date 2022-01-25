@@ -1,0 +1,15 @@
+Indicator_type,Data,Note
+Description,IoCs related to Midas ransomware,
+sha-256,fe5e26ee2e15cbc10970fc3f0d249b02bbbc79b8dbc7adbd41340f3c0a4afd8d,"legitimate, benign dism.exe abused to load dismcore.dll"
+sha-256,3d779d02a0c7061caa8b412119a27b39692f3ecba80aa5e070434b95cf24b436,dismcore.dll Troj/MSIL-SDB
+sha-256,4823f478e5fb68be06ba987539c3e1c52e2597b0b35edc5b66fcedcef66fb1f6 ,encrypted form of https://github.com/monoxgas/sRDI (detected as ATK/sRDI-A)
+sha-256,0d43eca3777f98773314e04870bcbe76d6c5eb0694356509cd9f698d9a169f76,Harmony Loader (reflective loader decrypted during the attack)
+sha-256,de58d52374108d5ee8bd12b09034d4fa15ea5789b191e64ed1a559915ea393e8,example batch file used to start dism.exe (contains randomized path name)
+sha-256,73d62f5989336da3809c150861bac08c13547a9992181fec1c51741b53aeb2f3,example vbs script used to start batch file (contains randomized path name)
+IP,5.34.178.211,c2 address used by threat actors
+IP,185.16.40.78,c2 address used by threat actors
+file_path,c:\users\public\videos,Multiple PowerShell scripts run from this location on infected machines
+filename,lz_els.ps1,Run from c:\users\public\videos
+filename,adtest.ps1,Run from c:\users\public\videos
+filename,dism_els.ps1,Run from c:\users\public\videos
+filename,out32.ps1,Run from c:\users\public\videos
