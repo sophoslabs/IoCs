@@ -1,0 +1,26 @@
+Indicator_type,Data,Note
+sha256,e6212e7d74f315fa4638e32ab775fb1b57ef55071d179676330bbad4dc102a57,Conti ransomware
+sha256,74c8f583cac135fc005ef0141142c9fedf6fd3c1791545a176db8b4deab7b11d,
+sha256,11a27e5803ad997d2e6eebe1decb945d4a42974f506a56654c3653eec5b401e2,
+sha256,ef8b55e1ad80bd503df7d880bfa6ffb26288a782c250267b85766490c33b6f4b,Troj/PSDrop-FE Cobalt Strike dropper
+sha256,e066cc48c1b45aee43e394636c6c12502cf7deed6599f60fba140c4c57501e95,Troj/PSInj-BF Cobalt
+sha256,41324493142b10db127217274e21df37f6ccd13f01a8d29d2b23b7b1463423a7,Conti ransomware
+filename,64.dll,Conti ransomware
+filename,Get-DataInfo.ps1,
+IP,"5.149.249.187
+",Cobalt Strike server
+IP,185.70.184.8,Cobalt Strike server
+IP,104.168.44.130,Cobalt Strike server
+IP,74.222.5.43,ProxyShell attack host
+IP,84.17.46.148,Attack host
+IP,185.217.117.44,ProxyShell attack host
+IP,104.197.217.121,download script host
+IP,45.155.204.227,Script host for attack tools
+IP,213.232.127.66,Script host for attack tools
+IP,203.184.132.187,Script host for attack tools
+IP,193.29.13.203,CobaltStrike C2
+domain,smartdata.su,Script host for attack tools
+domain,novinhost.org,Script host for attack tools
+domain,hgc.com.hk ,Script host for attack tools
+domain,perfectip.net,ProxyShell attack host
+domain,datacamp.co.uk,Attack host
