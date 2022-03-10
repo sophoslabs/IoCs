@@ -1,0 +1,231 @@
+﻿Indicator_type,Data,Note
+Description,IoCs related to Qakbot malware,https://news.sophos.com/en-us/2022/03/10/qakbot-injects-itself-into-the-middle-of-your-conversations/
+sha256,f42670b63d8e4eca6f360ec2bbdd6c518b18ea91581e310f42f03cb482f85a23 ,Malicious Excel sheet
+sha256,2c37b6b15f3f0299571ba9442666607e37487a17ac426ba1e89471460951bf19 ,"""eum.zip"" document"
+sha256,ef570dbb5ece67d1988a230ded47cbaa8a3f517c3163c2e6ee2959dcfee01f60 ,stealer payload
+sha256,7d1fd479bff1ddb041f227c28d641c93fa8b284bed1a725da7b06df2662aea56 ,DLL payload
+sha256,4e274ff74367a174913969690379398fa78f6aececdb51bdbecfef72f443f0bc ,DLL payload
+sha256,148d6a1191b07385551354a111e10f89e97af87604c9b7c916ae352bdd8c3df0,payload from jvtransportes.log.br/kBZqvr6C/3.gif
+sha256,2a5069684e15123a8d3d3a305cb01399ad9880c96cbacb9e99c88e6fbaa6aa3e,payload from dimenew.com.br/zIYYH429XK/3.gif
+sha256,bce784a4d247e61c3eb16ac557af41aac569dc6d160658df460fe48cbc2f4466,payload from sabitblog.com/7ihEMh6PKKX/3.gif
+sha256,76b64698670bae111d9b68eedc25b02e85a82471da739e5ceedff0ce466c65f8,Qakbot core bot
+sha256,784ca9fe97e58d553f2f974abb678c8e86c930aa25e5246382f9d9caaa6070c,Hook.dll payload
+sha256,f7cdb959643a5f266fccff13534662ce4db388d922c65a2b7ab878b663cced99,Email collector payload
+url,216.238.72.121/t4,C2 URLs observed
+url,68.186.192.69/t4,C2 URLs observed
+url,41.228.22.180/t4,C2 URLs observed
+url,hartwoodcrafts.com/nulla-quia/eum.zip,Malicious Excel sheet download site
+url,jvtransportes.log.br/kBZqvr6C/3.gif,Payload addresses
+url,dimenew.com.br/zIYYH429XK/3.gif,Payload addresses
+url,sabitblog.com/7ihEMh6PKKX/3.gif,Payload addresses
+ip,216.238.72.121,C2 observed during infection
+ip,41.228.22.180,C2 observed during infection
+ip,68.186.192.69,C2 observed during infection
+ip,194.40.243.33,C2 observed during infection
+ip,45.63.107.192,C2 observed during infection
+ip,216.238.71.31,C2 observed during infection
+ip,23.160.193.217,C2 observed during infection
+user_agent,Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko,User-Agent string used during infection
+url,http://barro-proizvodstvo.by/pl/w3L/loj/MxR/zHLJOiF.zip,Zip containing malicious Excel spreadsheet
+url,http://caaantik.com/pl/iVZ/BrU/XCj/nksYY1a.zip,Zip containing malicious Excel spreadsheet
+url,http://caaantik.com/pl/K0MHD5I1Sb.zip,Zip containing malicious Excel spreadsheet
+url,http://circleeducational.com/pl/p/8WxKLuhG3.zip,Zip containing malicious Excel spreadsheet
+url,http://concejo-ladoradacaldas.gov.co/pl/m/PMT9slAUV.zip,Zip containing malicious Excel spreadsheet
+url,http://dailyplay.net/pl/Bea/0OB/4Cf/9zSr6N3.zip,Zip containing malicious Excel spreadsheet
+url,http://dailyplay.net/pl/wD91SAqJJ7.zip,Zip containing malicious Excel spreadsheet
+url,http://dariwalaonlineshopping.com/pl/2O/rX/MlGxoXuW.zip,Zip containing malicious Excel spreadsheet
+url,http://dariwalaonlineshopping.com/pl/46K/6hP/GNG/69dSHaF.zip,Zip containing malicious Excel spreadsheet
+url,http://dariwalaonlineshopping.com/pl/6/GU98o3B9H.zip,Zip containing malicious Excel spreadsheet
+url,http://dariwalaonlineshopping.com/pl/eT/U3/rz46q4z0.zip,Zip containing malicious Excel spreadsheet
+url,http://dariwalaonlineshopping.com/pl/L/zFr0ugAme.zip,Zip containing malicious Excel spreadsheet
+url,http://dariwalaonlineshopping.com/pl/Vf/8D/jOpiFZx2.zip,Zip containing malicious Excel spreadsheet
+url,http://dariwalaonlineshopping.com/pl/ysBtcSQR0Q.zip,Zip containing malicious Excel spreadsheet
+url,http://devbhumiexpress.com/nb/7s6/gA9/V6j/XRODB8r.zip,Zip containing malicious Excel spreadsheet
+url,http://devbhumiexpress.com/nb/mvI/u4c/1Rw/Y4IkJDj.zip,Zip containing malicious Excel spreadsheet
+url,http://dmklaws.co.ke/pl/v/E2Sy5shEX.zip,Zip containing malicious Excel spreadsheet
+url,http://dmklaws.co.ke/pl/yW4/cl7/4gB/hokiJac.zip,Zip containing malicious Excel spreadsheet
+url,http://ecuadorendirecto.com/nb/HY/Td/8XbfyBBb.zip,Zip containing malicious Excel spreadsheet
+url,http://fitfoodbd.com/pl/5rw/iXZ/hAV/rTYG3K2.zip,Zip containing malicious Excel spreadsheet
+url,http://fitfoodbd.com/pl/hKNXM6DLEW.zip,Zip containing malicious Excel spreadsheet
+url,http://fitfoodbd.com/pl/Z/ntK2O2u5h.zip,Zip containing malicious Excel spreadsheet
+url,http://globalprod.ru/pl/gGN/9va/OqG/dQn9w6o.zip,Zip containing malicious Excel spreadsheet
+url,http://globalprod.ru/pl/gJw/oC1/5YZ/m6C2N4d.zip,Zip containing malicious Excel spreadsheet
+url,http://globalprod.ru/pl/iJo/bzX/Q7S/7acFgnR.zip,Zip containing malicious Excel spreadsheet
+url,http://globalprod.ru/pl/KK9Dqgcm5o.zip,Zip containing malicious Excel spreadsheet
+url,http://globalprod.ru/pl/R/rjeXuBjhJ.zip,Zip containing malicious Excel spreadsheet
+url,http://globalprod.ru/pl/Yt/L6/dNxKJm0k.zip,Zip containing malicious Excel spreadsheet
+url,http://gofourbusiness.com/pl/CofakqyCzE.zip,Zip containing malicious Excel spreadsheet
+url,http://gofourbusiness.com/pl/fTf1fAti9f.zip,Zip containing malicious Excel spreadsheet
+url,http://gofourbusiness.com/pl/g6d/dJ9/h4H/ZF6Ni0f.zip,Zip containing malicious Excel spreadsheet
+url,http://gravitygroup.org/pl/ddl/fHg/GPW/KkvfCKe.zip,Zip containing malicious Excel spreadsheet
+url,http://gravitygroup.org/pl/E8m/yuK/B7G/d7Jexjp.zip,Zip containing malicious Excel spreadsheet
+url,http://gravitygroup.org/pl/TZ/xm/0BjfwA98.zip,Zip containing malicious Excel spreadsheet
+url,http://gravitygroup.org/pl/X/nyk9uA6oz.zip,Zip containing malicious Excel spreadsheet
+url,http://hapohealthcare.co.ke/pl/1bF/CeY/QIx/4dxScNE.zip,Zip containing malicious Excel spreadsheet
+url,http://hapohealthcare.co.ke/pl/E/tXW5GyqRA.zip,Zip containing malicious Excel spreadsheet
+url,http://hapohealthcare.co.ke/pl/gfoSBiLYKQ.zip,Zip containing malicious Excel spreadsheet
+url,http://hapohealthcare.co.ke/pl/icRNrIkfEE.zip,Zip containing malicious Excel spreadsheet
+url,http://hapohealthcare.co.ke/pl/L/jG1l1oTi4.zip,Zip containing malicious Excel spreadsheet
+url,http://hapohealthcare.co.ke/pl/xqH/Xk8/MZA/ZPSwn0G.zip,Zip containing malicious Excel spreadsheet
+url,http://hapohealthcare.co.ke/pl/Z/vIUNeF2an.zip,Zip containing malicious Excel spreadsheet
+url,http://ikincielplotter.com/pl/mww/56d/znq/MySqkg9.zip,Zip containing malicious Excel spreadsheet
+url,http://ikincielplotter.com/pl/O/4WaCYplJb.zip,Zip containing malicious Excel spreadsheet
+url,http://ikincielplotter.com/pl/V/ealQLReKr.zip,Zip containing malicious Excel spreadsheet
+url,http://inzain.org/pl/mIP/QtS/bis/Kygd1QY.zip,Zip containing malicious Excel spreadsheet
+url,http://inzain.org/pl/o/EAar8iZjU.zip,Zip containing malicious Excel spreadsheet
+url,http://inzain.org/pl/O9urLZRXgc.zip,Zip containing malicious Excel spreadsheet
+url,http://klinikpratamayemimamedika.com/pl/Xo/zN/rJBwi2Yv.zip,Zip containing malicious Excel spreadsheet
+url,http://laserjet.ro/pl/8/DbEDhe5P9.zip,Zip containing malicious Excel spreadsheet
+url,http://librelato.com/pl/m0/EQ/uLbpkCZa.zip,Zip containing malicious Excel spreadsheet
+url,http://maisconsultoria.com.br/pl/3a/qc/MWmaciUo.zip,Zip containing malicious Excel spreadsheet
+url,http://maisconsultoria.com.br/pl/Tj/dl/iSvJHaXl.zip,Zip containing malicious Excel spreadsheet
+url,http://maisconsultoria.com.br/pl/tkkbvWJV66.zip,Zip containing malicious Excel spreadsheet
+url,http://maisconsultoria.com.br/pl/v8/HU/lK2EItxa.zip,Zip containing malicious Excel spreadsheet
+url,http://man1kabsemarang.sch.id/pl/dQ8kp2LLJI.zip,Zip containing malicious Excel spreadsheet
+url,http://man1kabsemarang.sch.id/pl/K7/JC/bO1PrFAT.zip,Zip containing malicious Excel spreadsheet
+url,http://man1kabsemarang.sch.id/pl/RCoFU50aSG.zip,Zip containing malicious Excel spreadsheet
+url,http://obarrigas.com/pl/8/qY1l6BusI.zip,Zip containing malicious Excel spreadsheet
+url,http://obarrigas.com/pl/hw/Rb/C2QLTZOe.zip,Zip containing malicious Excel spreadsheet
+url,http://obarrigas.com/pl/W6o/c8L/Rns/GXYUMtW.zip,Zip containing malicious Excel spreadsheet
+url,http://peles-group.com/pl/7wOS2uk1ef.zip,Zip containing malicious Excel spreadsheet
+url,http://peles-group.com/pl/dkh3lsJ6YY.zip,Zip containing malicious Excel spreadsheet
+url,http://peles-group.com/pl/vx/kV/BFncKO3f.zip,Zip containing malicious Excel spreadsheet
+url,http://radiobrasilitalia.com.br/pl/caD/ZCp/CB5/faPZhIN.zip,Zip containing malicious Excel spreadsheet
+url,http://radiobrasilitalia.com.br/pl/H/zEvXSdCQt.zip,Zip containing malicious Excel spreadsheet
+url,http://radiobrasilitalia.com.br/pl/IW/Ew/xgOJHmtS.zip,Zip containing malicious Excel spreadsheet
+url,http://radiobrasilitalia.com.br/pl/KyP/t7e/E9f/t19vMyC.zip,Zip containing malicious Excel spreadsheet
+url,http://recuerdosretro.com/pl/B5W/pDl/gzZ/uxJiDa4.zip,Zip containing malicious Excel spreadsheet
+url,http://riyadahalfeker.com/pl/77/XK/8RwIybsd.zip,Zip containing malicious Excel spreadsheet
+url,http://riyadahalfeker.com/pl/C6X/nmT/B6i/uR0w1nz.zip,Zip containing malicious Excel spreadsheet
+url,http://riyadahalfeker.com/pl/mt/X6/aeCzSLF1.zip,Zip containing malicious Excel spreadsheet
+url,http://segiaviamentos.com.br/nb/Pg/Pw/BrBFFxGY.zip,Zip containing malicious Excel spreadsheet
+url,http://sgdls.cl/pl/BMd/L2j/i3s/hPTdWjZ.zip,Zip containing malicious Excel spreadsheet
+url,http://sgdls.cl/pl/L/jZUuKZ2QK.zip,Zip containing malicious Excel spreadsheet
+url,http://solarifitech.com/nb/GOC/4lB/zWo/CQhMSUY.zip,Zip containing malicious Excel spreadsheet
+url,http://verbojuridico.pt/pl/lxHZIa8y4D.zip,Zip containing malicious Excel spreadsheet
+url,http://verbojuridico.pt/pl/N/gUoIK373M.zip,Zip containing malicious Excel spreadsheet
+url,http://vistalandgroup.com/pl/D/eKmIFRHmy.zip,Zip containing malicious Excel spreadsheet
+url,http://zontikoff.by/pl/Cy/kp/XAZ34aTn.zip,Zip containing malicious Excel spreadsheet
+url,http://zontikoff.by/pl/ej0/aMc/ASI/VkN4yNT.zip,Zip containing malicious Excel spreadsheet
+url,http://zontikoff.by/pl/fU/cG/CuARw5Wh.zip,Zip containing malicious Excel spreadsheet
+url,http://academy-alqalam.com/spool/bCI/znI/p3f/yblP5DV.zip,Zip containing malicious Excel spreadsheet
+url,http://camdeus.com.my/spool/dkU/NfI/LSn/Pu36M0M.zip,Zip containing malicious Excel spreadsheet
+url,http://camdeus.com.my/spool/uEEikHiDAw.zip,Zip containing malicious Excel spreadsheet
+url,http://camdeus.com.my/spool/ZFY/Cil/E7j/RfBnggH.zip,Zip containing malicious Excel spreadsheet
+url,http://coiny.buzz/spool/S/1YpEh7uQz.zip,Zip containing malicious Excel spreadsheet
+url,http://dsrsmh.gob.pe/spool/tu/2L/epI1AYGG.zip,Zip containing malicious Excel spreadsheet
+url,http://edukamica.pe/spool/2hD/wv5/PHx/Pi4zXZK.zip,Zip containing malicious Excel spreadsheet
+url,http://emtimstore.com.ng/spool/e8/T3/YgTpSZaV.zip,Zip containing malicious Excel spreadsheet
+url,http://firsthandholding.com/spool/BxA/VRK/lq9/rb0zP2A.zip,Zip containing malicious Excel spreadsheet
+url,http://freecreditsc0re.com/spool/ucXzTYJPlR.zip,Zip containing malicious Excel spreadsheet
+url,http://freecreditsc0re.com/spool/Uk9/Bj8/3Cc/QbgdPXu.zip,Zip containing malicious Excel spreadsheet
+url,http://gohirer.co.uk/spool/o/1rlWdEt2b.zip,Zip containing malicious Excel spreadsheet
+url,http://goldfundswealth.com/spool/z/ycgbTc0Ds.zip,Zip containing malicious Excel spreadsheet
+url,http://happyoccasions.co.ke/spool/L/Rm3GaF9eR.zip,Zip containing malicious Excel spreadsheet
+url,http://hurry2buy.in/spool/dmEa0tWJ7e.zip,Zip containing malicious Excel spreadsheet
+url,http://hurry2buy.in/spool/zvj/A67/UQO/YYbmu4n.zip,Zip containing malicious Excel spreadsheet
+url,http://integramedassist.com/spool/9LL/gwi/X1l/jpEGAqP.zip,Zip containing malicious Excel spreadsheet
+url,http://jekola.webstarterz.com/spool/aD/Sd/Un2NQMDE.zip,Zip containing malicious Excel spreadsheet
+url,http://matbenezerhotel.com/spool/nPA/Mhx/08e/GG3hMdf.zip,Zip containing malicious Excel spreadsheet
+url,http://naijapromusic.com/spool/OvjTtdT4FC.zip,Zip containing malicious Excel spreadsheet
+url,http://nexlvl.co.in/spool/8/4kEy0oCYh.zip,Zip containing malicious Excel spreadsheet
+url,http://passiveshabake.com/spool/nbB/iZ2/z0G/DKwo312.zip,Zip containing malicious Excel spreadsheet
+url,http://perguz.com/spool/7L/L5/rFy88hSR.zip,Zip containing malicious Excel spreadsheet
+url,http://prediksibona.website/spool/Z/4bD1lsfCB.zip,Zip containing malicious Excel spreadsheet
+url,http://sbtech.mk/spool/Df/hU/TBpwBJLj.zip,Zip containing malicious Excel spreadsheet
+url,http://sbtech.mk/spool/r/UqrDJYY7K.zip,Zip containing malicious Excel spreadsheet
+url,http://wekyjanmobilerepairingshop.com/spool/D7srvNhqb6.zip,Zip containing malicious Excel spreadsheet
+url,http://worldunitybank.com/spool/ets/LGs/1aj/X2iwbH6.zip,Zip containing malicious Excel spreadsheet
+ip_port,100.1.119.41:443,C2 address extracted from bot config
+ip_port,102.65.38.67:443,C2 address extracted from bot config
+ip_port,103.142.10.177:443,C2 address extracted from bot config
+ip_port,105.198.236.99:995,C2 address extracted from bot config
+ip_port,106.220.76.130:443,C2 address extracted from bot config
+ip_port,109.12.111.14:443,C2 address extracted from bot config
+ip_port,117.248.109.38:21,C2 address extracted from bot config
+ip_port,120.150.218.241:995,C2 address extracted from bot config
+ip_port,129.208.139.229:995,C2 address extracted from bot config
+ip_port,136.143.11.232:443,C2 address extracted from bot config
+ip_port,136.232.34.70:443,C2 address extracted from bot config
+ip_port,140.82.49.12:443,C2 address extracted from bot config
+ip_port,173.21.10.71:2222,C2 address extracted from bot config
+ip_port,182.176.180.73:443,C2 address extracted from bot config
+ip_port,185.53.147.51:443,C2 address extracted from bot config
+ip_port,186.64.87.195:443,C2 address extracted from bot config
+ip_port,189.175.200.244:80,C2 address extracted from bot config
+ip_port,189.18.181.24:995,C2 address extracted from bot config
+ip_port,190.229.210.128:465,C2 address extracted from bot config
+ip_port,190.73.3.148:2222,C2 address extracted from bot config
+ip_port,197.89.144.207:443,C2 address extracted from bot config
+ip_port,2.222.167.138:443,C2 address extracted from bot config
+ip_port,207.246.112.221:443,C2 address extracted from bot config
+ip_port,207.246.112.221:995,C2 address extracted from bot config
+ip_port,216.238.71.31:443,C2 address extracted from bot config
+ip_port,216.238.71.31:995,C2 address extracted from bot config
+ip_port,216.238.72.121:443,C2 address extracted from bot config
+ip_port,216.238.72.121:995,C2 address extracted from bot config
+ip_port,218.101.110.3:995,C2 address extracted from bot config
+ip_port,24.229.150.54:995,C2 address extracted from bot config
+ip_port,24.55.112.61:443,C2 address extracted from bot config
+ip_port,27.223.92.142:995,C2 address extracted from bot config
+ip_port,27.5.4.111:2222,C2 address extracted from bot config
+ip_port,31.215.98.160:443,C2 address extracted from bot config
+ip_port,39.43.130.50:995,C2 address extracted from bot config
+ip_port,39.49.44.85:995,C2 address extracted from bot config
+ip_port,41.228.22.180:443,C2 address extracted from bot config
+ip_port,45.46.53.140:2222,C2 address extracted from bot config
+ip_port,45.9.20.200:2211,C2 address extracted from bot config
+ip_port,63.143.92.99:995,C2 address extracted from bot config
+ip_port,65.100.174.110:443,C2 address extracted from bot config
+ip_port,65.100.174.110:8443,C2 address extracted from bot config
+ip_port,67.165.206.193:993,C2 address extracted from bot config
+ip_port,68.186.192.69:443,C2 address extracted from bot config
+ip_port,68.204.7.158:443,C2 address extracted from bot config
+ip_port,71.74.12.34:443,C2 address extracted from bot config
+ip_port,72.252.201.34:995,C2 address extracted from bot config
+ip_port,73.140.38.124:443,C2 address extracted from bot config
+ip_port,73.151.236.31:443,C2 address extracted from bot config
+ip_port,73.171.4.177:443,C2 address extracted from bot config
+ip_port,73.5.119.219:443,C2 address extracted from bot config
+ip_port,75.169.58.229:32100,C2 address extracted from bot config
+ip_port,75.188.35.168:995,C2 address extracted from bot config
+ip_port,76.25.142.196:443,C2 address extracted from bot config
+ip_port,78.191.12.29:995,C2 address extracted from bot config
+ip_port,86.148.6.51:443,C2 address extracted from bot config
+ip_port,86.98.36.211:443,C2 address extracted from bot config
+ip_port,89.101.97.139:443,C2 address extracted from bot config
+ip_port,89.137.52.44:443,C2 address extracted from bot config
+ip_port,91.178.126.51:995,C2 address extracted from bot config
+ip_port,93.48.80.198:995,C2 address extracted from bot config
+ip_port,94.60.254.81:443,C2 address extracted from bot config
+ip_port,96.37.113.36:993,C2 address extracted from bot config
+sha256,7afe4de9d35c9f3b9dfaa9ff7b0359f611023d811660d27bdb468a67b1655465,file from circleeducational.com\pl\p\8WxKLuhG3.zip
+sha256,12e00c5ad5fed0c1448f5535f8282a26ef96494d24781ff3fcff10e4a7026728,file from inzain.org\pl\O9urLZRXgc.zip
+sha256,d699a49d2f93f69091e4f072a5aeb698d5fc7a1a3fba24787242417f055f16c4,file from inzain.org\pl\mIP\QtS\bis\Kygd1QY.zip
+sha256,4c7b0b415c315a3c7501e73a95e414c2885b404988eceaace3d917effe69aefb,file from inzain.org\pl\o\EAar8iZjU.zip
+sha256,f55900c3a55794fea9b7b8c6371c05b16caeae3f4dc7c6b1ce3263ed436b5945,file from academy-alqalam.com\spool\bCI\znI\p3f\yblP5DV.zip
+sha256,f1ffbbda98eb14d9964041be4e5ff7642917d07ef5ecb1bb5e1f87f44a17607b,file from camdeus.com.my\spool\uEEikHiDAw.zip
+sha256,d97f73ae31f5468a361b8e1c870c085710423d676a361d58f46c65a5b8566c92,file from camdeus.com.my\spool\dkU\NfI\LSn\Pu36M0M.zip
+sha256,42f8d3a6d8ec13d5c9f1d1e729e082417c8ce9c1dc721d50ca54379cefbe4f9b,file from camdeus.com.my\spool\ZFY\Cil\E7j\RfBnggH.zip
+sha256,316ceed52f2afca28f2fabb7b6ef8fbf9a52e106a5a0dd9a4714bde6998b3004,file from coiny.buzz\spool\S\1YpEh7uQz.zip
+sha256,9f6842420daa0b28c1f06174131992a57dba59a50eaeb6ae367be408b7477a05,file from dsrsmh.gob.pe\spool\tu\2L\epI1AYGG.zip
+sha256,d3b77083e1ff53852b5f68f5b4d52e0033f6246c6c623bb38b160df3841aac08,file from edukamica.pe\spool\2hD\wv5\PHx\Compliance-Report-63653754-Mar-02.xlsb
+sha256,bfbc33e8a832a39a281dfe964d3bda25bb2f27d246da0da5cd073e975ea709ed,file from edukamica.pe\spool\2hD\wv5\PHx\Pi4zXZK.zip
+sha256,d0e56a0c3e3dbdae8676dac33925ebd9c3efb67b989912d56125f924fac02f49,file from firsthandholding.com\spool\BxA\VRK\lq9\rb0zP2A.zip
+sha256,94056e114e9691c05d1231b0468bb1c369564b4b2c140fdcb10a4da3db785ea7,file from freecreditsc0re.com\spool\ucXzTYJPlR.zip
+sha256,40ee4d5d688b2ebba8b8a7370a9c4365f41445c22b0a189464cff35f7cb72c8e,file from freecreditsc0re.com\spool\Uk9\Bj8\3Cc\QbgdPXu.zip
+sha256,ac9e859b64b75637beea56f10290864e9a633c1e92c70d42f399f1b3ad18bbde,file from gohirer.co.uk\spool\o\1rlWdEt2b.zip
+sha256,dbf577dba781ea2f3c560a8acc77c8d1833e6409ee67d35dd082ab1fd09e0732,file from goldfundswealth.com\spool\z\ycgbTc0Ds.zip
+sha256,19f6aeda752342c43ed767288fb34d6348007bd028c02947fe04c50c33ddd5bf,file from happyoccasions.co.ke\spool\L\Rm3GaF9eR.zip
+sha256,6f34773bad65fca64f7ae6b714f0b6b37fb6a57cc26d8e9ce79f1231c7179d30,file from hurry2buy.in\spool\dmEa0tWJ7e.zip
+sha256,5c8cc68e94c87c6f590b83feab2ab9ca5d5bc950819f86e024e430af4c403bdc,file from hurry2buy.in\spool\zvj\A67\UQO\YYbmu4n.zip
+sha256,104f7a029911b8c6d6516846c7722dbace7bb7972cc786c3410b72e9c2a82dac,file from jekola.webstarterz.com\spool\aD\Sd\Un2NQMDE.zip
+sha256,3c2a3f3a333832d545cfec14d831ed3e18e94b18de9dd28cbefc1145573e7fcb,file from naijapromusic.com\spool\OvjTtdT4FC.zip
+sha256,540128e8b8c627ebf93878d82affd6596716e08d971c7d389532c701b5121af6,file from nexlvl.co.in\spool\8\4kEy0oCYh.zip
+sha256,5ff2cd1741e7230f2536a03cfdfcb2a53ce33907e73c1a562d4be2736117195d,file from passiveshabake.com\spool\nbB\iZ2\z0G\DKwo312.zip
+sha256,c0f8ce8ca6271bf44514fc9bc9765c466edb69adc08bc12ddb7585ec2632b74a,file from perguz.com\spool\7L\L5\rFy88hSR.zip
+sha256,e8304f0c1c9a7846947b0c25b4ecc0cd5a2a60b8d7465977a6d9bcf0f54a2ce5,file from prediksibona.website\spool\Z\4bD1lsfCB.zip
+sha256,39b0682b23fc9d57c83de3da2cd0f1e4a715846533c4efd0fe01572bd8df209e,file from sbtech.mk\spool\Df\hU\TBpwBJLj.zip
+sha256,2e9b5905fd0b6ce074775bf5bfc159aa4164e513d2f7f50dd209c676d77cfecb,file from sbtech.mk\spool\r\UqrDJYY7K.zip
+sha256,12e9b2d4c1c92288cecc03f1a363346a26004bea8b417193ad1209a0b19c23fc,file from wekyjanmobilerepairingshop.com\spool\D7srvNhqb6.zip
+sha256,b8421dd12a37ea2174ff31b4151ed787268ba011ccf2b29877e1f5cda4d3eaea,file from worldunitybank.com\spool\ets\LGs\1aj\X2iwbH6.zip
