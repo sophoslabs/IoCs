@@ -420,3 +420,5 @@ Url,https://h5.fxtmjy.com/#/, fxtm.mobileconfig
 Url,https://h5.gpwtrad.com/#/, gpw.mobileconfig
 Url,https://h5.hbtctrad.com/#/, hbtc.mobileconfig
 Url,https://h5.scbs.pw/#/, scbs.mobileconfig
+sha256, 3181091448c5e3b95e508083ab33013d01916403dd4b86d71506008f0ac70a6e, iOS TestFlight fake app com.btcbox.iosnewapp	
+sha256, c5d213a93332ff1f2ae44c3423102923d4d1f4b776dd8fd45aecb50c964fb6dd, Android fakeapp com.cts2202150000
