@@ -1,5 +1,5 @@
 ﻿Indicator_type,Data,Note
-Description,IoCs related to CVE-2022-40444 malware with UKR-related titles,https://twitter.com/SophosLabs/status/1526881339705892864
+Description,IoCs related to CVE-2021-40444 malware with UKR-related titles,https://twitter.com/SophosLabs/status/1526881339705892864
 sha256,03b17f7da2f6d2dc89481e44230b0864e6f0224de8005f6f5295ca775898c6e2,script content of a9579f3c05096567c67ea737a411e1a553899ba10257101bbdf31f5fbcb3c73d
 sha256,0b25fa084c01fc946d0ef437dd5eab00c4a392ce9d5bb4b29c819faad96297e4,The Ukraine Crisis and Control of Weapons of Mass Destruction.docx
 sha256,0f64c351d2d933b348610ed7949ad8b52d4ead40595c72c56692ed7f7231c08c,Full Translation Ukrainian President Volodymyr Zelenskyy’s.docx
