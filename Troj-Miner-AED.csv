@@ -1,0 +1,27 @@
+﻿Indicator_type,Data,Note
+Description,IOCs related to cryptomining infections following exploitation of CVE-2019-18935,https://news.sophos.com/en-us/2022/06/15/telerik-ui-exploitation-leads-to-cryptominer-cobalt-strike-infections
+sha256,89eb0b66022dc2e5ac1e86b01fb833ebdbf94ee2ac276c9b3bebb3117058a7b0 ,Cobalt Strike
+sha256,09bfa448e4bbea8fe36be6962b963cfadf764593e03b314c9ce81f9b2cff1349 ,Cobalt Strike
+sha256,eadbfd03da46bc719b7c6723c12ddaa30599ae1648c7e16c1c04cd4735c031ac ,setup192.exe - dropper
+sha256,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,setup192.exe - dropper
+sha256,210035d092b7c2bf79303b32952f2fa74363b2381743f5a0caadb9204f665712 ,Cobalt Strike
+sha256,75f92b9a79c8f680cf1230653e3ae6c97d694afc0f7eec88f92cf6b6f3f38b50 ,crby26td.exe / 7q5t6057.exe - XMRig Miner
+sha256,f3c70fe17d07e47c50c5a62de4e2b40bdeee45533133b1809c400c49660be643 ,a.json - XMRig Miner configuration file
+sha256,dae5dbbee83b4e8cf9c9037b329a77f65cd2072df10a62809470f6b816aee49b ,uutfgfiy.exe / baopiwac.exe - creates/connects to pipe
+sha256,7a9ad48dea2dde18b743d3412ebd7bf7e51a24b5a0273fc9eb042301bb68d6f1 ,tuh25o6n.exe - downloader
+url,212.192.241.155/up/setup.exe,Dropper
+url,212.192.241.155:8000/a,"Gunzip/XOR-encoded PowerShell, loads Cobalt Strike DLL in memory"
+ip,212.192.241.155  ,C2
+user_agent,Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; NP07; NP07),Cobalt Strike beacon
+ip_port,212.192.241.155:8000,C2
+file_path,C:\Windows\Temp\1652027208.9841497.dll  ,Cobalt Strike DLL
+file_path,C:\Windows\Temp\setup192.exe  ,Dropper
+file_path,C:\Users\Public\setup192.exe,Alternative path for dropper
+file_path,C:\Windows\Temp\crby26td.exe ,XMRig Miner
+file_path,C:\Windows\Temp\7q5t6057.exe ,XMRig Miner
+file_path,C:\Windows\Temp\a.json ,XMRig Miner configuration file
+file_path,C:\Windows\Temp\baopiwac.exe ,Creates and connects to pipe
+file_path,C:\Windows\Temp\uutfgfiy.exe ,Creates and connects to pipe
+file_path,C:\Windows\Temp\tuh25o6n.exe ,Downloader
+monero_address,45cxV8wsD3kRhsnZVD31xtPTNXrpdarsjRSUqUzajuTwC2KACGYArp7dZ9BJs8RKFb7MGcxAcn9RoVAVP1Es5HNk6MTdZZu,From XMRig Miner configuration file
+scheduled_task_path,ScheduledUpdate,
