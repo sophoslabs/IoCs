@@ -1,0 +1,18 @@
+﻿Indicator_type,Data,Note
+Description,IoCs related to Lockbit ransomware attacks,https://news.sophos.com/en-us/2022/04/12/attackers-linger-on-government-agency-computers-before-deploying-lockbit-ransomware/
+sha256,6684e1df360db67719f65bcd39467cc88bbd7bb910636d03071245b622e7cfa3,Advanced Port Scanner
+sha256,87bfb05057f215659cc801750118900145f8a22fa93ac4c6e1bfd81aa98b0a55,Advanced Port Scanner
+sha256,4a9dde3979c2343c024c6eeeddff7639be301826dd637c006074e04a1e4e9fe7,Anydesk
+sha256,db385ea6858db4b4cb49897df9ec6d5cc4675aaf675e692466b3b50218e0eeca,"Mimikatz (ATK/Mimikatz-AE)
+"
+sha256,3d0e06086768500a2bf680ffbed0409d24b355887169b821d55233529ad2c62a,Mimikatz mimispool.dll/mimilib.dll (ATK/Mimikatz-BE)
+sha256,0d31a6d35d6b320f815c6ba327ccb8946d4d7f771e0dcdbf5aa8af775576f2d1,Mimikatz mimilove.exe (ATK/Mimikatz-BE)
+sha256,83d7f6eaf7fe075503ea6a0bc726633c34595a6eae7edd7deab95ab4d4a66fd5,NLBrute (Mal/VMProtBad-A)
+sha256,46367bfcf4b150da573a74d91aa2f7caf7a0789741bc65878a028e91ffbf5e42,Process Hacker
+sha256,89904c4d3b1ebbdfd294b1a87940400a2db2ead01b3d6e3e2e151481faae95bd,ScreenConnect
+sha256,ffbb5241ed488b98725013185c80f40156d32884a87d6898d53e2aef28f1c3f8,ScreenConnect
+url,rdpguard[.]com/download.aspx,
+url,hXXps://cryptobrowser.site/,
+url,hXXps://hanner-blobal[.]com,
+url,hXXps://aapu.xyz,
+url,hXXps://rinryesop.one,
