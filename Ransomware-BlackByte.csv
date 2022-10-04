@@ -1,0 +1,4 @@
+﻿Indicator_type,Data,Note
+Description,IOCs related to BlackByte ransomware,https://news.sophos.com/en-us/2022/10/04/blackbyte-ransomware-returns/
+sha256,01aa278b07b58dc46c84bd0b1b5c8e9ee4e62ea0bf7a695862444af32e87f1fd,RTCore64.sys driver
+sha256,9103194d32a15ea9e8ede1c81960a5ba5d21213de55df52a6dac409f2e58bcfe,BlackByte v2 packed sample
