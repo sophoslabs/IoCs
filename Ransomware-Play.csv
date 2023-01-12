@@ -1,0 +1,13 @@
+﻿Indicator,Data,Note
+Description,Indicators relating to Play ransomware published to Mastodon,https://infosec.exchange/@SophosXOps/109677906162017090
+domain,z3a2.ssndob.cn.com,Domain (Cobalt C2)
+domain,mbrlkbtq5jonaqkurjwmxftytyn2ethqvbxfu4rgjbkkknndqwae6byd.onion,Onion site
+domain,k7kg3jqxang3wh7hnmaiokchk7qoebupfgoik6rha6mjpzwupwtj25yd.onion,Onion site
+filename,msdtc.exe,Renamed VLC binary used for DLL sideloading
+filename,libvlc.dll,Sideloaded DLL
+filename,22.dll,Cobalt Strike DLL
+ip,107.189.30.131,IPv4 (Cobalt C2)
+ip,45.227.252.247,IPv4 (Cobalt C2)
+ip,5.255.103.142,IPv4 (SystemBC)
+sha256,4346d2098d93a7f6fddd4c37333f8ec17ff548c97f365b831abbb63dd426ed4b,libvlc.dll
+sha256,bf0b708978a2495aeb2bb9dd74d990363a34c317f731073a925ed8e1d0c686c0,22.dll
