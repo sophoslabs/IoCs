@@ -4,7 +4,7 @@ domain,z3a2.ssndob.cn.com,Domain (Cobalt C2)
 domain,mbrlkbtq5jonaqkurjwmxftytyn2ethqvbxfu4rgjbkkknndqwae6byd.onion,Onion site
 domain,k7kg3jqxang3wh7hnmaiokchk7qoebupfgoik6rha6mjpzwupwtj25yd.onion,Onion site
 filename,22.dll,Cobalt Strike DLL
-url,hxxp://45.227.252.247/download/22.dll
+url,hxxp://45.227.252.247/download/22.dll,file host
 ip,107.189.30.131,IPv4 (Cobalt C2)
 ip,45.227.252.247,IPv4 (Cobalt C2)
 ip,5.255.103.142,IPv4 (SystemBC)
