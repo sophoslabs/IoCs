@@ -1,0 +1,44 @@
+﻿Indicator_type,Data,Note
+Description,IOCs relating to the Qakbot OneNote attack campaign that began on 31 january 2023,https://news.sophos.com/en-us/qakbot-onenote-attacks/
+url,https://a1revenue.co.uk/SQ.php?TSI=5,Payload delivery
+url,https://gpshelpline.com/EAUD.php?NSII=10,Payload delivery
+url,https://limpiotucompu.com/OSIQ.php?ELIEAOSMT=1,Payload delivery
+url,https://smartvizx.com/UE.php?AISESCTISEBTUN=4,Payload delivery
+url,https://babarbrotherscargo.com/RO.php?NI=1,Payload delivery
+url,https://rjll.org.pk/TUEI.php?CUM=3,Payload delivery
+url,https://isoatte.com/LOTV.php?NTUEDRSE=8,Payload delivery
+url,myvigyan.com/m1YPt/300123.gif,Payload delivery
+url,77.75.230.128/47820.dat,Payload delivery
+url,86.194.156.14:2222,C2
+url,91.234.254.213/55788.dat,Payload delivery
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
