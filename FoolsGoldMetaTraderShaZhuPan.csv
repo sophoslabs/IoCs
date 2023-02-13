@@ -1,11 +1,15 @@
 ﻿Indicator_type,Data,Notes
 domain,all.rcufgmj.cn.w.kunlunea.com,MetaTrader 4 server
 url,https://twitter.com/Alicefd1314,Scammer Twitter profile
-domain,mebukiltd.com,fake bank site
+domain,mebukiltd.com,fake bank site (Mebuki Financial brandjack)
 domain,account.mebukiltd.com,fake bank account setup site
 domain,mt.mataquotes.com,fake app store for download of app or management profile
 domain,mebukifx.com,fake bank site (round 2)
 domain,account.mebukifx.com,fake bank site 
+domain,spreades.com, fake trading site (Spreadex gambling site brandjack)
+domain,billionmt4s.com,fake trading site (Billion OS brandjack)
+domain,tickml.com,fake trading site (Tickmill brandjack)
+domain,exness-eur.net,fake trading site (Exness brandjack)
 ip,103.117.101.231,mt.mataquotes.com download site
 ip,103.135.248.52,mt.mataquotes.com download site
 ip,103.135.250.83,mt.mataquotes.com download site
@@ -17,3 +21,12 @@ ip,8.25.82.165,MetaTrader 4 server
 ip,"8,217.199.160",accounts.Mebukifx.com
 domain,app.homebar1.com,domain for enterprise deployment certificate
 domain,rowe.ydukgb.cn,app installation server for enterprise MDM deployment
+domain, spreades.com, fake trading site
+url,https://account.spreades.com/login, fake trading site account capture
+ip,216.83.52.46,spreades.com site
+url,https://billionmt4s.com/en/,fake trading site Billion LTD
+ip,	216.83.53.28, fake Billion LTD trading site
+url,https://tickml.com/en/, Fake Tickmill trading site
+ip,206.233.131.113, Fake Tickmill trading site
+url,https://exness-eur.net/zh-cn/,fake trading site
+ip,216.83.52.46, fake Exness site
