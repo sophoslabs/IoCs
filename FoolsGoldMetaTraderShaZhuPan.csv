@@ -10,6 +10,7 @@ domain,spreades.com, fake trading site (Spreadex gambling site brandjack)
 domain,billionmt4s.com,fake trading site (Billion OS brandjack)
 domain,tickml.com,fake trading site (Tickmill brandjack)
 domain,exness-eur.net,fake trading site (Exness brandjack)
+domain,tosal-fx.com,fake trading site (Tosal brandjack)
 ip,103.117.101.231,mt.mataquotes.com download site
 ip,103.135.248.52,mt.mataquotes.com download site
 ip,103.135.250.83,mt.mataquotes.com download site
@@ -30,3 +31,5 @@ url,https://tickml.com/en/, Fake Tickmill trading site
 ip,206.233.131.113, Fake Tickmill trading site
 url,https://exness-eur.net/zh-cn/,fake trading site
 ip,216.83.52.46, fake Exness site
+url,www.tosal-fx.com/en/,fake Tosal trading site
+ip,206.233.131.113,fake Tosal trading site
