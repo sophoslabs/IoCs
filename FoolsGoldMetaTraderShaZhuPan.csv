@@ -1,0 +1,19 @@
+﻿Indicator_type,Data,Notes
+domain,all.rcufgmj.cn.w.kunlunea.com,MetaTrader 4 server
+url,https://twitter.com/Alicefd1314,Scammer Twitter profile
+domain,mebukiltd.com,fake bank site
+domain,account.mebukiltd.com,fake bank account setup site
+domain,mt.mataquotes.com,fake app store for download of app or management profile
+domain,mebukifx.com,fake bank site (round 2)
+domain,account.mebukifx.com,fake bank site 
+ip,103.117.101.231,mt.mataquotes.com download site
+ip,103.135.248.52,mt.mataquotes.com download site
+ip,103.135.250.83,mt.mataquotes.com download site
+ip,154.3.37.174,mt.mataquotes.com download site
+ip,45.207.26.139,mebukiltd.com fake bank site
+ip,219.83.52.46,mebukifx.com fake bank site
+ip,47.246.22.112,MetaTrader 4 server
+ip,8.25.82.165,MetaTrader 4 server
+ip,"8,217.199.160",accounts.Mebukifx.com
+domain,app.homebar1.com,domain for enterprise deployment certificate
+domain,rowe.ydukgb.cn,app installation server for enterprise MDM deployment
