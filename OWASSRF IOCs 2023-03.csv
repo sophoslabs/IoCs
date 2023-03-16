@@ -1,0 +1,19 @@
+﻿Indicator,Data,Note
+Description,https://news.sophos.com/en-us/2023/03/15/observing-owassrf-exploitation/ ‎,Indicators of OWASSRF exploitation Mar-2023
+IP,217.79.243[.]148,C2 Server
+IP,38.135.122[.]130,C2 Server
+url,devoterfo[.]com,C2 Server
+file_path,C:\programdata\komar65.dll,malware; numbers apparently randomly generated and assigned
+file_path,C:\programdata\add64s.exe,malware
+file_path,c:\programdata\addp.dll,malware
+file_path,C:\Windows\Temp\sophos_k.exe,attempts to disable Sophos protections
+file_path,C:\Windows\Temp\kk65.bat,malicious driver
+file_path,C:\Users\Mysql\AppData\Local\Temp\dRVag.sys,malicious driver
+IP,179.60.149[.]28,C2 Server
+IP,141.98.9[.]4,C2 Server
+IP,91.191.209[.]222,C2 Server
+IP,104.238.187[.]145,C2 Server
+IP,45.77.101[.]240,C2 Server
+IP,192.53.123[.]202,C2 Server
+IP,206.125.147[.]98,C2 Server
+file_path,C:\ProgramData\pta.exe,renamed copy of PuTTy Link
