@@ -6,6 +6,8 @@ SHA256,c485674ee63ec8d4e8fde9800788175a8b02d3f9416d0e763360fff7f8eb4e02,WIN: ffm
 SHA256,7986bbaee8940da11ce089383521ab420c443ab7b15ed42aed91fd31ce833896,WIN: ffmpeg.dll - backdoored at entry point
 SHA256,11be1803e2e307b647a8a7e02d128335c448ff741bf06bf52b332e0bbf423b03,WIN: d3dcompiler_47.dll
 SHA256,4e08e4ffc699e0a1de4a5225a0b4920933fbb9cf123cde33e1674fde6d61444f,File at http[:]//raw.githubusercontent[.]com/IconStorages/images/main/icon13.ico
+SHA256,a64fa9f1c76457ecc58402142a8728ce34ccba378c17318b3340083eeb7acc67,MAC: libffmpeg.dylib
+SHA256,e6bbc33815b9f20b0cf832d7401dd893fbc467c800728b5891336706da0dbcec,MAC: 3CXDesktopApp-18.12.416.dmg -- deprecated version of software
 URL,raw.githubusercontent.com/IconStorages/images/main/,Used for staging encoded malware
 URL,akamaicontainer[.]com,C2 (malware/callhome)
 URL,akamaitechcloudservices[.]com,C2 (malware/callhome)
