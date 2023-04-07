@@ -1,0 +1,9 @@
+﻿Indicator_type,Data,Note
+Description,https://news.sophos.com/en-us/2023/03/09/border-hopping-plugx-usb-worm/,Indicators of PlugX USB worm variant active Jan-2023
+sha256,352fb4985fdd150d251ff9e20ca14023eab4f2888e481cbd8370c4ed40cfbb9a,"wsc.dll, malicious loader"
+sha256,5b807629ab299abec70f88f861487c55a6795d6e27e5d85c64080f072132558c,"wsc.dll, malicious loader"
+sha256,6bb959c33fdfc0086ac48586a73273a0a1331f1c4f0053ef021eebe7f377a292,"wsc.dll, malicious loader"
+sha256,e8f55d0f327fd1d5f26428b890ef7fe878e135d494acda24ef01c695a2e9136d,"wsc.dll, malicious loader"
+sha256,edaa8b62467246d9a43e0f383ed05bc3272d2f8b943a79d9d526f8225c58d1e6,"wsc.dll, malicious loader"
+sha256,432a07eb49473fa8c71d50ccaf2bc980b692d458ec4aaedd52d739cb377f3428," *AvastAuth.dat , payload file"
+IP,45.142.166.112,C2 server
