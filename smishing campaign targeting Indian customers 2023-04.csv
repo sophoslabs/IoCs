@@ -1,0 +1,12 @@
+﻿Indicator,Data,Note
+Description,https://news.sophos.com/en-us/2023/04/12/tax-time-smishing-campaign/ ‎,IoCs for Mastodon thread on Indian smishing campaign April-2023
+SHA256,89a6f49ff5eefb8d1065b3a42b58e3361794206f44eb2e3d1e10d31d15aeee6d,detected as Andr/InfoStl-CO
+SHA256,5d95237e102f850310562299ff18eb064246a20f5fccc73a4becb892d3b0bb1f,detected as Andr/InfoStl-CO
+SHA256,bdf1a3778284abb232133ebb4563b8282c2b444561405a6a2f8bb0dd6b7e220b,detected as Andr/InfoStl-CO
+SHA256,45578ac91668bb68d3c9a55c41adf7d8fb17e402667d6aecb315e54fbac48d8a,detected as Andr/InfoStl-CO
+SHA256,f6cc5757af6a02532ad03fbfd8783118edfe3a4902ed94406f7c4085c6a8353a,detected as Andr/InfoStl-CO
+URL,hxxp://k-onc1.web.app/hdfc-ygsv3[.]apk,
+URL,hxxp://icici-kyc.web.app/lClCl-BANK[.]apk,
+URL,hxxp://allkycverify.web.app/sbi-app-v2[.]apk,
+URL,hxxp://k-1fyv.web.app/sbi-askv[.]apk ,
+URL,hxxp://k-ji4sas.web.app/sbi-yv3[.]apk,
