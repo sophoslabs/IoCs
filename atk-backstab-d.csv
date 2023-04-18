@@ -1,0 +1,23 @@
+﻿Indicator_type,Data,Note
+Description,https://news.sophos.com/en-us/2023/04/19/aukill-edr-killer-malware-abuses-process-explorer-driver,Indicators related to this research
+sha256,1934b4641ca540ac4fd39c37e6f8b6878ddf111b5c8eb2de26c842cb6bd7b9b8,AuKill v1. Build timestamp 11/13/2022  9:07:47 AM. Targets Sophos
+sha256,83a17f3fda45b00e34934ddd0d5ed72c479170cb39097938f07a5dc6e92068c3,AuKill v2. Build timestamp 11/29/2022  5:58:14 AM. Targets Sophos
+sha256,761330a5e5b16f27fef971e1f41d309ee9f5f158dd09e81b2b31cda6dafa59f0,AuKill v3. Build timestamp 12/14/2022  10:19:33 AM. Targets Sophos/ElasticSearch
+sha256,08a248de098e0f9edec425ce37d13c827eaf4c54c93182f4ddf1c5b3801cf540,AuKill v4. Build timestamp 2/6/2023  6:09:19 PM. Targets Sophos/Microsoft/Splashtop
+sha256,a780972312e2644f29555ec9275053eebce37befe038eabaeb783443209bc921,AuKill v5. Build timestamp 2/10/2023  9:59:47 PM. Targets Sophos/Microsoft/Aladdin HASP
+sha256,7bca36f037557b0f84412a666ef76dee8bfec1bc7754112b95f34634b8b72fed,AuKill v6. Build timestamp 2/11/2023  1:43:12 PM. Targets Sophos/Microsoft/Splashtop
+sha256,d579b1853c528e54464c2607e559591ee01b0ab75bc016c14de1c38068328a81,WindowsKernelExplorer.sys (64-bit driver that ships with the original tool)
+sha256,db0b5c434ddc7c97505a8be24431e9fbe484c2113df4ddf061aee91c35eab8b6,WindowsKernelExplorer.sys (32-bit driver that ships with the original tool)
+sha256,52b9a7b44154bbb9d81a581a7de4902b1c661559ea87803d9cb85339805bd6ca,WKE32.exe
+sha256,79357c9248aea61fa25f0641f2eeb13bb259da645ab2e8dd696b702ed4fa976b,WKE64.exe
+sha256,cdfbe62ef515546f1728189260d0bdf77167063b6dbb77f1db6ed8b61145a2bc,Process Explorer v16.32 driver (deprecated)
+file_path_name,c:\Windows\System32\drivers\PROCEXP.SYS,Process Explorer v16.32 driver (deprecated)
+file_path_name,c:\windows\system32\aSophos.exe,AuKill v2 path
+file_path_name,c:\windows\system32\aSophosX.exe,AuKill v3 path
+file_path_name,c:\windows\system32\auSophos.exe,AuKill v4 & v6 path
+file_path_name,c:\windows\TEMP\aBase.exe,AuKill v5 path
+registry_path,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSDriverSrv,AuKill v1 service key
+registry_path,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\aSophos,AuKill v2 service key
+registry_path,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\aSophosX,AuKill v3 service key
+registry_path,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\auSophos,AuKil v4 & v6 service key
+registry_path,HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\aBase,AuKill v5 service key
