@@ -1,0 +1,140 @@
+﻿Indicator_type,Data,Note
+Description,https://news.sophos.com/en-us/2023/05/02/doubled-dll-sideloading-dragon-breath,"Indicators of ""Double Dragon Breath"" campaign active early 2023"
+sha256,097899b3acb3599944305b064667e959c707e519aef3d98be1741bbc69d56a17,"TG_CN.exe, an installer package (v.1)"
+sha256,34c4eda45c782e74a5f3b179961659b472c053b63eb48318a2441db2bcbbb1dc,"TG_CN.exe, an installer package (v.1)"
+sha256,48a35466b1a08711abcdd2cd5564164265a4ee4e2082700f2eba69e1f3bf111a,"TG_CN.exe, an installer package (v.1)"
+sha256,1c4ad390cf903e78571fe9c3dbc0f9ff63fda7cae449d81f743a6011e8287caf,"TG_CN.exe, an installer package (v.1)"
+sha256,695e0312d6612201af4b3c6d4f50f67df8614cae69e35ce2a72e68d0c587de54,"TG_ZH.exe, an installer package (v.1)"
+sha256,9c4f42124ff130e0ff61846b2cb3d1aa6d618d65b141e466613533a350bdf278,"TG_CN.exe, an installer package (v.1)"
+sha256,bf19222b9eac87650db9206cee05c695b1df22499bcac310376734197ee5457c,"TG_CN.exe, an installer package (v.1)"
+sha256,e414fc7bcd80a75d57ee4fdbb1c80a90a0993be8e8bbbe0decfc62870a2e1e86,"LetsVPN.exe, an installer package (v.1)"
+sha256,530f01699688ab8c2bb25349a6bc398907b2adb5164d7602c28152c66851fa43,"httpswww.telegramos.orgdownload.html.exe, an installer package (v.1)"
+sha256,04db8e4dfecfc300a86614a2393bb768861196b18f17845b5765d06e1ba692c4,"T_el_eg_ra_m0814.exe, an installer package (v.2)"
+sha256,324bbcae91d4287e481ece09abe8d6d123b0c2f8ae0355c416924e4f8371661d,"T_el_eg_ra_m0814.exe, an installer package (v.2)"
+sha256,484fdf350c4a10c8bf0c495abf696a09f0a25258d39e81884122cb75e4432191,"T_el_eg_ra_m.exe, an installer package (v.2)"
+sha256,60f6fa45809c39ecdff4161d5925e6e8f491adedb7ed8ac67d772cd3c212b1cf,"Telegram.exe, an installer package (v.2)"
+sha256,af04147945915737f3f2eed7df222c0b45d7b911bf82f6176df6856514e58c08,"T_el_eg_ra_m.exe, an installer package (v.2)"
+sha256,bfb44fb2194e25eee516b431fd84892a6073735dbf510a70dfa3a344526ade97,"Telegram.exe, an installer package (v.2)"
+sha256,cdb645ea97980e63b9c165ca842bad2751ce2728cc5c55329ba04e96bab3077b,"Telegram.exe, an installer package (v.2)"
+sha256,fe8c97f1ca9aab32b0ff4d46559f22677b3dba3c6d73c8b5d2fe9dd07c8ec64a,"Telegram.exe, an installer package (v.2)"
+sha256,0b85cc5a583e94ba793a88a5184c68658eb7543bcc41deb4cf6aa633c67e538a,"TG_CN.exe, an installer package (v.3)"
+sha256,ad7ff3ffcf4276219830228de0c0454310710011f5274f3d2436a4b699af7030,"*TG_CN.ex, an installer package (v.3)"
+sha256,c936f1598721a9a92d7f31c6c13b55013b8a2a344e3df4156e5b033006336544,"*Application.exe (XLGame.exe, signed by SHENZHEN THUNDER NETWORKING TECHNOLOGIES LTD), a first-stage clean loader"
+sha256,31d2076066107bd04ab24ff7bbdf8271aa16dd1d04e70bd9cc492e9aa1e6c82b,"*libexpat.dll (signed clean DLL by ShenZhen Thunder Networking Technologies Ltd.), a first-stage clean loader"
+sha256,769d59d03036af86c7a9950f03ebc7b693a94d3e2f8ecd1d74cf5600ab948105,"*XLGameUpdate.exe, a second-stage clean loader (v.1)"
+sha256,03b1df2b08999262c772b67a7bd65e9e8f6058036b5e7a382f06d3aa672854d0,"*XLGameUpdate.exe, a second-stage clean loader (v.2)"
+sha256,a8a09d4e1ddbe4de188100b285a53b53b10677e4fbc93014e07211cdaf532e7b,"*XLGameUpdate.exe, a second-stage clean loader (v.3)"
+sha256,0ed0f8476f0c7d7cdbdfb8935c5c012463ce2cf1e00c8fbfc1ad202366539b38,"*BASICNETUTILS.dll, a malicious loader (v.1)"
+sha256,49aca2efaca973d9dea2e01c2ac63cea7cd1e0cf12aa45d98653eea46b7593c9,"*BASICNETUTILS.dll, a malicious loader (v.1)"
+sha256,4bf6b4544c8584fe933eec269568d8e3dc259110b36a9376d6956980fe43a37d,"*BASICNETUTILS.dll, a malicious loader (v.1)"
+sha256,4c3899f2b7be819620b5eeb6f35643043141a2e51223d56a54840b1268a6893d,"*BASICNETUTILS.dll, a malicious loader (v.1)"
+sha256,5e19f77df4d5241985e94e2770b94ed6f7fbaa977d516f44bb24f2cff1bca827,"*BASICNETUTILS.dll, a malicious loader (v.1)"
+sha256,79bcd6e9dadf67b771a530821abff5944a2f40019bc5e57c59cc037edebfec51,"*BASICNETUTILS.dll, a malicious loader (v.1)"
+sha256,ae2e145b36ab2ed129a2d34de435b76a1f4e5a4820d9d623e7018b87f24d0648,"*BASICNETUTILS.dll, a malicious loader (v.1)"
+sha256,dc41b8e22c725ee4f8e04f55851b3129f0b8b6b5c2c16aaf893bfe92de440503,"*BASICNETUTILS.dll, a malicious loader (v.1)"
+sha256,7fcba1dc809f39fa6b36e923af22fc7c576f3cfb49aaa7248a98d32e9bc90991,a malicious loader (v.1)
+sha256,d1652c5153171fb5420a7c647888b23ab43c286eb2331ec661162cc37fb527f3,a malicious loader (v.1)
+sha256,849d9e694d3e5d3f0eabcae4b722c2bbed31168d161a4f5d668f351bfa169743,"*UNITYPLAYER.dll, a malicious loader (v.2)"
+sha256,1c4ad390cf903e78571fe9c3dbc0f9ff63fda7cae449d81f743a6011e8287caf,"*UNITYPLAYER.dll, a malicious loader (v.2)"
+sha256,be061c8bb82cd52d2f76aeb1e3ba2448c1a3230dd7eda1250d272648af4669ca,"*UNITYPLAYER.dll, a malicious loader (v.2)"
+sha256,9a17c5a4f48367557f06dacd3aefaa132214cb4163bc6b6cf43e06041936a69e,"*UNITYPLAYER.dll, a malicious loader (v.2)"
+sha256,99f6932e3de96d6558f37030fce5007a13bed9de8617935dcad25e7be551b2a2,"*UNITYPLAYER.dll, a malicious loader (v.2)"
+sha256,11359b92b062c426d58fcf738b4f92644c7bdd7e9f47a3ab9e1cb54ad29e6dc4,"*D3dx9_43.dll, a malicious loader (v.3)"
+sha256,49a1826a70ef6a373910ebf43bb441213ec195e68c9a242e4bead60f7e04609b,"*d3dx9_43.dll, a malicious loader (v.3)"
+sha256,1b32c531aca954a7812c65ea41b85941e199aa78ace782f17d9307f5f51f4e43,"*templateX.txt, an encrypted payload (v.1)"
+sha256,3fc9405cfe9272323bd96aacfd082c16b392fea6e0f108545138026aa6f79137,"*templateX.txt, an encrypted payload (v.1, v.2)"
+sha256,831b6a78bc193e5bb3a112aecc385ae00a2c81b963e126d2b949140b6acf333e,"*templateX.txt, an encrypted payload (v.1)"
+sha256,e50e72bf4684b2543b55234f798e728b02cafb27a70fa6f4459e68d99b988f3b,"*templateX.txt, an encrypted payload (v.1)"
+sha256,f05db80e4676ffb4b4df68982f1f22b38e8054070f78b21fed1baf51e62c6853,"*templateX.txt, an encrypted payload (v.1)"
+sha256,229011ca0351dc3461b19e427b1910990dde9f268f2a361e92f728171544b589,"*templateX.txt, an encrypted payload (v.2)"
+sha256,87528e65b5c10c699edce279516f8c41c603d2382261d2d7601191e97666fa57,"*templateX.txt, an encrypted payload (v.2)"
+sha256,a21f66260427b18c5db840dca84f33a762d4089a23ff293c4ae9dcf4ef2cb90f,"*templateX.txt, an encrypted payload (v.3)"
+sha256,a3e4747f878fa1959b54874d239c6170d8d3dde29b5bfbe7bfdf154a51cccdee,"*templateX.txt, an encrypted payload (v.3)"
+sha256,0e73131b428f45aa10a36e48fc8d5b30643a404125b95f9b179dd3756c6e023d,compressed parents (v.1)
+sha256,4cb3ebdc53a10c0c911fa79dd156f2d8b6c64c37f4f7c71a5ac002fd4fc8f3d5,compressed parents (v.1)
+sha256,7cd096bb8e2edd384b9cf149916b67653d07804bc0024973ee1e2e02c8d5288e,compressed parents (v.1)
+sha256,df1ef7db4e0c54de1f9362c873b21bc1c07710fd7106a7e0312c64aab807168b,compressed parents (v.1)
+sha256,f3ea4862b50ca8d0a360d05460a97bf7eb855c004a70323884396ef98be1bdee,compressed parents (v.1)
+sha256,fb9e192c418655704e86cc0ba606828a87a97a9fd3409791ae5e40200ee0205b,compressed parents (v.1)
+sha256,ff16e3b2a3f380de41b5fac6f6d2da7aebb3f1e4fc527490de0147e5ad18036f,compressed parents (v.1)
+sha256,4fbab28e76b3e58b4ddc04e7494e73c84b5264e03195dca01f0809f957e9b70e,compressed parents (v.2)
+sha256,6e0bdffbaa91dd9360a638988a9231a2ac81b8935b14d285b2aaaca13bbd49cc,compressed parents (v.2)
+sha256,0400b20492be1fcf6d2128b5b8d50a6011279341394fafce1da1e69482e7a750,compressed parents (v.2)
+sha256,464cce4295016c57b0af90d7621e4f358b58c2385377dcf77294383b246b7037,compressed parents (v.2)
+sha256,b95909f153ed99a279fc8e3b04bbc3416662bc755032fb886b93a18f23312e77,compressed parents (v.2)
+sha256,88edf471eed533e34fd18fa1d234f2cc3c6769f1e6456961b5b094cd6c934b0d,compressed parents (v.2)
+sha256,283426bb17d23c9b80c3f4c93666b6225caa50af8b004c5913b2e8ed386ab023,compressed parents (v.2)
+sha256,8bf79d037d2f6d422730b95407ea0de15ce119527083a06dfa18268cb8c95e04,compressed parents (v.2)
+sha256,6966a13c71badbf82357d3108ed8f3a921c1f8e8cba47194ccfdc446765faeb4,compressed parents (v.2)
+sha256,74efdf66302cda73060903ee07957cbae32a2c68416ed5cfa3c1aa7bfc1ed475,compressed parents (v.3)
+sha256,00a9101514b7cf8fd974a7f3b4ebf6c1768ac9a257848cb9df95874cc984ae55,decrypted payload files
+sha256,02e7ede9b7bcc19506a4fa36fa66ecde2b8638422d7e711d525fb4a4fedc2f82,decrypted payload files
+sha256,0b2b9da3685db339ab0bf7380fe39dd7a3f5ce004edb98fa4e1244b3eb35de25,decrypted payload files
+sha256,187edeadef737db0733f7abad0f8a471f79d9fbd4bc39fea4d3475a19cea9d8e,decrypted payload files
+sha256,1cb279f73e354ba6caff8aa69cbd7dde2182746a459dbe9bf4529f9890182ea6,decrypted payload files
+sha256,1d4ccdda1c3ee0770a0eaf3e401d816949d1abfa4e26c6e6bb1daf1bfab90124,decrypted payload files
+sha256,21388b23d5faf37632518c3309d44e721aa2d83911ab092272fc4526db34ea75,decrypted payload files
+sha256,274fcf60280fbf9f2f21c8a529738e7839d412b5c98eedfbbbc8e967bc15900e,decrypted payload files
+sha256,2839b91b46b3d68b6a0355b580d282ecd511a5fc9cd3a6f4250ca4b22af8511c,decrypted payload files
+sha256,2f6c5fa76ddfb7ad9aa08aaa98305ac729fe742193bf3c6db5212cc651df851d,decrypted payload files
+sha256,33a1216f3d1b1299d7227aef12eb91af7247e77f2bd52f29d8e82df89c0bc460,decrypted payload files
+sha256,45023fd0e694d66c284dfe17f78c624fd7e246a6c36860a0d892d232a30949be,decrypted payload files
+sha256,46b1c4848ba79be3d90542bd8b9537e72d9f96bd983d9cf793e455782e273807,decrypted payload files
+sha256,489e121909baf86c725fda439838b7c4cc7da19038ab21df5bf041a4125c6405,decrypted payload files
+sha256,49c1dec7843c186e434718818311d3fc693eefe26c2d2a068bdfa7601d118781,decrypted payload files
+sha256,57a5ca04980f24e71bc08eca42d2da23ec17ae6dc0897649520b0b0f4e4fcf40,decrypted payload files
+sha256,64613eadd91a803fe103bef5349db04ddfc01b8d115ba7a24a694563123d38ad,decrypted payload files
+sha256,659fdd90ec33b0809d1b037f06c864ec02d785178ba6acfa02533661195d5163,decrypted payload files
+sha256,687f682f6ddfb9786e4905ec367fe4fb55b9adfe1112c4e6aaab43ebfa52de5a,decrypted payload files
+sha256,73667daa2716b33a672b05658ac3a3393c1d26f9bf9b94186f7c54c2d0a18468,decrypted payload files
+sha256,749c6874af94ae263221e3d1261acf9a19b0599d247be3080c6bbb33a1fe687d,decrypted payload files
+sha256,7e45c502e7ba61c2ed583c441cd41df24a6ca16405ceffa0fcd9e27c9a98ca1c,decrypted payload files
+sha256,7e5b4dbc4b3db7a0e85bfa55e255260cf5426b8483c4f1d8365a3824b928886e,decrypted payload files
+sha256,7f79408634879cd6c752340ebf2e609476512c2b8d239707e081cd1d1085209d,decrypted payload files
+sha256,86959372cb04eb9c178cfe5150801774e5b8a3fe3876dcfda98a26c40a20e46c,decrypted payload files
+sha256,882746f97d4cad4424735035e6fa45f96a849da63737cc1eeaca4ff459ad9d30,decrypted payload files
+sha256,8efcbcff36c0dfed3e4966e1ecafe9f56532a9c1cceaeb76b5dd3033b4ebb5f2,decrypted payload files
+sha256,93ce3af0ce4374aa1d5f5ba5258f03ec540ab4a744b57b20ecda72a03e0b648c,decrypted payload files
+sha256,971389ff8acd1d883068dcc2c32c4bf0122c7d468f389a41e75f499b04e95c8b,decrypted payload files
+sha256,9832b185d9b6d93f0ddb0ce62cd109ca64fffc5142fd4872b36d1d42635c9c81,decrypted payload files
+sha256,beda51527ba522bd4b033c3d0c10028acffe5bc7a1ab51c373109a45cf3707e6,decrypted payload files
+sha256,c55d501f880425330b84c7a6594662e055e898df6a978cca2c8b2eff588bf2c1,decrypted payload files
+sha256,c84fed7e05b1b1cf2bff72ee3e96ec923929741c77fe6d97996664833bec1f00,decrypted payload files
+sha256,c856930a4e67c36cba866401c5acda717eab636fd6648292b23cbd75d8f0f816,decrypted payload files
+sha256,cb8714989882b6756aadf4ba1b1e3deb2b1f669cccf799a5ff423ecfb6467d0f,decrypted payload files
+sha256,cc011a8487698bfe463d9ae6d615246349a8a61f980f497c53ef17e973e0a2d4,decrypted payload files
+sha256,d58de58c55b55779ad9d45347337e2d5ebb94846bf38c29c4519cb0c7bc75557,decrypted payload files
+sha256,d5a438d6f59f91d546ada978e842e47622b2f3ce1837248c0243fa19d750a114,decrypted payload files
+sha256,d86f1292d83948082197f0a29fcb69fdec9feb4bf3898d7b8e693c7d5a28099c,decrypted payload files
+sha256,da1d66610e0253a82c7ba3f2cc3e4c50d23bccee71f7a61f18f8f99937d04bdd,decrypted payload files
+sha256,dc758f11e768a829836e27fa265993c937fd2bb4575a3dc18c12ba4b69baa953,decrypted payload files
+sha256,e07113850a83ebf58816f619f14ce142187d7e27af4025ff44bfe611e1d68820,decrypted payload files
+sha256,e1e0fba8c5c14bab3d83ee18f266385d56c91b347e509cd090bdb3ef4168d91f,decrypted payload files
+sha256,e744f4d6ea7b88bc5e8d432f0c11b7c5cf86c0e4d22809f2df159608baf586f7,decrypted payload files
+sha256,eb5b72a8a40123dfec2341414196ee11ec13c404125bb5c5ada9d70c0b2cc015,decrypted payload files
+sha256,ec9083eb656234b4eb3dd5df1882046e605870975fa67ecf04bbee454a4d44ec,decrypted payload files
+sha256,ee07de81fd6b8896bcd128dfe9db53e9e987b9bf42e865e1f1aa7dc5b27f373d,decrypted payload files
+sha256,ee927ca55d06406b6dd266b286d3cfe0626308ec4193d98336e00ad509fe44e2,decrypted payload files
+sha256,efacfe7cc34c5807f88296a373187a5c9324f59f476cbf07d219b6373d014f3a,decrypted payload files
+sha256,f8bdd7ab540033de65a93c5329f9b1dacfabaca0b05b06f5abc797c336d20cfe,decrypted payload files
+file_path,C:\Users\Administrator\Desktop\Release\ServerDll.pdb,debug path
+file_path,Z:\VM共享\Work\3远控\企业远程控制\Release\ServerDll.pdb,debug path (translation: Z:\VM Sharing\Work\3 Remote Control\Enterprise Remote Control\Release\ServerDll.pdb)
+file_path,D:\Work\3远控\企业远程控制\Release\ServerDll.pdb ,debug path (Chinese text: remote control)
+ip,23.225.147.227,C2 server from the samples
+ip,206.233.128.103,C2 server from the samples
+url,nsjdhmdjs.com,C2 server from the samples
+url,123.nsjdhmdjs.com,C2 server from the samples
+url,2.nsjdhmdjs.com,C2 server from the samples
+url,ac2.nsjdhmdjs.com,C2 server from the samples
+url,a.pic447.com,C2 server from the samples
+url,b.pic447.com,C2 server from the samples
+url,d.pic447.com,C2 server from the samples
+url,l.pic447.com,C2 server from the samples
+url,l2.pic447.com,C2 server from the samples
+url,t.pic447.com,C2 server from the samples
+url,v.pic447.com,C2 server from the samples
+url,v2.pic447.com,C2 server from the samples
+url,w.pic447.com,C2 server from the samples
+url,j.pic6005588.com,C2 server from the samples
+url,potatouu.com,C2 server from the samples
+url,2.potatouu.com,C2 server from the samples
