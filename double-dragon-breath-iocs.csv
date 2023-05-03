@@ -1,5 +1,5 @@
 ﻿Indicator_type,Data,Note
-Description,https://news.sophos.com/en-us/2023/05/02/doubled-dll-sideloading-dragon-breath,"Indicators of ""Double Dragon Breath"" campaign active early 2023"
+Description,https://news.sophos.com/en-us/2023/05/03/doubled-dll-sideloading-dragon-breath,"Indicators of ""Double Dragon Breath"" campaign active early 2023"
 sha256,097899b3acb3599944305b064667e959c707e519aef3d98be1741bbc69d56a17,"TG_CN.exe, an installer package (v.1)"
 sha256,34c4eda45c782e74a5f3b179961659b472c053b63eb48318a2441db2bcbbb1dc,"TG_CN.exe, an installer package (v.1)"
 sha256,48a35466b1a08711abcdd2cd5564164265a4ee4e2082700f2eba69e1f3bf111a,"TG_CN.exe, an installer package (v.1)"
