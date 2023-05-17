@@ -1,0 +1,4 @@
+﻿Indicator,Data,Note
+Description,https://news.sophos.com/en-us/2023/05/17/fleecegpt-mobile-apps-target-ai-curious-to-rake-in-cash,Indicators of fleeceware mobile apps
+sha256,2ea59ed7c2cde6b48837cec65a3382d4d257ea18b6604ae5a14b792059acf438,chatgpt.openai.gpt.chat
+sha256,ecd044f1e6fa3bf8e1963743e435599b4a74a29d1bfb863bb4fe926aaa05a2c0,com.smartremote.chatgpt 
