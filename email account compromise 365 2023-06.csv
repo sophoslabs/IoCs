@@ -1,0 +1,7 @@
+﻿Indicator,Data,Note
+ip,104.161.20.102,used to log into compromised accounts
+ip,185.241.149.122,used to log into compromised accounts
+ip,20.232.202.245,used to log into compromised accounts
+url,botasso.cl,observed in transport rules and Tenant  Allow / Block lists
+url,smtp83.iad3a.emailsrvr.com,observed in transport rules and Tenant  Allow / Block lists
+url,continental-database.com,observed in transport rules and Tenant  Allow / Block lists
