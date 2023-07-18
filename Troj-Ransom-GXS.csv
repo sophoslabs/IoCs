@@ -1,0 +1,8 @@
+﻿Indicator_type,Data,Note
+Description,,"Indicators relating to ""Sophos"" ransomware"
+domain,xnfz2jv5fk6dbvrsxxf3dloi6by3agwtur2fauydd3hwdk4vmm27k7ad.onion,Tor (dark web) website used by the threat actor
+sha256,3da31ee0a6c6410b3c66aad41623d05aac61a4dbb85045eb89f5810ffdc93066,ransomware sample
+sha256,f15a0f660ef0bd9e116ff19b433451d403ffedea9469a095c2f429227500e87a,ransomware sample
+ip,179.43.154.137,C2 address used by the ransomware
+ip_port,179.43.154.137:21119,C2 address used by the ransomware
+url,hxxp://179.43.154.137:21119/api/new-config/[token]/,
