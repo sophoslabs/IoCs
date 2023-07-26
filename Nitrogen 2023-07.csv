@@ -1,0 +1,120 @@
+﻿Indicator,Data,Note
+Description,https://news.sophos.com/en-us/2023/07/26/into-the-tank-with-nitrogen/,"Indicators of compromise associated with the Nitrogen initial-access campaign, July 2023"
+sha256,0af013ad0548b992d50287e3b11963cad9aa0af1f1e47e254637d28ee05208d8,file downloaded from Cobalt Strike server -- *work3
+sha256,0daf5c0f374e9a03fbe24dbcb4f0a24837a35bc2f0ca76ca35bb705f8c079486,ISO installers
+sha256,0dbce3ef7f5be8+B53:B88e1008bfa15341d2729724fef8e128555d014ac67ecc205bd76,msi.dll (NitrogenInstaller)
+ip,104.18.25.181,C2 server
+ip,104.234.11.121,C2 server
+ip,104.234.11.236,C2 server
+ip,104.234.147.11,C2 server
+sha256,13090722ba985bafcccfb83795ee19fd4ab9490af1368f0e7ea5565315c067fe,msi.dll (NitrogenInstaller)
+ip,141.98.6.95,C2 server
+ip,141.98.6.96,C2 server
+ip,146.70.87.4,C2 server
+sha256,150f3356485c26039dc145d0bedda265d3e9626fd1f3a180455f8b911c53c260,msi.dll (NitrogenInstaller)
+ip,157.254.195.108,C2 server
+ip,157.254.195.210,C2 server
+ip,157.254.195.53,C2 server
+ip,157.254.195.83,C2 server
+ip,166.0.94.216,C2 server
+ip,167.88.164.130,C2 server
+ip,167.88.164.141,Cobalt Strike C2 servers
+ip,167.88.164.95,C2 server
+ip,167.88.165.18,C2 server
+ip,172.217.13.110,C2 server
+ip,172.86.123.127,Cobalt Strike C2 servers
+sha256,17c1a8ee6fd18c7a75270c31b6602c12592242affdd6608f5297a8bb88376923,msi.dll (NitrogenInstaller)
+ip,185.246.222.15,C2 server
+ip,185.254.37.216,C2 server
+ip,185.254.37.217,C2 server
+sha256,21e7bcc03c607e69740a99d0e9ae8223486c73af50f4c399c8d30cce4d41e839,python310.dll (NitrogenStager)
+ip,23.227.196.140,Cobalt Strike C2 servers
+ip,23.227.203.241,C2 server
+sha256,237c18bbd8fb8f74710dacaf7795c473a988b66fce667facc6f17b2c6e071745,msi.dll (NitrogenInstaller)
+sha256,25467df66778077cc387f4004f25aa20b1f9caec2e73b9928ec4fe57b6a2f63c,WinSCP-6.1-Setup.iso -- Trojanized installer
+sha256,26a68bfc0d40b3cc49af1958f2004f404c960663b140fd612a2a53ccaf99f004,python310.dll (NitrogenStager)
+sha256,2eb2ef7a562145a0faf3c82f439221908adfcc784022a64e5bb17a432f4a8a91,WinSCP-6.1-Setup.iso -- Trojanized installer
+sha256,2f4f365613172848df3e91d43514b9da34b8c84eded8fae683f94586d22f86cf,file downloaded from Cobalt Strike server -- *work5
+sha256,332e19cc0f71a5dcbfc3d24fb08564589d0cb884d21d1fddbbf9c0230d678ec0,file downloaded from Cobalt Strike server -- *work3.py
+sha256,3346a4f9f253a8251e14f0d42138e5b4420dd3c1b46afcd9f688d4e26c98c561,file downloaded from Cobalt Strike server -- *work8
+sha256,35c33e9e84e9e040da42b3d6e9c3c00e8f0dff2e7ee8bb59625c7378d89f3b37,msi.dll (NitrogenInstaller)
+sha256,3ce4ed3c7bd97b84045bdcfc84d3772b4c3a29392a9a2eee9cc17d8a5e5403ce,python310.dll (NitrogenStager)
+ip,45.12.253.137,C2 server
+ip,45.61.128.133,Cobalt Strike C2 servers
+ip,45.66.230.215,Cobalt Strike C2 servers
+ip,45.66.230.216,Cobalt Strike C2 servers
+ip,45.66.230.237,C2 server
+ip,45.66.230.238,C2 server
+ip,45.81.39.175,Cobalt Strike C2 servers
+ip,45.81.39.177,Cobalt Strike C2 servers
+sha256,4a4d20d107ee8e23ce1ebe387854a4bfe766fc99f359ed18b71d3e01cb158f4a,WinSCP-5.21.8-Setup.iso -- Trojanized installer
+sha256,4fb70092d8533088742ca23788f29e0802b223eada1748ce82731162d25920c7,python310.dll (NitrogenStager)
+sha256,503156f1b27d4dd463048f85924a2bbbeb3d0e09de2574395a51f77b48e9639d,ISO installers
+sha256,535aefaba2eb8d7898b176b0dcdd23fcef984994e609db222c33ece2d1c081b3,python310.dll (NitrogenStager)
+sha256,5f3488fc958b98867ef661c6697b5c2cd920199f7209086591a5e87e691891f4,WinSCP-6.1-Setup.iso -- Trojanized installer
+sha256,61927228b3dcf973822eb5fff44ca7940d950af7116aefe957cc31287c5283d5,python310.dll (NitrogenStager)
+sha256,62b1e355a7e4c850bb0f03c7f182f48f0ebaafa07ddae1fee599a78772d149f2,msi.dll (NitrogenInstaller)
+sha256,686c7fc9d3efef602136cde2716d20ca13d1e3de3c57f787fa74e28cc8b743cd,msi.dll (NitrogenInstaller)
+sha256,6c340981785e28218f7ef5ee991e1888fadce9a3c29bc31316359562386124bd,file downloaded from Cobalt Strike server -- *work4
+sha256,6ff18598dbf26038faa16773f277808cd9d39710ec6c9ec6109fec8550d1d53f,file downloaded from Cobalt Strike server -- *work2
+ip,74.201.28.103,C2 server
+sha256,76eed6472d3ab97d3e69328cea84e6aa322791f5d3cc74007b929842c425820d,python310.dll (NitrogenStager)
+sha256,771f95a8df4b7fb058712e43bbf2549a97075518523f0cc409f3869181457b86,msi.dll (NitrogenInstaller)
+sha256,8000af302ad89c9555241366edc65b9b9b24828c8ea74bde658984b92e8c8ec6,ISO installers
+sha256,81570ac9bdd4e1abf7b296b528c7507e7df773a7c3cf05ef01a874ba9af1b36f,msi.dll (NitrogenInstaller)
+ip,85.208.136.13,C2 server
+ip,85.217.144.164,Cobalt Strike C2 servers
+ip,87.121.221.218,C2 server
+sha256,8859a09fdc94d7048289d2481ede4c98dc342c0a0629cbcef2b91af32d52acb5,python310.dll (NitrogenStager)
+sha256,8c6352fc4fdaf2990f48e44ce1dce9ed375cdb75222f3dc2fc3b061d5bfa6acf,python310.dll (NitrogenStager)
+sha256,8dfac6521ef877efede0a82bf46d94f590127e2607b78d08321953796fddbba9,python310.dll (NitrogenStager)
+sha256,8f02fa20b02ff6321a7db6dae478c2215bb463ebec6de4db73f247873aca1315,msi.dll (NitrogenInstaller)
+ip,95.214.24.163,C2 server
+sha256,971b4db8b81a2c456839d4609364bb6cd7800c9ce980379bb5a11d1d4689d504,file downloaded from Cobalt Strike server -- *work9
+sha256,9a00b8b62d5194f22f690127084f626b1abbf88777b5b8474799bca1576e5fbd,msi.dll (NitrogenInstaller)
+sha256,9c57a2a27b6fcea5bcf1eda791ccdaa0eb3fdbf93781b37283d956332f4d2ceb,cisco-anyconnect-4.iso -- Trojanized installer
+sha256,9c66003fe79d9bc9570373c465e69dd5db56f24c51ad4bb16c83efde5b966510,python310.dll (NitrogenStager)
+sha256,a25eba7a79e46e5f6498ccb82fb4ef0eb3abe784fa0d061fe9e1adce9d39caa7,AnyDesk.iso -- Trojanized installer
+sha256,a25f3604213a0db2375ddc2af800faa3833dc5597ca20b3138462c1d77faf952,WinSCP-5.21.8-Setup.iso -- Trojanized installer
+sha256,a267937e172f4cd8ce873e4fcfceeddf07ae03db68f64e047f940e2e7a2a136a,msi.dll (NitrogenInstaller)
+sha256,a58b9c9cece44216e2dd3304fd4825db3c324393607574f87bec00be505a0d93,file downloaded from Cobalt Strike server -- *work1
+sha256,a8b9b74dee76ea6a19845b80498d91e002133d20741b6707744fb345a3581abe,WinSCP_setup.iso -- Trojanized installer
+sha256,a9fc36389bd687b547c9fbadaf75f1d27036c08385f4976acb8689ad79d83310,msi.dll (NitrogenInstaller)
+sha256,ac5b9d33791a80387e99ddc1cb63346f975982741c6275be7ff03ce4b0459b4f,AnyDesk_v7.1.iso -- Trojanized installer
+sha256,ad3feb1cee5750d9acd0119fbfa6af56c07e9387d3ed24633afa48b2d031aaf3,msi.dll (NitrogenInstaller)
+sha256,ae84d0d6b9935499a5e0e18052ce7ea64378eba1e9579ca98fdd925d8e6f8639,file downloaded from Cobalt Strike server -- *work7
+sha256,b39c5fb42f54275630c05925a1c8f0d92373560b4a735b8d9a63e6498b25ecfb,python310.dll (NitrogenStager)
+sha256,b425de9b0e7fe10b89b730339bbcda2d0d4668f5b9226be633409cfb89b3dacd,python310.dll (NitrogenStager)
+sha256,b926fcc98f23905abd76b7ed9fa50fb84cc66aa9fb7994064ada715702e80722,file downloaded from Cobalt Strike server -- *ton.zip
+sha256,bacbe893b668a63490d2ad045a69b66c96dcacb500803c68a9de6cca944affef,python310.dll (NitrogenStager)
+sha256,bf062d03ab77bfa835700f7131e6f95f19e2c5015ff65e47614b736ea9817dd6,TreeSizeFreeSetup.iso -- Trojanized installer
+sha256,c7a5a4fb4f680974f3334f14e0349522502b9d5018ec9be42beec5fa8c1597fe,python310.dll (NitrogenStager)
+sha256,ccd5e869216640460c3329e41ec30fa22ee729f0b4fc2e61781026c4defea6e6,WinSCP-6.1-Setup (2).iso -- Trojanized installer
+sha256,d155d0af73b3e86f42672714caa4391ab615c426a3e3fc44a41e4d125a06172a,msi.dll (NitrogenInstaller)
+sha256,d9d53fcadc96c7bc3eae0a84a574b6222f0c906ee4916a9e68e0322b5c694d49,msi.dll (NitrogenInstaller)
+sha256,db2a48326f99f0944f50800539817cfb6562f2bfbbcc2f2409901319eb3592ec,file downloaded from Cobalt Strike server -- *work8.py
+sha256,e47151f7c394e1b530314cc15d482b5ce797c803c251a61e45efb0316115c677,python310.dll (NitrogenStager)
+sha256,e74c4cf311f2b3365605b6648d96baf5674990c3f181f01f462e1ba665bf1f7f,python310.dll (NitrogenStager)
+sha256,f1227c5124e24e439b44083369d7fa7a719e076f5839629d2ef10aa5e19e6afc,winscp.iso -- Trojanized installer
+sha256,f87a976dfd3881f59dbd2ea53fbfa3a663e1fff83a333b548b4fdc4651d5b8f7,AnyDesk_v7.1.11.iso -- Trojanized installer
+sha256,fa6f641d78dcb36f15ea26b0a05a8a29b9761c7838c30a9b3bb09074bb4fc7c9,python310.dll (NitrogenStager)
+sha256,fa911a3639ae77f8f890fb76ba1ab78c2ab17ab80bdfec381ab6a9ba8fef32fe,python310.dll (NitrogenStager)
+sha256,fce4ca6e37d466154ed49871ac31116473b1c72cf36a9653af80e9cc83edb358,msi.dll (NitrogenInstaller)
+sha256,ff32997b85098d2bb0f1adccc5dc4e608a869dd54fc8539482788855d53d43b7,python310.dll (NitrogenStager)
+url,https://conteudos.doutornature.com/wp-content/upt/upgrade/scp/v7/WinSCP-6.1-Setup.iso,malicious installer
+url,https://dayvisson.com/Cisco-Mobility-Client-v4.iso,malicious installer
+url,https://dayvisson.com/WinSCPSetup[.]iso,malicious installer
+url,https://events.drdivyaclinic.com/wp-content/task/update/WinSCP-6.1-Setup.iso,malicious installer
+url,https://frugalprinters.com/wp-includes/WinSCP_setup.iso,malicious installer
+url,https://praybig.us/wp-content/smb/srs/24/5333/WinSCP-6.1-Setup.iso,malicious installer
+url,https://protemaq.com/wp-content/update/iso/6.1/tusto/WinSCP-6.1-Setup.iso,malicious installer
+url,https://snbl-art.com/wp-content/wp-content/WinSCPSetup.iso,malicious installer
+url,https://softwareinteractivo.com/streamlining-team-collaboration-the-power-of-for-seamless-file-sharing/?gclid=EAIaIQobChMI3aXW7fjA_wIViN3ICh1NKQW6EAAYASAAEgLEZfD_BwE,
+url,https://theboxingshowcase.com/wp-content/dht/asxdfj/gkgy/cvgkjc/WinSCP-6.1-Setup.iso,malicious installer
+url,https://theboxingshowcase.com/wp-content/sdrg/sdhr/dftjft/zsge/TreeSizeFreeSetup.iso,malicious installer - linked via Bing
+url,https://trafcon.co/wp-content/plug/des/sus/cisco/anyconnect/cisco-anyconnect-4.iso,malicious installer
+url,https://usahamenarik.com/wp-content/WinSCPSetup.iso,malicious installer
+url,https://winsccp.com/eng/download.php,
+url,https://winsccp.com/HPVrxkWv?gclid=EAIaIQobChMI3aXW7fjA_wIViN3ICh1NKQW6EAAYASAAEgLEZfD_BwE,
+url,https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjdpdbt-MD_AhWI3cgKHU0pBboYABAAGgJxdQ&ohost=www.google.com&cid=CAASJORoMTvTG6B0NssdBORk4BeBv-cgApt6SnzgjBh0K4SdC7o9pw&sig=AOD64_357HAnG_N_KTXouBfGuvvk5-N3tQ&q&adurl&ved=2ahUKEwjNi8_t-MD_AhX-LFkFHZjTDr4Q0Qx6BAgFEAE,
+url,https://www.yb-lawyers.com/wp-content/ter/anyconnect/AnyDesk.iso,malicious installer
