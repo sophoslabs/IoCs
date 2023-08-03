@@ -1,13 +1,13 @@
-Indicator, Data, Note
-url,https://apps.apple.com/us/app/bone-global/id6446169496, iOS fake crypto app
-url,https://apps.apple.com/US/app/berryx/id6444883215, iOS fake crypto app
-url,https://apps.apple.com/us/app/momclub/id6446796051, iOS fake crypto app 
-url,https://apps.apple.com/us/app/koproplus/id6447481214, iOS fake crypto app 
-url,https://apps.apple.com/us/app/clueeio/id6446766050, iOS fake crypto app 
-url,https://apps.apple.com/us/app/cmus/id6446474214, iOS fake crypto app
-url,https://apps.apple.com/ph/app/nicaragua-bitcloud/id1669626299
-url,https://apps.apple.com/ph/app/uou-pro/id6446106583
-url,https://play.google.com/store/apps/details?id=plus.BoneGlobal 
+Indicator,Data,Note
+url,https://apps.apple.com/us/app/bone-global/id6446169496,iOS fake crypto app
+url,https://apps.apple.com/US/app/berryx/id6444883215,iOS fake crypto app
+url,https://apps.apple.com/us/app/momclub/id6446796051,iOS fake crypto app 
+url,https://apps.apple.com/us/app/koproplus/id6447481214,iOS fake crypto app 
+url,https://apps.apple.com/us/app/clueeio/id6446766050,iOS fake crypto app 
+url,https://apps.apple.com/us/app/cmus/id6446474214,iOS fake crypto app
+url,https://apps.apple.com/ph/app/nicaragua-bitcloud/id1669626299, iOS fake crypto app
+url,https://apps.apple.com/ph/app/uou-pro/id6446106583, iOS fake crypto app
+url,https://play.google.com/store/apps/details?id=plus.BoneGlobal, Android fake crypto app 
 SHA256,c9a0338ba68e0bbbf06d1bd763e4f4d89a53cf3f0edffa7f0a270bcf459dbe87, iPhona fake app bundleID - com.BookProtector.myreadexperice
 SHA256,a712d7ccf54188ec2986a0d4ebe616d52a88624f8efb7f8e1230e54eda5b29ad, Android fake app packagename - plus.BerryX
 domain,momclub-coin.com, C2 for fake crypto app 
