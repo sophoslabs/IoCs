@@ -1,0 +1,10 @@
+﻿Indicator,Data,Notes
+Description,[name of thread goes here],[URL for Masto thread goes here]
+sha256,0409c9b12f9d0eda86e461ed9bdabeefb00172b26322079681a0bdf48e68dc28,C:\Windows\System32\downlevel\ShellExperienceHost.exe
+file_path_name,C:\Windows\System32\downlevel\ShellExperienceHost.exe,filepath for 0409c9b12f9d0eda86e461ed9bdabeefb00172b26322079681a0bdf48e68dc28
+sha256,2a2501121b69c63c8e11fe581b5cb57487ed17c386b6376a16c6eed590f1d40e,C:\Windows\Temp\cloudflared.exe 
+file_path_name,C:\Windows\Temp\cloudflared.exe ,filepath for 2a2501121b69c63c8e11fe581b5cb57487ed17c386b6376a16c6eed590f1d40e
+sha256,5f4f01d97cce1f12c312be676dba3a8800881d89544117d83feed911d8968dd2,C:\Windows\System32\smpsvc.dll 
+file_path_name,C:\Windows\System32\smpsvc.dll ,filepath for 5f4f01d97cce1f12c312be676dba3a8800881d89544117d83feed911d8968dd2 
+sha256,d205fcadadf33d3d0ed7c0399861ce67f58c39b83ea27043a47d20575ff68873,Smphost.dat 
+url,https://cache.chartbaet.com ,C2
