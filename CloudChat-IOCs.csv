@@ -1,0 +1,32 @@
+﻿Indicator_type,Data,Note
+Description,Thread on CloudChat installer compromise,Observed IOCs for CloudChat installer compromise
+sha256,74212e85ce765cbabb16395834de85d1882fb5fc6c98a67e7b9092969b999948,Trojanized CloudChat installer
+sha256,f7c139534459bbebab8a919bf9f2bac233caffcde5d072d1b10bc82ce233d875,Trojanized CloudChat installer
+sha256,89b91f421e2a7b151e55583fb9182f74738b5eb1105143e80fb2f0b6fac9b7ff,Trojanized CloudChat installer
+sha256,ece0e08568fe8e8614de830ea07c0217187a347c18c27eb7b18915573f2f76b8,Trojanized CloudChat installer
+sha256,f8103fbbdf94b4b00722fa78b343735c124663d53ca61bbfa2f57ed1c7675786,Trojanized CloudChat installer
+sha256,17b31898c3613d6e86d06260c7e6f7738d3afdf0f0a4010e2f5259c502d38b09,Loader DLL
+sha256,1aad361237d0960758bb26ee7bbe3c20cccabb1744bb91874198c68dbe6e14ee,Loader DLL
+sha256,23604a06b0720a430f8d6f6b14b589d850e4cfd291a47f22f199324f21169c1a,Loader DLL
+sha256,8823cccd97d261053a89cc9ebdfafe8f828f2b811c722914156f28d8bd239970,Loader DLL
+sha256,8f40e019a09dc2b16ac3e9c3902844313d4c75df35c3d40c4376d14c320f08c3,Loader DLL
+filename,code1.dll,Loader DLL
+filename,d3lib1.dll,Loader DLL
+filename,code3.dll,Loader DLL
+url_path,https://ilha.tw/images/top_product05.png,Stager payload
+url_path,https://liveware-a.tw/images/top_product05.png,Stager payload
+url_path,https://www.emetore-tw.com/images/top_product05.png,Stager payload
+url_path,https://www.sibody.tw/images/pic_brand_00.png,Stager payload
+url_path,https://www.sibody.tw/images/pic_brand_01.png,Stager payload
+url,https://ilha.tw,Stager payload domain
+url,https://livewire-a.tw,Stager payload domain
+url,https://www.emetore-tw.com,Stager payload domain
+url,https://www.sibody.tw,Stager payload domain
+ip,5.181.132.169,C2 
+ip,45.121.147.227,C2 
+ip,103.75.191.90,C2 
+ip,103.169.91.16,C2 
+url,api.holencity.com,C2 
+url,solar.chatgroup.org,C2 
+url,www.cloudchatpc.com,C2 
+mutex,lks2x,Mutex
