@@ -1,5 +1,5 @@
 ﻿Indicator,Data,Notes
-Description,[name of thread goes here],[URL for Masto thread goes here]
+Description,Not So Tiny Turla,https://infosec.exchange/@SophosXOps/111109357153515214
 sha256,0409c9b12f9d0eda86e461ed9bdabeefb00172b26322079681a0bdf48e68dc28,C:\Windows\System32\downlevel\ShellExperienceHost.exe
 file_path_name,C:\Windows\System32\downlevel\ShellExperienceHost.exe,filepath for 0409c9b12f9d0eda86e461ed9bdabeefb00172b26322079681a0bdf48e68dc28
 sha256,2a2501121b69c63c8e11fe581b5cb57487ed17c386b6376a16c6eed590f1d40e,C:\Windows\Temp\cloudflared.exe 
