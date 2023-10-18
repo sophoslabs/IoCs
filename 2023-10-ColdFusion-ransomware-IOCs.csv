@@ -1,0 +1,21 @@
+﻿Indicator,Data,Notes
+Description,Indicators of compromise and exploitation by threat actor exploiting ColdFusion 11,Source: https://news.sophos.com/en-us/2023/10/19/ransomware-actor-exploits-coldfusion-servers-but-comes-away-empty-handed/
+ip,185.74.222.92:44,repository for malware
+filename,watchdogs.ps1,CobaltStrike shellcode
+filename,invoke-powershelltcp.ps1,reverse PowerShell shell
+filename,oftenExcute.ps1,CobaltStrike shellcode
+filename,ftps.exe,CobaltStrike shellcode
+filename,LB3.exe,Ransomware - Possibly delivered through CS beacon 
+filename,LKl23s.exe,Ransomware - Possibly delivered through CS beacon
+filename,evil.hta,HTML application to install CobaltStrike shellcode
+filename,Ww3wb.exe,Ransomware - Possibly delivered through CS beacon
+sha256,b1b8664a09a3157c656a2b7d920a8bf8f802ee026b3fdf0eb6028c943159757c,CobaltStrike Shellcode
+sha256,0f1e223eaf8b6d71f65960f8b9e14c98ba62e585334a6349bcd02216f4415868,Reverse PowerShell shell
+sha256,8984b4a0739c4a8645447b13ea13a1c8e900b8b71e56f5a17e03ad9632df12dd,CobaltStrike Shellcode
+sha256,7068468b8054fdcef61e2c740fb51b30007d2916e8faa65c119ec694e375b649,CobaltStrike Shellcode inject
+sha256,0f888a51e70f8d92e391999f4a37fbe3bcca770cd67dc0ed2f914e03b2fff31d,CobaltStrike shellcode
+sha256,d1d2df9dd639423ca622c20da49ede99b8405079d49215e5fee7e42bf086a1c5,Ransomware
+sha256,720ef38246a0cdb12212deeadcd93de2879e887712b47e21559e1bf771400979,HTML application to install CobaltStrike shellcode
+sha256,0bc225be15a50e1f718733feb9f6ad4c1bc6513acfd6348db85ee09cb3389c28,CobaltStrike shellcode
+sha256,60e2d81176b33fc198a495ffd8dc70e2052bd0452cfa2ba31229e905a5774dda,Ransomware - Possibly delivered through CS beacon
+sha256,c8c03e40cad417e9a93aa062004bb5748ba9989c271005524edc6eb5a4585e6e,Ransomware - Possibly delivered through CS beacon
