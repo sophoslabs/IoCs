@@ -1,0 +1,107 @@
+﻿Indicator_type,Data,Note
+Description,Indicators related to malspam campaign targeting hotels in autumn 2023,https://news.sophos.com/en-us/2023/12/19/inhospitality-malspam-campaign-targets-hotel-industry
+certificate_serial,,Code signing certificate serial number used to sign the binary
+certificate_serial,02 F0 38 12 5D ED 80 34 87 02 59 90 76 A4 26 77,Code signing certificate serial number used to sign the binary
+certificate_serial,4A 62 90 4F F4 E4 73 A7 49 B2 D5 52 B1 00 07 41,Code signing certificate serial number used to sign the binary
+certificate_serial,46 79 7C 91 05 E4 F2 C6 66 FA D1 37 4B 65 A5 B4,Code signing certificate serial number used to sign the binary
+certificate_serial,00 89 07 F5 1B 60 C3 EA F3 80 F3 54 29 3C 61 B0 C4,Code signing certificate serial number used to sign the binary
+certificate_serial,06 C3 E3 0F 10 1B 62 FE 0A 49 9E B1 18 90 12 EA,Code signing certificate serial number used to sign the binary
+certificate_serial,0B 49 4D 7D F0 20 97 10 7B 90 65 02 51 33 FE 92,Code signing certificate serial number used to sign the binary
+certificate_serial,2A E8 06 75 B7 45 87 6B E6 9E 15 73,Code signing certificate serial number used to sign the binary
+certificate_serial,09 39 33 39 69 D6 7B 7C ED F8 A3 CA 09 28 B1 D1,Code signing certificate serial number used to sign the binary
+ip_port,212.113.116.63:47534,C2 and port
+ip,212.113.116.63,C2
+ip_port,78.47.104.201:25565,C2 and port
+ip,78.47.104.201,C2 
+sha256,d352593cee4b9865d9d6c9ad3c0bea532c611a08f9d2bd7242b51c3fe2f78ba2,archive containing binary named videofile-hotel2023-confirmation.mp4.exe
+sha256,5fc3c806e9c5a93c9ada6ea6878fbee6c7302fb76b72277448bcc8189449f190,archive containing binary named Hotel video.exe
+sha256,d9a0deb3ec21d717c231d66ed50aef1a40e204497290f218910d899811671962,archive containing binary named Photo_24.10.scr
+sha256,b4ea2d41355ddeb4d7b7b532bd1f78f813041f3cb96b7b1f5e4f4f4750d7497a,archive containing binary named Wishes for our journey December 2023.scr
+sha256,7a46f40175a7d0d12f2010a6511e9faca529484a3a037a44aea78c0a7f53595e,archive containing binary named photo or video.exe
+sha256,cf10fb3d0d5f9dc2c19c82da38e37caa0562bf536020064c9904873c95b2486f,archive containing binary named Additional information for Hotel.scr
+sha256,e6359187be67dd196e1553a795ddcf786e518b8c11d7b8cbf4124ca4f8a35c23,archive containing binary named Reference.Hotel.scr
+sha256,5b1defbaa364276487f54002e512a7c60a65c7ae0254a3933bd848b2eb52a006,archive containing binary named photo_30_11.scr
+sha256,fce9807d4ffb6d8b211fe35ad107bafc4d9a9790f3a72ffc108ec360a879bb32,archive containing binary named hotel-2023-confirmation-video.exe
+sha256,b71e6dff416caf4f6fa73f4c89a0dd548ac0f128032ae9370886b7e24b18cd9e,archive containing binary named hotel_video_confirmation.mp4.exe
+sha256,b71e6dff416caf4f6fa73f4c89a0dd548ac0f128032ae9370886b7e24b18cd9e,archive containing binary named hotel_video_confirmation.mp4.exe
+sha256,0c5fb7158b8dfe6e2550779d69137138bd7a8e9586848b0e2c42e47bffd2b76d,archive containing binary named video_hotel.mp4.exe
+sha256,d352593cee4b9865d9d6c9ad3c0bea532c611a08f9d2bd7242b51c3fe2f78ba2,archive containing binary named videofile-hotel2023-confirmation.mp4.exe
+sha256,fd649d6c91a0e7f68be293371ce81367c091c1377bc7cb7d69b01671e4c96e8b,archive containing binary named all the necessary information.scr
+sha256,90c17baf90cd5353e7695317fbc3c6e2f50eb73ec0adaa05227e835dad3326f0,archive containing binary named all the necessary information.scr
+sha256,08cf8ed5112af910a49154f6fb2c80035d4144303bad86dc0e2c162c34efb0ae,"videofile-hotel2023-confirmation.mp4.exe ""7.1MB companyname """"Antibody Software Limited"""" not shown in property sheet and 153MB mp4 buried in file not signed"""
+sha256,fcd18584db80db720993b7650b0d286339fd8839a6ef31b50c423287374a91f6,Photo_24.10.scr 641MB signed by Quantum Hvac System Inc.
+sha256,e8c7bb1599519cda5f436519950cc8defdf4828a8b2ddc26bbd7063ebd81a2c2,Wishes for our journey December 2023.scr 641MB signed by Quantum Hvac System Inc.
+sha256,9eabdbb230364c3e805d2f762f07d81bd5791a1056d748309df6af2df89ebb2f,photo or video.exe 1.05MB signed by Valve
+sha256,71f0e34c59d9fde8ce357f5b5d195dfc324777b2e9831f3772f5b77da21f9a12,Additional information for Hotel.scr 641MB signed by Quantum Hvac System Inc.
+sha256,b2e1b10557594b8a6e1004645aa9af184540857687d4d8d9330e799f423465e9,Reference.Hotel.scr 641MB signed by Quantum Hvac System Inc.
+sha256,6fdf7e97a8a2a619d2ad92473e0663d81416caffd9fc8ab638358920f39284be,photo_30_11.scr 643MB unsigned binary
+sha256,26e5352a7b64d439efdfafd98dd116a969b5e6d6a2a82cd111af22db04bf00b6,hotel-2023-confirmation-video.exe 3MB signed by MicroWorld Technologies Inc.
+sha256,646b832c7b5c5245cfeece67567c8a6181e44595e54fc8e28ce6aa5b7350ea46,"hotel_video_confirmation.mp4.exe ""13MB signed by """"HITPAW CO. LIMITED"""""""
+sha256,646b832c7b5c5245cfeece67567c8a6181e44595e54fc8e28ce6aa5b7350ea46,"hotel_video_confirmation.mp4.exe ""13MB signed by """"HITPAW CO. LIMITED"""""""
+sha256,0147497f4ccd90b4600b2fb71baef1b895c67a524032c203c50236d6c998885f,video_hotel.mp4.exe 7.72MB signed by DVDFab Software Inc.
+sha256,08cf8ed5112af910a49154f6fb2c80035d4144303bad86dc0e2c162c34efb0ae,videofile-hotel2023-confirmation.mp4.exe 7MB unsigned
+sha256,99e11573d54e8379e7fc2d5b2233764cef0b4f6a910ddca9df64e8aa09c3822c,all the necessary information.scr 641 MB signed by Quantum Hvac System Inc.
+sha256,91886e86f59b64fd4331ff6bb8c8927439610e093e0681073f89eb810dbd7c16,all the necessary information.scr 641 MB signed by Quantum Hvac System Inc.
+sha256,ae92077f7701e5653243f8d17666b73b5273138cc9949f9b8abc79abf19c6b43,Malware related to this campaign found on VirusTotal
+sha256,ef3ccf22f3153d3db220cc4ca5fa5cc4f75a968c5243a9165d29d5c9d915a12e,Malware related to this campaign found on VirusTotal
+sha256,e8c7bb1599519cda5f436519950cc8defdf4828a8b2ddc26bbd7063ebd81a2c2,Malware related to this campaign found on VirusTotal
+sha256,9ec2b525eb0e2d1b50f236f6ec7bc4cb24c90bcb69b92d1aecef6ba892942969,Malware related to this campaign found on VirusTotal
+sha256,070f22e968253c06575514c5c57641b72ffe4f7646594e992907e8529125136c,Malware related to this campaign found on VirusTotal
+sha256,e141c2a0666e1f8471bb3b97d99f96ffcaf1ceab7964700239aacfedb90412e9,Malware related to this campaign found on VirusTotal
+sha256,99e11573d54e8379e7fc2d5b2233764cef0b4f6a910ddca9df64e8aa09c3822c,Malware related to this campaign found on VirusTotal
+sha256,97a6861439cbe274db92880f66dad6ac73b76203249b1e2a2d25da24b6ffe427,Malware related to this campaign found on VirusTotal
+sha256,c3a5027e0efdabcfdd793a64f65a67b6f989e866b938fa4171208d250ecba31e,Malware related to this campaign found on VirusTotal
+sha256,0b0be58cc99c864c1885ecb15e6bbba3256b23d1d57fbcc9715854d2b4353712,Malware related to this campaign found on VirusTotal
+sha256,21578065bb897f43e1037a82ea5272bb82e34df09970f5a5bdc7971801f178fe,Malware related to this campaign found on VirusTotal
+sha256,967ab2f94648bda105db3d1f2ae73b107b04a98e4f41920474132bd626a2b193,Malware related to this campaign found on VirusTotal
+sha256,ac2f93660b0a9ad487fe8351cc7638a71d0ebb8fc9ef5e8ae7b4fe683a7daad3,Malware related to this campaign found on VirusTotal
+sha256,fcd18584db80db720993b7650b0d286339fd8839a6ef31b50c423287374a91f6,Malware related to this campaign found on VirusTotal
+sha256,1b562c3daca8ee4be69e7161256772c24228d8583d7ddfd6cc502192a9db2cfc,Malware related to this campaign found on VirusTotal
+sha256,4b58bf4dee97acc82b0572d0623af376fddd403497bfbd24d0b70203533a7b52,Malware related to this campaign found on VirusTotal
+sha256,11332d55d27814f6934e5923f85ed56a8b0820d267a867157a2a785726aaa091,Malware related to this campaign found on VirusTotal
+sha256,89b7053977c8c9fc39f4d0b6d25f964995061ac2e968b29227638bc5a3dfbb61,Malware related to this campaign found on VirusTotal
+sha256,523dfd119d866622b7a15b5b31a7e0486c6b3b04f10b154f63e71b3c59ce3efd,Malware related to this campaign found on VirusTotal
+sha256,1831c4edef765a52dff46fff432225edb40f3f3f3653066bdf2d78f94e656545,Malware related to this campaign found on VirusTotal
+sha256,9e3aef7c06f14df64fa594b0410b6e3fe582035d7a575f93145a8d9156020504,Malware related to this campaign found on VirusTotal
+sha256,f0568cf917ea10e60dc7d0f26b296ea8d28d737b143903bd99227c62e7afbaa3,Malware related to this campaign found on VirusTotal
+sha256,c6438aeefd57bd3d5eeca395a12dced7de8ca4b839e26a11150f884b8fbd1f0b,Malware related to this campaign found on VirusTotal
+sha256,7aad4aa64ed4a5c8e3886510dcfe442ba27b9f1edb543f9f5ae72fdf499dd69a,Malware related to this campaign found on VirusTotal
+sha256,3d9edb7535abd48dd13c7ce6d2374b4c77311e5b4945bdf75cf85d91bae00751,Malware related to this campaign found on VirusTotal
+sha256,5817aff95100bd502bd7f10d22ee39e437609fa0db35472b1e5251693f153014,Malware related to this campaign found on VirusTotal
+sha256,f724b230dd2309b79896255dd72d2821b03e9024d25964e0e1c6310e9d960edb,Malware related to this campaign found on VirusTotal
+sha256,b574d8915db7099609433c22a40d23c2ecb49e73a9aeaef0a96ada0ff208dd38,Malware related to this campaign found on VirusTotal
+sha256,f8bf89f12c2db959e15d1c746eddc48c84eb430befa9aa66041e7c02c222c6fb,Malware related to this campaign found on VirusTotal
+sha256,610a2f473973461584632ab2ce00081dac7c290501e25f7c05300724e8bc80ba,Malware related to this campaign found on VirusTotal
+sha256,2da5bbd254003cc102af15ad90e85b40ed2e57e39a1530a4c749c8c44e7088a7,Malware related to this campaign found on VirusTotal
+sha256,00b8c95b18b34387b35b3959e571d7c7814c00272cb2714d27d0e2d8b81680da,Malware related to this campaign found on VirusTotal
+sha256,cc3dd47a123b63ef362912feaf308318920876627dbeba51a02bd3f344fd86b4,Malware related to this campaign found on VirusTotal
+sha256,3987ec9427b0cd379f15d0b47495d82fb02d0d81ff7d97c8ecb1cc89d1579855,Malware related to this campaign found on VirusTotal
+sha256,74ec190602fee2ab8ab7392c37b141af9fea917e3d91326f6b6313929415027c,Malware related to this campaign found on VirusTotal
+sha256,c029bc3f3c38b7e72790385824ed800d371e59bb46fdbee752f43402c7f6005c,Malware related to this campaign found on VirusTotal
+sha256,b6faa905e894f89f1b67616d876fd6b658ca846fff8b5ba326d89d55e3ea67b3,Malware related to this campaign found on VirusTotal
+sha256,1669bf15f280a41a76e2a60fcbf4881bfd8b0f5f04397f7edd7ea75207fd1c79,Malware related to this campaign found on VirusTotal
+sha256,93f267938ecb28a219743f811bfc94457a709be549347498e3566a66d642bffe,Malware related to this campaign found on VirusTotal
+sha256,70b1a242ad60608f98e29a487bd553bb7263c4c6ef1782bc8081b64f6b15ea32,Malware related to this campaign found on VirusTotal
+sha256,8649a3086a774d028bc46bd6eb7a5c0924c47b52187cd8951310ed19bc0eb593,Malware related to this campaign found on VirusTotal
+sha256,12a91b2e82c707d31d51479f96465fa74dc599c457a1ed07cd747cf5bf164d9f,Malware related to this campaign found on VirusTotal
+sha256,4bdd575a06136e01a44e1a875fc560df1c791d20690a92134464a487f9b22aea,Malware related to this campaign found on VirusTotal
+sha256,e7185239a589469c3c73f6115437c7747074da38ca1e457b9824c7efb01cf289,Malware related to this campaign found on VirusTotal
+sha256,b1d2896b261e5e6ac216fec1bdf4cb94b2d343a2be0eda6152b8cfd23c21061e,Malware related to this campaign found on VirusTotal
+sha256,aba4a0465f11f690a55683d2a05707a18e5f0db003d7f4131983789d1a4b16dd,Malware related to this campaign found on VirusTotal
+sha256,33e93a4af8f82e50d408b912a40834e3d3ebe133c405e8655401087eab35c392,Malware related to this campaign found on VirusTotal
+sha256,64647e978c743893db5e222d9161b9054392035a69a873068e20183bda388668,Malware related to this campaign found on VirusTotal
+sha256,e89813e90512770cb7d36ac08c94d20269ed8439d302c8a9c1f6023aed0d0f44,Malware related to this campaign found on VirusTotal
+sha256,ce3323d74add81b48f1b9a1d5e3bab73311b62c4c581afc9aef35b404aa9d562,Malware related to this campaign found on VirusTotal
+sha256,47f70d8c0d282d1032ff1b0d02e393da22bf4ac2ad538dcbca9562fc30124610,Malware related to this campaign found on VirusTotal
+sha256,9a972f6bb256ddd9f988405a01d4e9650f7ae5922ac434c82e78f702062332d6,Malware related to this campaign found on VirusTotal
+sha256,af3a2844eaab7c670293cbe36896c620af19ded6d6074e185c7e83479b3db37c,Malware related to this campaign found on VirusTotal
+sha256,0147497f4ccd90b4600b2fb71baef1b895c67a524032c203c50236d6c998885f,Malware related to this campaign found on VirusTotal
+sha256,03dd85a1b4542544ced350d4a4518875219022809a550e6b7c489ea4a1fe595b,Malware related to this campaign found on VirusTotal
+sha256,140653704128a6aa88f80e80b387e87892367b26da00e392e9ccf181bb48408b,Malware related to this campaign found on VirusTotal
+sha256,16bb2be4f5aa1fb9d325cb01b2bfffea67ea68142465f2b681e8fc68418a9ee3,Malware related to this campaign found on VirusTotal
+sha256,1e51cc6e507808fd3b0edf1a9cf01b52e5eb1fa91f0e547aeb174e9050f763fe,Malware related to this campaign found on VirusTotal
+sha256,5925f804f18cbeb366018be2c0f11809064bb2b8bc40670c26c6cfb2d8efbdd3,Malware related to this campaign found on VirusTotal
+sha256,94eb35964e86e70e0591a5c0a3e8bd6a9dffa41111eec119bfc45f1dde8399a1,Malware related to this campaign found on VirusTotal
+sha256,9defcc3d2c37f74fd5e36f3ded0a361dae1c9c2de59c9868a2d47ef7e856ed1c,Malware related to this campaign found on VirusTotal
+sha256,b2088d46a565077851637156df7dbe9bec63545b39fa704a585fbec4392a4634,Malware related to this campaign found on VirusTotal
+sha256,b1e90fcb7b587180a341017c60aba05d135c49ee8e2774c2aaf2f8dcc980425e,Malware related to this campaign found on VirusTotal
