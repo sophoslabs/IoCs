@@ -1,0 +1,14 @@
+Indicator,Data,Note
+Description,https://news.sophos.com/en-us/2023/12/21/akira-again-the-ransomware-that-keeps-on-taking/,Akira followup post
+IP,45.227.254.26,
+IP,80.66.88.203,
+IP,91.240.118.29,
+IP,152.89.196.111,
+IP,194.26.29.102,
+IP,185.11.61.114,
+sha256,dfee389e1ffa09ed81adcf0d0f165d859e0c045ad7d90f6edcf3f96dfcceba2b,w.exe ransomware binary
+sha256,1c1ef7736dd95ea9aa2dc5784dc51977a1d890c92159e16315ef15546556bcdf,1.exe ransomware binary
+sha256,b711f7617f507053a131a75b0971409f76663b404aa1c51bfbe2cd32f2ac8fb8,Locker.exe ransomware binary
+sha256,681697c35dbb1beba9886f5c44882ccca32dd7e9e483a381e981e7409a0e35cb ,C:\programdata\start.bat
+sha256,be8257317bea80a1ed670d70eb4f21bba246c266a59724185b366c2dcfb2b8ea,C:\ProgramData\Microsoft\crome.exe
+sha256,2b02d732c6c46d8cb3758851c9e79a52761956109f55407c1a5d693a8a1af1f3,w.zip
