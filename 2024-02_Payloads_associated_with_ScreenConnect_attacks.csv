@@ -1,7 +1,7 @@
 ﻿Indicator_type,Data,Note
 Description,Indicators related to malware abuse of ScreenConnect vulnerabilities,https://news.sophos.com/en-us/2024/02/23/connectwise-screenconnect-attacks-deliver-malware/
 sha256,0d185ea3b0a49c2fa65bfd2757c9d0705657f0639fd36f196ac394fcd38c361d,malware. Uses Sophos in properties.
-sha256,11d2dde6c51e977ed6e3f3d3e256c78062ae41fe780aefecfba1627e66daf771,malware with Sophos name in 0roperties; source hxxp://207.246.74.189:804/download/Diablo.log
+sha256,11d2dde6c51e977ed6e3f3d3e256c78062ae41fe780aefecfba1627e66daf771,malware with Sophos name in properties; source hxxp://207.246.74.189:804/download/Diablo.log
 sha256,1362e6d43b068005f5d7c755e997e6202775430ac15a794014aa9a7a03a974e7,"hxxp://185.232.92.32:8888/Logs.txt - Malicious Data, which will be loaded by (SentinelAgentCore.dll)"
 sha256,19fc383683b34ba31ed055dc2e546a64eecbe06d79b6cc346773478c84f25f92,Installer for ScreenConnect distributed by threat actors. source hxxps://transfer.sh/get/6YoVhBPfKE/temp2.exe
 sha256,254714b7028005596fd56bdbe30bfc77f02bbe274048d0982118d93966e79331,"hxxp://185.232.92.32:8888/all.ps1 - Malicious Script downloads payload (SentinelUI.exe,SentinelAgentCore.dll,Logs.txt) - Sideloading "
