@@ -1,0 +1,35 @@
+﻿Indicator_type,Data,Note
+Description,Indicators related to malware abuse of ScreenConnect vulnerabilities,https://news.sophos.com/en-us/2024/02/23/connectwise-screenconnect-attacks-deliver-malware/
+sha256,0d185ea3b0a49c2fa65bfd2757c9d0705657f0639fd36f196ac394fcd38c361d,malware. Uses Sophos in properties.
+sha256,11d2dde6c51e977ed6e3f3d3e256c78062ae41fe780aefecfba1627e66daf771,malware with Sophos name in properties; source hxxp://207.246.74.189:804/download/Diablo.log
+sha256,1362e6d43b068005f5d7c755e997e6202775430ac15a794014aa9a7a03a974e7,"hxxp://185.232.92.32:8888/Logs.txt - Malicious Data, which will be loaded by (SentinelAgentCore.dll)"
+sha256,19fc383683b34ba31ed055dc2e546a64eecbe06d79b6cc346773478c84f25f92,Installer for ScreenConnect distributed by threat actors. source hxxps://transfer.sh/get/6YoVhBPfKE/temp2.exe
+sha256,254714b7028005596fd56bdbe30bfc77f02bbe274048d0982118d93966e79331,"hxxp://185.232.92.32:8888/all.ps1 - Malicious Script downloads payload (SentinelUI.exe,SentinelAgentCore.dll,Logs.txt) - Sideloading "
+sha256,2da975fee507060baa1042fb45e8467579abf3f348f1fd37b86bb742db63438a,"""enc.exe"" ransomware executable"
+sha256,3818bb7adf60f8c2aeb5fe8c59b81fc7eb7f1471a80932610dc9a294ba7ba543,malware script that decodes to an executable. Source  hxxp://91.238.181.238/a
+sha256,444338339260d884070de53554543785acc3c9772e92c5af1dff96e60e67c195,Payload from f1c7045badec0b9771da4a0f067eac99587d235d1ede35190080cd051d923da6 - %temp%\xw.exe
+sha256,55e4ce3fe726043070ecd7de5a74b2459ea8bed19ef2a36ce7884b2ab0863047 ,AnyDesk installer distributed by threat actors. Source hxxp://116.0.56.101:9191/images/Distribution.exe
+sha256,858ddfe6530fb00adb467f26e2c8f119fef284e1e9b6c92f0634f403ee3e7913,source hxxp://shapefiles.fews.net.s3.amazonaws.com:80/8gaLYHLcZ4DPV 
+sha256,86b5d7dd88b46a3e7c2fb58c01fbeb11dc7ad350370abfe648dbfad45edb8132,Installer for SimpleHelp distributed by threat actors. source hxxps://transfer.sh/get/HcrhQuN0YC/temp3.exe
+sha256,8c2d246bf93bf84f6d4376cd46d8fcc3cb9c96d9bef7d42c23ff222d8f66eeaf,crypt64ult.exe ransomware executable inside of msappdata.msi
+sha256,8e51de4774d27ad31a83d5df060ba008148665ab9caf6bc889a5e3fba4d7e600,source hxxp://23.26.137.225:8084/msappdata.msi
+sha256,9b3327f9ea7c02c6909a472a3c1abb562b19ae72d733a8e2e990e975b5f8a5d0,Payload from 3818bb7adf60f8c2aeb5fe8c59b81fc7eb7f1471a80932610dc9a294ba7ba543 - Cobalt Strike 
+sha256,a39d9b1b41157510d16e41e7c877b35452f201d02a05afa328f1bcd53d8ee016,hxxp://185.232.92.32:8888/SentinelAgentCore.dll - Malicious DLL Component (Loader)
+sha256,a50d9954c0a50e5804065a8165b18571048160200249766bfa2f75d03c8cb6d0,Ransomware binary built using the leaked Lockbit 3 builder tool
+sha256,c94038781c56ab85d2f110db4f45b86ccf269e77a3ff4b9133b96745ff97d25f,"""UpdaterScreenConnect.exe"" malware"
+sha256,de42bd53cb0944da8bc33107796ecf296d00968725eed1763a8143cef90e2297,hxxp://185.232.92.32:8888/sentinelui.exe - Clean File used for sideloading malicious dll
+sha256,f1c7045badec0b9771da4a0f067eac99587d235d1ede35190080cd051d923da6 ,script that decodes itself to become a malware executable
+sha256,f3f5d3595559cad6019406d41f96fa88c69d693326cdf608c5fc4941fdf6a8ec,r.bat file that downloads 858ddfe6530fb00adb467f26e2c8f119fef284e1e9b6c92f0634f403ee3e7913
+sha256,b423d100e7aa2e576c8f21586f1d8924b34c3e9ed4cfdba40d121e21c3618445,decoded powershell script
+url,hxxp://116.0.56.101:9191/images/Distribution.exe,Anydesk installer distributed by threat actors
+url,hxxp://119.3.12.54:8000/identity_helper.exe,URL observed in ScreenConnect attacks. Payload not retrieved.
+url,hxxp://159.65.130.146:4444/a,URL observed in ScreenConnect attacks. Payload not retrieved.
+url,hxxp://159.65.130.146:4444/svchost.exe,URL observed in ScreenConnect attacks. Payload not retrieved.
+url,hxxp://185.232.92.32:8888/all.ps1,URL observed in ScreenConnect attacks. Payload not retrieved.
+url,hxxp://185.232.92.32:8888/Logs.txt,URL observed in ScreenConnect attacks. Payload not retrieved.
+url,hxxp://185.232.92.32:8888/SentinelAgentCore.dll,URL observed in ScreenConnect attacks. Payload not retrieved.
+url,hxxp://185.232.92.32:8888/sentinelui.exe,URL observed in ScreenConnect attacks. Payload not retrieved.
+url,hxxp://207.246.74.189:804/download/Diablo.log,Malicious stealer. File has properties that identify it as Sophos ML Model model.dll
+url,hxxp://91.238.181.238/a,3818bb7adf60f8c2aeb5fe8c59b81fc7eb7f1471a80932610dc9a294ba7ba543
+url,hxxps://transfer.sh/get/6YoVhBPfKE/temp2.exe,Installer for ScreenConnect distributed by threat actors
+url,hxxps://transfer.sh/get/HcrhQuN0YC/temp3.exe,Installer for SimpleHelp remote access utility distributed by threat actors
