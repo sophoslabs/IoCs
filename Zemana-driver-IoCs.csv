@@ -1,0 +1,16 @@
+﻿Indicator,Data,Note
+Description,https://news.sophos.com/en-us/2024/03/04/itll-be-back-attackers-still-abusing-terminator-tool-and-variants,Observed IOCs for incidents involving Zemana drivers
+sha256,397eb84bfebb366c2719c02bbadfdf9de8ef608808d680c9f127f9a62ccca083,ter.exe
+sha256,6f55c148bb27c14408cf0f16f344abcd63539174ac855e510a42d78cfaec451c,Anti-Logger driver used by ter.exe
+ip,175[.]118[.]126[.]65,Server hosting malicious PowerShell script
+sha256,c3e6034ee65a1131068998399f110d0c944686683197b607c5598e9c09af1c39,Cryptominer installer
+sha256,6e2d85628ae37e57365ed59ac30371d86ab3b62acd5d0dfb6cbd0ccc6c4e5c1a,Ternimator.exe
+sha256,2bbc6b9dd5e6d0327250b32305be20c89b19b56d33a096522ee33f22d8c82ff1,Zam.sys used by Ternimator.exe
+sha256,c748b9054a97a00db5484a98b1841b3c92881c96989d492586206e0970be3b4b,Anti-Logger driver used in AuKill incident
+sha256,3c54646213638e7bd8d0538c28e414824f5eaf31faf19a40eec608179b1074f1,XMRig Miner
+ip_port,175[.]118[.]126[.]65:8002,Server hosting malicious PowerShell script
+url,hxxp://175[.]118[.]126[.]65:8002/js/wi.txt,Server hosting malicious PowerShell script
+command_line,"wmic service where \""PathName like '%sophos%'\"" call delete /nointeractive",Attempt to delete Sophos services
+command_line,"wmic service where \""PathName like '%sophos%'\"" call stopservice /nointeractive",Attempt to stop Sophos services
+file_path,%sysdir%\drivers\updatedrv.sys,updatedrv.sys (ZAL)
+file_path,\programdata\usoshared\updatedrv.sys,updatedrv.sys (ZAL)
