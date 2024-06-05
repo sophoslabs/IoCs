@@ -3,7 +3,7 @@ sha256,f788d5c2c1bb2d88db09b727b3841155daf43ba81802b5faffec72640451fa4f,tpyrced_
 sha256,ad346007f28c4b6d409c95f55e750e249db4b168cd7061baa128f826df948e10,443.txt (PocoProxy),
 sha256,1ad26a31c5387055610e053dbab8355e1371f89dfa37526f7a3341122526b719,4413.txt (PocoProxy),
 sha256,91f40e8659da3dbbb22497b317aa37f26403be86662e359ecddcb4a0c72e154c,chrome.log (PocoProxy),
-filename,aaaa.txt,PocoProxy,,,,
+filename,aaaa.txt,PocoProxy,
 sha256,7d6209036d370dbce7a0657f35dedeaa59c15fcfb4d696b9ebdd0fcc773dad50,a8.txt (PocoProxy),
 sha256,34294ff52899a63f2dc02e5a8f1488343afdb9702437d409a0869317ccfb4243,s.dat (Malicious file),
 sha256,5f3fd50715aabf43cc6edb5f38026a3baa37a7fd7a17ae232fc65e186c83befb,msedge_elf.dll (HUI Loader),
