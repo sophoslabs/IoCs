@@ -1,0 +1,19 @@
+﻿Indicator,Data ,Notes
+ip,188.166.243.83,
+ip,68.183.224.50,
+ip,128.199.144.251,
+file_path_name,C:\programdata\adobe\mscorsvw.exe,
+file_path_name,C:\Windows\system32\mscorsvw.exe,
+file_path_name,C:\Windows\Setup\mscorsvw.exe,
+file_path_name,C:\hclabap\barcode\mscorsvw.exe,
+file_path_name,C:\HCLABSmart\barcode\mscorsvw.exe,
+file_path_name,C:\Windows\System32\migration\WUDFUsbccidDriver.exe,
+file_path_name,C:\programdata\microsoft\EdgeUpdate\ASDTool.exe,
+file_path_name,C:\programdata\adobe\mscorsvc.dll,
+file_path_name,C:\Windows\system32\mscorsvc.dll,
+file_path_name,C:\Windows\Setup\mscorsvc.dll,
+file_path_name,C:\hclabap\barcode\mscorsvc.dll,
+file_path_name,C:\HCLABSmart\barcode\msi.dll,
+file_path_name,C:\Windows\System32\migration\msi.dll,
+file_path_name,C:\programdata\microsoft\EdgeUpdate\msi.dll,https://www.virustotal.com/gui/file/8781f2d85eec49205b29aa4bc09b1d7d1dd9e1a650634393e3adbc5354738a51 
+file_path_name,C:\programdata\microsoft\EdgeUpdate\msiconf.dll,https://www.virustotal.com/gui/file/11c7728697d5ea11c592fee213063c6369340051157f71ddc7ca891f5f367720/relations
