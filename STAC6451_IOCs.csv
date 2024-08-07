@@ -1,0 +1,37 @@
+﻿Indicator,Data ,Note
+sha256,558147caa20eddf708986e89d7f000809025c5ade03fda1f352dba513e8f1454,An executable suspected to be a colbalt strike beacon dropped by the TA
+file_path_name,C:\ProgramData\Plug\tosbtkbd.exe,An executable suspected to be a colbalt strike beacon dropped by the TA
+sha256,804de08fb28dcae51efca2960de3dc9460114fc8d376ad6a966144cb55aa9f75,Cobalt Strike Loader
+file_path_name,C:\users\public\downloads\USERENV.dll,Cobalt Strike Loader
+sha256,d13b43518d0ed2fe938e186eb218debd15022b9803c0d330363ca40830db9a77,Hex encoded DLL in cobalt strike loader (userenv.dll)
+sha256,ae7031dfae21616d7eec326c16ebac7f9d911a354ba32dd4b4c458fe50351805,Malicious DLL - CLR_module.dll
+file_name,CLR_module.dll,Malicious DLL - CLR_module.dll
+sha256,04ba9dd2d3127511af52e1be3015e0424491cfb2133f90f8b5b5cac2e33166d4,Malicious file (Mal/Generic) detected on machine
+file_path_name,C:\Windows\ServiceProfiles\MSSQLSERVER\AppData\Local\Temp\TmpFC18.tmp,Malicious file (Mal/Generic) detected on machine
+sha256,89672638152c13d10ae8afa03df7798081d025939bcfae354e8540cdda2cf16a,Malicious file renamed from C:\users\public\downloads\1.png
+file_path_name,C:\users\public\downloads\tosbtkbd.dll,Malicious file renamed from C:\users\public\downloads\1.png
+sha256,549a883cb3d923eb0b45248d6f46bd2859a3265f203e6019f3e4b9df6c9f9813,Mimic ransomware executable
+file_name,oto.exe,Mimic ransomware executable
+sha256,d04904e32b5cb0f9b559855fac81d62c6ad0472dc443be02f08b6fe4a7d56f71,Observed TA command execution through this binary
+file_path_name,C:\Users\Public\Sophosx64.exe,Observed TA command execution through this binary
+sha256,73de5c6390f26133f20208367c4398798fd4dc1e9986bdfb7fea9288f4f53efa,Payload dropper
+file_path_name,C:\users\public\music\build.txt,Payload dropper
+sha256,0964ec866b24eea67c8e7b11060acbf9455e182d0ff97987114c291d29e54f73,PrintSpoofer
+file_path_name,C:\windows\temp\POZ.exe,PrintSpoofer
+sha256,4e5ec0db67045bdc008e949214bea81a5d1e4c1e0de211159f0e9d7d33ecbf7a,Ransomware launcher binary
+file_path_name,C:\users\public\music\pp2.exe,Ransomware launcher binary
+sha256,cdb0c28ec03ffbf66309d74d537b8157161cf775ee00a49398e97e4bf735d7d9,Related to mimic ransomware (troj/ransom-hcl - lab-97093)
+file_name,1ks.txt,Related to mimic ransomware (troj/ransom-hcl - lab-97093)
+sha256,81423f5454208e958aa183c2850809620676485c63aab07d91a6f85c1d9b4e72,Related to mimic ransomware (troj/ransom-hcl)
+file_name,2ks.txt,Related to mimic ransomware (troj/ransom-hcl)
+sha256,27527809c3a2219f20dbf8b33662eb488c0d32e978d1401fcbe912e8c267128a,Used to run build.txt and safeboot the network
+file_path_name,C:\users\public\music\01.bat,Used to run build.txt and safeboot the network
+file_path_name,C:\users\public\music\03.bat ,Used to run build.txt and safeboot the network
+file_path_name,C:\users\public\music\02.bat,Used to run build.txt and safeboot the network
+sha256,a4e1a5b1489b316064f083c4cd7bfc83b70ee4684a4d97d1ad1c4e6d648161a3,webshell
+file_path_name,E:\Shrdbms_Web\web\js\info.aspx,webshell
+ip,91.203.134.122,
+url,https://jobquest.ph,
+ip,80.66.76.30,
+ip,194.26.135.76 ,
+domain,times.windowstimes.online,
