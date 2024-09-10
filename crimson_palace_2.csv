@@ -1,0 +1,155 @@
+﻿Indicator ,Data,Notes
+Description,https://news.sophos.com/en-us/2024/09/10/crimson-palace-new-tools-tactics-targets/,
+sha256,58a7be39056c2084bbb4aec9843db732dfe115ec4ee0c7cc4cf8884621b5142d,Malicious File used in conjuction with cmdline containing '172.19.120[.]60 65211' and '178.128.221[.]202 443'
+sha256,776d427a19d8389464f855b2f70e0ac11e896162a9f9b50bcb23f0f0aea5044f,Malicious DLL
+sha256,430bf24c9a7843895cb266b440c1f911ae600a7e6b8f3885d1c000622da52b2b,Malicious DLL
+sha256,a22b8ef40b8abe2bd7161f425484e82207f322fef1d0562de5bf98e2f642b477,"EDR unhooking, benign version of ntdll.dll"
+sha256,cc19c785702eea660a1dd7cbf9e4fef80b41384e8bd6ce26b7229e0251f24272,SharpHound/BloodHound
+sha256,e65645af3894ec55f0b55472302d288e860a10d97bc19b699facc400f778c4ee,DonutLoader
+sha256,fa7d4fb4b43e1672c7f4656cd4275c330c2e13aff8451d68e4f305e5e5aea395,Havoc
+sha256,e5620b4b6371b786c72e830dc24012354642b7067bd5902da7073ce0421456b7,Malicious DLL sideloaded by swprv service
+sha256,e5620b4b6371b786c72e830dc24012354642b7067bd5902da7073ce0421456b7,MSiSCSI payload
+sha256,6d94049b24c6ac2373d3b517515fcaeeb392458342bbb5ad4c4316e124805b5b,Malicious DLL sideloaded by swi_update.exe
+sha256,3cc8e21798462468d3bc05ddef35a558fe0dff268c433d42bd01385155084f53,"Malicious File, no execution data"
+sha256,da9a53ff7486cf128e5ba80e66fcf3b1d8993d553bd9634ae8e90cbab31fd8da,Havoc
+sha256,8b16a3a3047f0eb93ef2b55613a76a9f5f19506428895a5ffbb3c1c44780aad7,Havoc
+sha256,75403191ee834075ab5334e92bda8aab267545a03ed5ed3508db36f21f4acf50,Havoc / Xiebro?
+sha256,609fc96700f49f7fdfa71248e642a4dfcd8b3d35f6da3b7c2ce7daad25a844a9,Web shell
+sha256,e4b7a1372233aef6d495743bb726fcd5037d4e90e043085498c21587335d36c7,Havoc ?
+sha256,5f959f480a66a33d37d9a0ef6c8f7d0059625ca2a8ae9236b49b194733622655,Web shell
+sha256,bdcedd81555c9c2eb9f4329626c27ec8c7b91a0f2a9f6e0c55dbcd3f99e82b5d,Shellcode loader
+sha256,4995b91badc8f9bf549548a734d3c14fa2a1c21080743484028b5362440808a0,Shellcode Loader for Havoc
+sha256,4dd0debf03eeb938fbaca1f1fd391523358c23cbf18959a149c29133cc3c9cae,Shellcode Loader for Havoc
+sha256,101bf8dcdd414f09ba46cdecbd96e8606c79b0e76b6a2ce040395e775cb4da86,Web shell
+sha256,9ccf0e46f6aadbb20f4c269d8ac85cc9b4e6ce56bf226d45eda4347a20785c88,Web shell
+sha256,1622ef497f2b767a43e25bcd9a9a629cbe7bed49cb27dc4f08fe0863730580d9,Havoc
+sha256,5f959f480a66a33d37d9a0ef6c8f7d0059625ca2a8ae9236b49b194733622655,Web shell
+sha256,101bf8dcdd414f09ba46cdecbd96e8606c79b0e76b6a2ce040395e775cb4da86,Web shell
+sha256,5f959f480a66a33d37d9a0ef6c8f7d0059625ca2a8ae9236b49b194733622655,Web shell
+sha256,5298c1aadac203285c8a95a4e3f62ec14b984729bf768a405c8028291e34fe1b,Invoke WMI
+sha256,299b1e82f6941cc049a16c7854230fb37c97af32e2cf5cb335495f42446dc43f,Shellcode Loader for Havoc / DonutLoader?
+sha256,c36173f28bfd99db86533d5fdb0ce4dd565488ca56d4b9df1997ee9201b3b704,Shellcode Loader for Havoc
+sha256,8d54da0f807d771edb1197e463cdff8848651e14745c4c468386c31953c340ff,Shellcode Loader for Havoc
+sha256,71ccc2c30dc43f20833c3e54d1fe86f8b68263d876461a3f7f7f8702e92cbe81,Alcatraz Git Project EDR Evasion
+sha256,d86790104f59b89edbdb1478f320d4589155d465d4710bcb57ff015383eefb38,Shellcode loader
+sha256,2892aa48e12e72ba25c4caa9471b41ce316624ff98ed79f56e3c6b3a51026504,DonutLoader
+sha256,b67d50652be6be9997b4b0fe386964a89ed7df078577929aff0910f774b03996,Havoc (Shellcode loader?)
+sha256,2b7602cc1521101d116995e3e2ddfe0943349806378a0d40add81ba64e359b6c,Unknown component
+sha256,c6e1bf2b7ac0fd3c34761099d2ec17fccd0604e2e62e94f297943260d15368ce,Shellcode loader
+sha256,b32de9f4f2a9bd08063c72fa84d5d44be5a3bf7859bfb6ceaf093cd03ff0240f,unsigned executable with certificate stating that it is MS Edge
+sha256,f30b04a9ebc95c50fdc116260068d4d8da8005104b6366c29d0f24dbbf798957,Tattletale malware ?
+sha256,c36173f28bfd99db86533d5fdb0ce4dd565488ca56d4b9df1997ee9201b3b704,Shellcode loader
+sha256,fbe0851792629f86b1d5a599a6bc29d82b3248462bebd8e47ee698e4f510308f,Shellcode loader
+sha256,7f4e1fad9d38da7e8197ddf0e21ebb9c3990b012b249d4a5b93c4c518bb307cd,Shellcode loader
+sha256,6955085febb3dcd0d1139033f544eac2bd825dad3c18841b4652c2b18a897a25,Shellcode loader
+sha256,34c6e8032de4b2df6ed7f8b4cd70080e9b3f04e51ff1dc843a1e5c4802e0c97b,Shellcode loader
+sha256,f3aad172641ce28c698d6c0fc8faeb2bb6d2eb7988019db6a113796371235ccf,Shellcode loader
+sha256,ce5f46132a6b926efa4f1582fb00312257f119951fee53e7d6c2f0158549aaff,Decodes and injects Havoc Shellcode Dropper into d3d11.dll. 
+sha256,4600ddd81ccc18eca2b1bc272250b14217d866dee2a11e168b6122c1adb1ea64,Keylogger which saves the logged the key to file C:\Users\public\log.dat.
+sha256,5be520962b2f60beebbb7676df1a1e3d3cc14b83aa1cd7b61b8721e605a1f1df,Shellcode loader (Decodes and injects Havoc Shellcode Dropper into svchost.exe
+sha256,fb2e5baba8c69ddac2abc8b6881aaebd0578ac121363f0c3505294ed8c86f861,Shellcode loader (Decodes a Havoc Shellcode Injector that injects Cobalt Strike Reflective Loader into scvchost.exe)
+sha256,c2d5d068e4a61ed0eaaca693af354c010f60f89eb119c55af47dbe3741f25635,Shellcode loader (.exe version of msedge_elf.dll)
+sha256,f6e0810b7d342cddc775cd7a64d13f55a50a926a4f99beb93bc47a2b6822483d,Shellcode loader (Havoc)
+sha256,ff71eef0f1d7b26e1946cb700e9f41ccb920a5ace45c56ee9f80a9537070f120,Cobalt Strike payload
+sha256,4918373df7ad23598952030446e0c2dadde314c492567a6b1b329d9f1bd64398,Havoc Payload
+sha256,64e14eea061c4fc335b22e9755fd9abdb0ea74799063336e32d7b4cac9c30181,Shellcode loader (Cobalt Strike)
+sha256,f8994aa29dc30f2737bc245ee5d5903ba704a9bfb92c281a5fa2196e76ebe2c7,Service DLL with the capabilities of command and control server and parsing PE data
+sha256,636761ea5d7732b53ba7b93d9f709148a9fec411e7ddf6f786083666340cf1de,Shellcode loader
+sha256,2a0e0be49851b489922e8aa35fee34475289453be6c5eb2a693681166f5eb986,GNU objdump tool (https://pkg.go.dev/cmd/objdump)
+sha256,5298c1aadac203285c8a95a4e3f62ec14b984729bf768a405c8028291e34fe1b,Troj/InvWMI-A
+sha256,c36173f28bfd99db86533d5fdb0ce4dd565488ca56d4b9df1997ee9201b3b704,DonutLoader (Fake scvhost.exe)
+sha256,58ed0463d4cb393cd09198a6409591b39cae06bb0ba5f5d760186de88410f6b8,Troj/Agent-BKNP
+sha256,9fcca5f936bb624915b1849b5ef873d17e2db666155ce96a84708d95a61e9272,RealBlindingEDR
+sha256,4d31b846e488a7da8a33fb651d3c9b14fbadaa3dd6e356873ea540df2dc61bed,RealBlindingEDR
+sha256,ea3c5569405ed02ec24298534a983bcb5de113c18bc3fd01a4dd0b5839cd17b9,Vulnerable driver for token theft
+sha256,b2796c7478af4eba2680038c60a76ca9949396ca9201bf0927285918f949d51f,Renamed aa.bin (legit file name) by Kaspersky
+sha256,3414b510afa61ad74f4ec44b3838fa0fbb860b29b5b7173c8043656b49fbe14e,C2 Implant
+sha256,3414b510afa61ad74f4ec44b3838fa0fbb860b29b5b7173c8043656b49fbe14e,C2 Implant
+sha256,fb7a79c28fc8fe91e22a487f25a001ff52871bd06506d174ef9951d976bba325,C2 Implant
+file_path_name,C:\ProgramData\mios.exe,Malicious File used in conjuction with cmdline containing '172.19.120[.]60 65211' and '178.128.221[.]202 443'
+file_path_name,C:\Windows\Help\Help\mscorsvc.dll,Malicious DLL
+file_path_name,C:\ProgramData\mscorsvc.dll,Malicious DLL
+file_path_name,C:\Windows\Temp\ntpsapi.dll,"EDR unhooking, benign version of ntdll.dll"
+file_path_name,C:\windows\syswow64\WWindows.Data.Devices.Config.dll,SharpHound/BloodHound
+filename,locale.nlp,DonutLoader
+file_path_name,C:\Windows\debug\net.LOG,Havoc
+file_path_name,C:\Windows\System32\swprv.dll,Malicious DLL sideloaded by swprv service
+filename,iscsiexe.dll ,MSiSCSI payload
+filename,version.dll,Malicious DLL sideloaded by swi_update.exe
+file_path_name,c:\windows\help\help\tmdbglog.dll,Malicious DLL sideloaded by PTWatchDog.exe
+filename,DecrptDumper.exe,"Malicious File, no execution data"
+file_path_name,c:\windows\help\prow.xml,Havoc
+filename,~docpdf.tmp,Havoc
+file_path_name,C:/Windows/System32/wbem/ncobjapi.dll,Havoc ?
+file_path_name,C:/Windows/Vss/Writers/Application/libcef.dll,Shellcode Loader for Havoc
+filename,log.ini,Havoc
+filename,1.exe,Invoke WMI
+filename,msedge_elf.dll,Shellcode Loader for Havoc / DonutLoader?
+,chrome.exe,Shellcode Loader for Havoc
+filename,msedge_elf.dll,Shellcode Loader for Havoc
+file_path_name,C:\ProgramData\conhost.exe,Alcatraz Git Project EDR Evasion
+file_path_name,C:\Windows\Vss\Writers\Application\libcef.dll,Shellcode loader
+file_path_name,C:\Windows\Vss\Writers\libcef.dll,DonutLoader
+file_path_name,C:\Windows\Vss\Writers\log.bin,Havoc (Shellcode loader?)
+file_path_name,C:\PerfLogs\vcruntime140.dll,Unknown component
+file_path_name,C:\PerfLogs\jli.dll,Shellcode loader
+file_path_name,C:\Windows\Temp\temp.log,Shellcode loader
+file_path_name,C:\PerfLogs\pt.exe,unsigned executable with certificate stating that it is MS Edge
+file_path_name,C:\Users\Public\r2.exe ,Tattletale malware ?
+file_path_name,C:\Users\Public\chrome.exe,Shellcode loader
+file_path_name,C:\PerfLogs\msedge_elf.dll,Shellcode loader
+file_path_name,c:\users\public\Documents\apssp.dll,Shellcode loader
+filename,jli.dll,Shellcode loader
+filename,msedge_elf.dll,Shellcode loader
+filename,msedge_elf.dll,Shellcode loader
+filename,11.dll,Decodes and injects Havoc Shellcode Dropper into d3d11.dll. 
+filename,dd.dat,Keylogger which saves the logged the key to file C:\Users\public\log.dat.
+filename,msntlm.dll,Shellcode loader (Decodes and injects Havoc Shellcode Dropper into svchost.exe
+filename,msntlm.dll,Shellcode loader (Decodes a Havoc Shellcode Injector that injects Cobalt Strike Reflective Loader into scvchost.exe)
+filename,pp.exe,Shellcode loader (.exe version of msedge_elf.dll)
+filename,libcef.dll,Shellcode loader (Havoc)
+filename,libcef.dll,Shellcode loader (Cobalt Strike)
+filename,mscorsvc.dll,Service DLL with the capabilities of command and control server and parsing PE data
+filename,log.dll,Shellcode loader
+filename,2.exe,GNU objdump tool (https://pkg.go.dev/cmd/objdump)
+file_path_name,c:\perflogs\wsoc.exe,Troj/InvWMI-A
+filename,svchost.exe,DonutLoader (Fake scvhost.exe)
+filename,mscorsvc.dll,Troj/Agent-BKNP
+filename,asoc.exe,RealBlindingEDR
+file_path_name,C:\Users\Public\ssoc.exe,RealBlindingEDR
+file_path_name,C:\Programdata\mico.sys ,Vulnerable driver for token theft
+file_path_name,c:\ProgramData\kaba.exe ,Renamed aa.bin (legit file name) by Kaspersky
+file_path_name,C:\Windows\Vss\Writers\Application\asco.exe,C2 Implant
+file_path_name, C:\PerfLogs\asco.exe,C2 Implant
+file_path_name,c:\Perflogs\Updater.exe,C2 Implant
+ip_port,178.128.221.202:443,mios.exe C2
+domain,gsenergyspeedtest.com,Cobalt Strike C2
+ip,192.142.18.15,Interacted with webshell (VPN subnet)
+ip,192.142.18.27,Interacted with webshell (VPN subnet)
+ip,192.142.18.25,Dropped webshell (VPN subnet)
+domain,hpupdate.net,Havoc C2 
+url,hxxps://www.hpupdate.net/us-en/drivers/printers,Havoc C2 URI
+ip,45.15.143.151,Havoc C2
+ip,198.244.237.13,Havoc C2 payload host
+ip,123.253.35.100,swprv.dll C2
+domain,cancelle.net,swprv.dll C2
+domain,dmsz.org,swprv.dll C2
+domain,gandeste.net,swprv.dll C2
+ip,103.56.5.224,swprv.dll C2
+ip,49.157.28.114,swprv.dll C2
+ip_port,103.19.16.248:443,swprv.dll C2
+ip,141.136.44.219,Havoc C2
+ip,145.14.158.235,Havoc C2
+ip,107.148.41.114,Havoc C2 
+ip,66.42.56.233,Havoc C2 / XiebroC2
+domain,test1.zhangliyong.cn,Havoc C2 / XiebroC2
+ip_port,191.96.53.132: 443,Havoc C2 / XiebroC2
+ip,45.9.191.183,Havoc C2 / XiebroC2
+domain,www.pmshyptest.com,Havoc C2 / XiebroC2
+ip_port,64.176.50.42:8444,Havoc C2 / XiebroC2
+ip,191.96.53.132,Havoc C2
+ip_port,45.77.46.245:443,Havoc C2
+ip_port,64.176.37.107:443,Havoc C2
+ip,95.179.249.205,
+ip_port,198.13.47.158:443,Havoc C2 (jli.dll)
+ip,128.199.107.213,mscorsvc.dll sample 
