@@ -1,0 +1,33 @@
+﻿Indicator,Data,Notes,
+description,"Indicators from ""Covert Channels"" (CVE-2022-3236) attacks documented in Pacific Rim Report",: https://news.sophos.com/en-us/2024/10/31/pacific-rim-timeline/,
+tool,Chisel,Open-source network tunneling tool built in Go  (MITRE ATT&CK Tactic: Command and Control),Command and Control
+tool,fscan,Open-source network scanner built in Go  (MITRE ATT&CK Tactic: Discovery),Discovery
+tool,zscan,Open-source network scanner built in Go  (MITRE ATT&CK Tactic: Discovery),Discovery
+ip,192.241.152.245,iHEpkSYD process  (MITRE ATT&CK Tactic: Command and Control),Command and Control
+ip,172.67.163.48,v64 process (MITRE ATT&CK Tactic: Command and Control),Command and Control
+ip,104.21.41.84,v1 process (MITRE ATT&CK Tactic: Command and Control),Command and Control
+filename,v64,Believed to be C2 (MITRE ATT&CK Tactic: Command and Control),Command and Control
+filename,v1,Believed to be C2 (MITRE ATT&CK Tactic: Command and Control),Command and Control
+filename,f,Fscan (https://github.com/shadow1ng/fscan) (MITRE ATT&CK Tactic: Discovery),Discovery
+filename,c,Chisel (https://github.com/jpillora/chisel) (MITRE ATT&CK Tactic: Command and Control),Command and Control
+filename,z,z (https://github.com/zyylhn/zscan) (MITRE ATT&CK Tactic: Discovery),Discovery
+filename,iHEpkSYD,Believed to be C2, 
+filename,sophos-fix.jar,Malicious Jar file (MITRE ATT&CK Tactic: Persistence),Persistence
+filename,SophosAgent.jar,Malicious Jar file (MITRE ATT&CK Tactic: Persistence),Persistence
+md5,edeabb6b21bbae30491a7f1ad8cf374b,v1 process (MITRE ATT&CK Tactic: Command and Control),Command and Control
+md5,89ae36448f1922870f1a09c29f17c775,Fscan (MITRE ATT&CK Tactic: Discovery),Discovery
+md5,2c1397f61325d3ab7eee97124ed8dcfa,Chisel (MITRE ATT&CK Tactic: Command and Control),Command and Control
+md5,50b42f796774f925d9bb4b05ec50dffb,sophos-fix.jar (MITRE ATT&CK Tactic:Persistence),Persistence
+md5,9bd5e3bd9ca3785b82a767c6b02d74e1,SophosAgent.jar r (MITRE ATT&CK Tactic:Persistence),Persistence
+md5,c62ab7e7f5e6cbc04244a76d4adeef16,Fscan (MITRE ATT&CK Tactic: Discovery),Discovery
+sha1,4bf1211a59638a6510aaa328d5dfef96807426b5,Fscan (MITRE ATT&CK Tactic: Discovery),Discovery
+sha1,3b1329e81739b1ea6acbb4ec4dff11f02ff42570,Fscan (MITRE ATT&CK Tactic: Discovery),Discovery
+sha1,bc8bbe7786216e648a914809cc971012023861aa,Fscan (MITRE ATT&CK Tactic: Discovery),Discovery
+sha1,253d262afbf76c6e89d48c00bfbc94f987d05c41,Fscan (MITRE ATT&CK Tactic: Discovery),Discovery
+sha1,2416700a102184f78ccc79c6802ba4c906f0e0ac,Fscan (MITRE ATT&CK Tactic: Discovery), 
+sha1,8b0118e9b9b8b686592152500c9c066ffe495ea7,Fscan (MITRE ATT&CK Tactic: Discovery),Discovery
+sha1,01833e8f02858aa6ebb91136478c4d1031e809dd,Chisel  (MITRE ATT&CK Tactic: Command and Control),Command and Control
+sha1,a40e9c97e4e49f7e1fec1972a8a3420020d5c985,Zscan (MITRE ATT&CK Tactic: Discovery),Discovery
+sha1,1157c3cbe87405459dc6523ea10bac1d553c379e,Chisel  (MITRE ATT&CK Tactic: Command and Control),Command and Control
+asn,CLOUDFLARENET,ASN of 104.21.41.84  & 172.67.163.48 ((MITRE ATT&CK Tactic: Command and Control),Command and Control
+asn,DIGITALOCEAN-ASN,ASN of 192.241.152.245 (MITRE ATT&CK Tactic: Command and Control),Command and Control

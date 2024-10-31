@@ -1,0 +1,12 @@
+﻿Indicator,Data,Notes
+description,"Indicators from ""Under the Radar"" attacks documented in Pacific Rim Report",: https://news.sophos.com/en-us/2024/10/31/pacific-rim-timeline/
+filename,XG210-rkloadtest.bin,UEFI BIOS bootkit based on VectorEDK (MITRE ATT&CK Tactic: Defense Evasion)
+tool,LCX,Open-source port mapping tool 
+tool,Microsocks,Open source SOCKS5 proxy tool built in C (MITRE ATT&CK Tactic:  Command and Control)
+md5,713F088F02B060F6BBED3C243780E808,ELF Backdoor (MITRE ATT&CK Tactic: Defense Evasion)
+sha1,74b0fbbb8cb42609eab31d7abcb05515a271e721,File obfuscated with go-strip (MITRE ATT&CK Tactic: Command and Control)
+tool,sdb,Netcat clone with enhanced feature set (encrypted comms) (MITRE ATT&CK Tactic: Execution)
+tool,PLTHook,Open-source tool to hook function calls by replacying PLT enteries
+tool,FRP,Open-source reverse proxy built in Go (MITRE ATT&CK Tactic: Command and Control)
+sha1,56e233cebc7f83b48b5cfc947bbbf8f274677305,nasm binary (MITRE ATT&CK Tactic: Persistence)
+sha1,65fc7268778ff81d93b4f368bdb19899ce834998,sdb hash (MITRE ATT&CK Tactic: Command and Control)

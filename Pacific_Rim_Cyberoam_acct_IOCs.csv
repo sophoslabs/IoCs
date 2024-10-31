@@ -1,0 +1,5 @@
+﻿Indicator,Data,Notes,,,,,
+description,Indicators from Cyberoam account creation attack documented in Pacific Rim Report,: https://news.sophos.com/en-us/2024/10/31/pacific-rim-timeline/,,,,,
+user_account,cyberadmin,Admin account added via CVE-2020-29574 0-day (MITRE ATT&CK Tactic: Persistence),Persistence,,,,
+user_account,cyberoam_managed,Admin account added via CVE-2020-29574 0-day (MITRE ATT&CK Tactic: Persistence),Persistence,,,,
+user_account,cybersupport,Admin account added via CVE-2020-29574 0-day (MITRE ATT&CK Tactic: Persistence),Persistence,,,,

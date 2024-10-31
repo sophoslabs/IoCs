@@ -1,0 +1,15 @@
+﻿Indicator,Data,Notes
+description,Indicators from Asnarok attack documented in Pacific Rim Report,: https://news.sophos.com/en-us/2024/10/31/pacific-rim-timeline/
+domain,sophosfirewallupdate.com,Observed in Asnarök CVE 2020-12271 Attack (MITRE ATT&CK Tactic: execution)
+domain,43.229.55.44,sophosfirewallupdate.com
+asn,AS 63888 (DATAWINGLIMITED-AS DATAWING LIMITED),43.229.55.44/sophosfirewallupdate[.]com
+filename,install.sh ,Downloaded from sophosfirewallupdate[.]com (MITRE ATT&CK Tactic: Execution)
+registrar,"Wild West Domains, LLC",Registrar for sophostraining[.]org Domains
+registrar,"GoDaddy.com, LLC",Registrar for 6 Asnarök Domains
+domain,filedownloaderservers.com,Asnarök Domains
+domain,sophosenterprisecenter.com,Asnarök Domains
+domain,sophoswarehouse.com,Asnarök Domains
+domain,sophosproductupdate.com,Asnarök Domains
+domain,sophostraining.org,Asnarök Domains
+domain,ragnarokfromasgard[.]com,Observed in Asnarök CVE 2020-12271 Attack (MITRE ATT&CK Tactic: execution)
+asn,AS 60117 ( Host Sailor Ltd ),ragnarokfromasgard[.]com
