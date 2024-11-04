@@ -4,7 +4,7 @@ filename,libsophos.so ,Userland rootkit which injected into SSH daemon via LD_PR
 md5,c71cd27efcdb8c44ab8c29d51f033a22,libsophos.so (MITRE ATT&CK Tactic: Defense Evasion),,,,
 filename,libgoat.so,Renamed libsophos.so observed on attacker's development machine (MITRE ATT&CK Tactic: Defense Evasion),,,,
 sha1,dc64bbdcb4ce0c2c49bb681de35f181f096dee30,Gh0stRat (MITRE ATT&CK Tactic: Defense Evasion),,,,
-domain,192.248.152.58,"Seen in Volexity DriftingCloud article, used to download Python script to exploit CVE-2021-4034 (MITRE ATT&CK Tactic: Execution)",,,,
+ip,192.248.152.58,"Seen in Volexity DriftingCloud article, used to download Python script to exploit CVE-2021-4034 (MITRE ATT&CK Tactic: Execution)",,,,
 asn,AS 20473 ( AS-CHOOPA ),ASN of 192.248.152.58 ((MITRE ATT&CK Tactic: Execution),,,,
 filename,libiculxg.so ,Sliver C2 framework implant ((MITRE ATT&CK Tactic: Execution),,,,
 sha1,7b1e16548265fe4ef9e882af7f1fdf336d072b5a,libiculxg.so (MITRE ATT&CK Tactic: Execution),,,,
