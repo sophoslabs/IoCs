@@ -1,0 +1,35 @@
+﻿Indicator,Data,Notes
+Domain,"hxxps[://]ledabel[.]be/en/are-bengal-cats-legal-in-australia-understanding-the-laws-and-regulations/#:~:text=In%20most%20cases%2C%20you%20do,a%20Bengal%20cat%20in%20Australia",URI in which user clicked on that downloaded the malicious Zip file.
+Domain,hxxps[://]www[.]chanderbhushan[.]com/doc[.]php,URI in which the malicious Zip file was observed having connections to.
+Domain,hxxps[://]serviciilaser[.]ro/xmlrpc.php,URI in which the malicious .js file was observed having connection to.
+,,
+Domain,hxxps[://]metropole[.]com[.]au/xmlrpc.php,URI in which the malicious .js file was observed having connection to.
+,,
+,,
+Domain,hxxps[://]fannisho[.]com/xmlrpc.php,URI in which the malicious .js file was observed having connection to.
+,,
+,,
+Domain,hxxps[://]gobranded[.]com/xmlrpc.php,URI in which the malicious .js file was observed having connection to.
+Domain,hxxps[://]climatehero[.]me/xmlrpc.php,URI in which the malicious .js file was observed having connection to.
+,,
+Domain,hxxps[://]wyantgroup[.]com/xmlrpc.php,URI in which the malicious .js file was observed having connection to.
+,,
+Domain,hxxps[://]rkbaienfurt[.]de/xmlrpc.php,URI in which the malicious .js file was observed having connection to.
+,,
+Domain,hxxps[://]beezzly[.]com/xmlrpc.php,URI in which the malicious .js file was observed having connection to.
+,,
+Domain,hxxps[://]playyourbeat[.]com/xmlrpc.php,URI in which the malicious .js file was observed having connection to.
+,,
+Domain,hxxps[://]wowart[.]vn/xmlrpc.php,URI in which the malicious .js file was observed having connection to.
+,,
+File,Are_bengal_cats_legal_in_australia_33924.zip,Malicious Zip file that was downloaded from the URI users clicked on.
+,SHA256: 435f48667b32c3ab8bb806a8783c0fc40af86e6c5cbf6f621d6e1a3f331483ed,
+File,Are_bengal_cats_legal_in_australia_33924.js,The smaller JavaScript file extracted from Are_bengal_cats_legal_in_australia_33924.zip. Note the numerical number differs per extraction.
+,SHA256: ea781eef1da03ea2c3b5250ce26b00445d8a5123bbb0575c583211cca53c61db,
+,,
+File,Rehabilitation Services.js,Heavily obfuscated larger JavaScript observed in association to the Scheduled task. This naming also differs per execution of the payload.
+,SHA256: 9a7e79d4ff235feb12672979dfc073d2b4572233772ae500ef6b69c670a9820e,
+File,Huthwaite SPIN selling.dat,The name will vary upon execution
+File,Small Units Tactics.js,The name will vary upon execution
+,SHA256: 5f2c97499943878d853332da541138bd6ccbafca7e00d6f90d06545b27b66ca3,
+Scheduled Task,Destination Branding,The name will vary upon execution
