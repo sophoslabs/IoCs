@@ -1,0 +1,49 @@
+﻿Indicator_type,Data,Note
+Description,IoCs related to the Gootloader malware family serverside code project,https://news.sophos.com/en-us/2025/01/16/gootloader-inside-out/ ‎
+sha256,03a46ad7873ddb6663377282640d45e38697e0fdc1512692bcaee3cbba1aa016,Malicious HelloDolly.php file
+sha256,1fcc418bdd7d2d40e7f70b9d636735ab760e1044bb76f8c2232bd189e2fd8be7,Malicious HelloDolly.php file
+sha256,258cb1d60a000e8e0bb6dc751b3dc14152628d9dd96454a3137d124a132a4e69,Malicious HelloDolly.php file
+sha256,5d50a7cf15561f35ed54a2e442c3dfdac1d660dc18375f7e4105f50eec443f27,Malicious HelloDolly.php file
+sha256,7bcffa722687055359c600e7a9abf5d57c9758dccf65b288ba2e6f174b43ac57,Malicious HelloDolly.php file
+sha256,af50c735173326b2af2e2d2b4717590e813c67a65ba664104880dc5d6a58a029,Malicious HelloDolly.php file
+sha256,89672c08916dd38d9d4b7f5bbf7f39f919adcaebc7f8bb1ed053cb701005499a,Wordpress dump
+sha256,0874d307fc45886d2751cd9e6816513dc3e1604e514ef1b291bbe7b1a887cd96,Wordpress dump
+ip,5.8.18[.]7,
+ip,5.8.18[.]159,
+ip,91.215.85[.]52,
+domain,my-game[.]biz,"""the mothership"""
+url,http[:]//5.8.18.7/filezzz.php,
+url,http[:]//5.8.18.7/filesst.php?a=$i&b=$u&c=$r&d=$h&e=$g,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
