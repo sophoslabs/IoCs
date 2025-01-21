@@ -1,0 +1,39 @@
+﻿indicator,Data,Notes
+description,Indicators for STAC5777 (AKA Storm-1811),http://news.sophos.com/tktk
+file_path_name,C:\Users\<u>\Downloads\nethost.dll,STAC5143 malicious DLL sideloaded by ProtonVPN executable.
+file_path_name,C:\Users\<username>\Downloads\kb641812-filter-pack-2024-1.dat ,STAC5777 payload delivery file
+file_path_name,C:\Users\<username>\Downloads\kb641812-filter-pack-2024-2.dat ,STAC5777 payload delivery file
+file_path_name,C:\Users\<username>\Downloads\pack.zip ,STAC5777 combined payload archive
+file_path_name,C:\Users\<username>\AppData\Local\OneDriveUpdate\upd2836a.bkt ,STAC5777 second-stage archive
+file_path_name,C:\Users\<username>\AppData\Local\OneDriveUpdate\OneDriveStandaloneUpdater.exe ,STAC5777 Abused legitimate Microsoft OneDrive Standalone Updater executable 
+file_path_name,C:\Users\<username>\AppData\Local\OneDriveUpdate\settingsbackup.dat ,STAC5777 encrypted malware payload
+file_path_name,C:\Users\<username>\AppData\Local\OneDriveUpdate\winhttp.dll ,STAC5777 sideloaded malicious DLL
+ip_port,74.178.90[.]36:443 ,STAC5777 Command and Control
+ip_port,195.123.241[.]24:443 ,STAC5777 Command and Control
+ip_port,207.90.238[.]46:443 ,STAC5777 Command and Control
+account,helpdesk@llladminhlpll.onmicrosoft.com ,STAC5777 abused M365 account
+ip,78.46.67[.]201 ,STAC5777 adversary Teams client IP
+sha256,f009ec775b2daa5a0f38dc2593a3c231611bea7cb579363915d9be1135b00455,STAC5143 C2 malware nethost.dll
+sha256,3d0e55bd3c84e6cb35559ef1d0f2ef72a21e0f3793a9158d514f12f46b0aff85 ,STAC5777 kb641812-filter-pack-2024-2.dat 
+sha256,801525d7239e46f9c22d7e7bcd163abcfb29fc0770ff417f5fc62bfb005ec7ac ,STAC5777 settingsbackup.dat 
+sha256,ea2b3bf32cc27e959e19c365fa2f6e5310ef2e76d3d0ed2df3fb5945f9afc9e7 ,STAC5777 winhttp.dll C2 backdoor
+sha256,4b6a008c8b85803dc19a8286f33cad963425d37c4ca0b1a9454a854db3273dad ,STAC5777 winhttp.dll C2 backdoor
+sha256,a23560a3b9a9578dcd70bcd01434b2053940d6be36e543df8e4d36931ca9ea63 ,STAC5777 winhttp.dll C2 backdoor
+registry_path_key,HKEY_LOCAL_MACHINE\SOFTWARE\TitanPlus\,STAC5777 Command and Control registry key for IP addresses
+file_path_name,C:\ProgramData\winter.zip ,STAC5143  post-compromise exploitation tools payload
+sha256,4b33c3e3b4b26df0e8efd58e88594a7ee2bd98899451b63d1140eabbca2180a171dc88874b9dcae1f43e312d9e556826b60c1fb,STAC5143  post-compromise exploitation tools payload
+file_path_name,C:\ProgramData\winter\166_65.py,STAC5143 obfuscated RPivot tool component
+sha256,42d09288a78363cac90759ddce814a420f22d174768c1e406bf2d8fed2c38ade,STAC5143 obfuscated RPivot tool component
+file_path_name,C:\ProgramData\winter\37_44.py,STAC5143 obfuscated RPivot tool component
+sha256,8abc8c92ebfe78f54e7488a467d1b6e90d28382067b49a954e31133691112eba,STAC5143 obfuscated RPivot tool component
+file_path_name,C:\ProgramData\winter\45_237_80.py,STAC5143 obfuscated RPivot tool 
+sha256,697d5213d69cdfbd943c6d395f907b8fe210bbfc9d78a9d41a046ba55bebb5ff,
+ip,207.90.238.99,STAC5143 C2 connection
+ip,109.107.170.2,STAC5143 C2 connection
+ip,195.133.1.117,STAC5143 C2 connection
+ip,206.206.123.75,STAC5143 C2 connection
+ip,194.87.39.183,STAC5143 download source
+file_path_name,C:\ProgramData\winter\debug.exe,renamed Python interpreter
+file_path_name,C:\Users\Public\Documents\MailQueue-Handler\jdk-23.0.1\bin\javaw.exe  ,dropped Java runtime (legitimate)
+file_path_name,C:\Users\Public\Documents\MailQueue-Handler\MailQueue-Handler.jar,STAC5143 First-stage JAR dropped by attacker
+file_path_name,C:\Users\Public\Documents\MailQueue-Handler\identity.jar ,STAC5143 Second-stage JAR malware
