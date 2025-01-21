@@ -1,5 +1,5 @@
 ﻿indicator,Data,Notes
-description,Indicators for STAC5777 (AKA Storm-1811),http://news.sophos.com/tktk
+description,Indicators for STAC5777 (AKA Storm-1811),https://news.sophos.com/en-us/2025/01/21/sophos-mdr-tracks-two-ransomware-campaigns-using-email-bombing-microsoft-teams-vishing/
 file_path_name,C:\Users\<u>\Downloads\nethost.dll,STAC5143 malicious DLL sideloaded by ProtonVPN executable.
 file_path_name,C:\Users\<username>\Downloads\kb641812-filter-pack-2024-1.dat ,STAC5777 payload delivery file
 file_path_name,C:\Users\<username>\Downloads\kb641812-filter-pack-2024-2.dat ,STAC5777 payload delivery file
