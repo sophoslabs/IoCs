@@ -1,0 +1,20 @@
+﻿Indicator_type,Data,Notes
+Description,IOCs related to PJobRAT campaigns 2022-2024,https://news.sophos.com/en-us/2025/03/27/pjobrat-makes-a-comeback-takes-another-crack-at-chat-apps/
+sha256,0ad9cd56764ef70bdfbd3b2d269020557135f075d63327dbaab1bf0e9d816fb5,org.complexy.hard 
+sha256,0ebcfbcda27b84b8f0db6d50abb1b0ff7831938913912156d27880704e69f1f2,com.happyho.app
+sha256,37c390ff137ac71004223c73b99a9d8eec8ae2e879dee679bda29c09e1b11a37,sa.aangal.lite
+sha256,44a05d1e36938c0d6039e0986de91744482d86d641d1d981f3e8a61385fb33a3,net.over.simple
+filename,org.complexy.hard ,PJobRAT package
+filename,com.happyho.app,PJobRAT package
+filename,sa.aangal.lite,PJobRAT package
+filename,net.over.simple,PJobRAT package
+domain,westvist.myftp.org,C2 server
+domain_port,westvist.myftp.org:8181,C2 server
+domain_port,westvist.myftp.org:3574,C2 server
+url_path,http://westvist.myftp.org:8181/socket.io/?EIO=4&transport=websocket,C2 server
+url_path,http://westvist.myftp.org:3574/notification/chat_notification_v2.php,C2 server
+url_path,http://westvist.myftp.org:3574/m_chowa_srv/main.php,C2 server
+domain,toolkitapi.xyz,Domain hosting PJobRAT
+domain,itechcube.xyz,Domain hosting PJobRAT
+domain,dependablework.wordpress.com,Domain hosting PJobRAT
+domain,lifestylespractice.wordpress.com,Domain hosting PJobRAT
