@@ -1,0 +1,19 @@
+﻿Indicator,Data,Notes
+file_path_name,C:\Users\<username>\Documents\<MSPname>.exe,Qilin ransomware binary executed with a unique 32-character password for each victim 
+sha256,fdf6b0560385a6445bd399eba03c8662be9e61928d6cbc268d550163a5a09285,Qilin ransomware binary executed with a unique 32-character password for each victim 
+sha256,0b9b0715a1ffb427a02e61ae8fd11c00b5d086eb76102d4b12634e57285c1aba,Qilin ransomware binary executed with a unique 32-character password for each victim 
+sha256,9da70c521b929725774c3980763a4aed9baf9de4e6f83fc8f668c3a365a55f82,Qilin ransomware binary executed with a unique 32-character password for each victim 
+sha256,b52917b0658cd2a9197e6bb62bade243ee1ad164f2bb566f3a1e09dfa580397f,Qilin ransomware binary executed with a unique 32-character password for each victim 
+sha256,ef3e42e5fa24acaee2428ff0118feb2be925bfe6b1ea4eccce8b70a7ac5ab2cc,Qilin ransomware binary executed with a unique 32-character password for each victim 
+url,hxxps[:]//b8dymnk3.r.us-east-1.awstrack[.]me/L0/https[:]%2F%2Fcloud.screenconnect[.]com.ms%2FsuKcHZYV/1/010001948f5ca748-c4d2fc4f-aa9e-40d4-afe9-bbe0036bc608-000000/mWU0NBS5qVoIVdXUd4HdKWrsBSI=410,Malicious phishing link redirect with Amazon SES tracking 
+url,hxxps[:]//cloud.screenconnect[.]com.ms/suKcHZYV/1/010001948f5ca748-c4d2fc4f-aa9e-40d4-afe9-bbe0036bc608-000000/mWU0NBS5qVoIVdXUd4HdKWrsBSI=410,Malicious URI redirect 
+file_path_name,C:\Windows\SystemTemp\ScreenConnect\24.3.7.9067\ru.msi,Malicious ScreenConnect Client installer file
+domain,cloud.screenconnect.com.ms,Malicious URI redirect
+ip,186.2.163.10,Malicious web hosting IP
+ip,92.119.159.30,Russian IP used to connect to malicious ScreenConnect instance
+ip,109.107.173.60,Command and Control host
+file_path_name,C:\README-RECOVER-<victim ID>  .txt,Ransom note 
+ip,128.127.180.156,Tor exit.node used to connect to ScreenConnect instance
+ip,109.70.100.1,Tor exit.node used to connect to ScreenConnect instance
+sha256,45c8716c69f56e26c98369e626e0b47d7ea5e15d3fb3d97f0d5b6e8997299d1a,Binary used to exploit CVE-2023-27532 in Veeam software. Attacker executed this binary targeting various hosts as an argument over port 9401
+file_path_name,C:\programdata\veeam.exe,Binary used to exploit CVE-2023-27532 in Veeam software. Attacker executed this binary targeting various hosts as an argument over port 9401
