@@ -1,0 +1,34 @@
+﻿Indicator_type,Data,Note
+Description,A deep-dive look at research concerning Lumma Stealer,https://news.sophos.com/en-us/2025/05/09/lumma-stealer-coming-and-going/ ‎
+url,hxxps[://]fixedzip[.]oss-ap-southeast-5[.]aliyuncs[.]com/new-artist[.]txt ,Hosts PowerShell scripts which connects to other URLs and downloads zip file
+domain,snail-r1ced[.]cyou,Hosts PowerShell scripts which connect to other URLs and download zip file
+ip,104.21.84[.]251,IP addresses of the C2 (Command and Control) used 
+filename,AutoIt3.exe,"File which, when downloaded, drops multiple files and copy all of them to produce the malicious autoit script in %temp% directory"
+sha1,SHA1: e298cd6c5fe7b9b05a28480fd215ddcbd7aaa48a,Hash value of AutoIt3.exe
+url,hxxps[://]FUGTGU76v1[.]b-cdn[.]net/nxt/ilt[.]txt,Hosts PowerShell script which connects to other URLs and downloads zip file
+url,hxxps[://]FUGTGU76v1[.]b-cdn[.]net/iltst[.]zip,Hosts PowerShell script which connects to other URLs and downloads zip file
+url,hxxps[:]//fixedzip[.]oss-ap-southeast-5[.]aliyuncs[.]com/pioneer[.]txt,Hosts PowerShell script which connects to other URLs and downloads zip file
+url,hxxps[:]//fixedzip.oss-ap-southeast-5.aliyuncs.com/pioneer.zip,Hosts PowerShell script which connects to other URLs and downloads zip file
+url,hxxps[://]fixedzip[.]oss-ap-southeast-5[.]aliyuncs[.]com/new-artist[.]txt,Hosts PowerShell script which connects to other URLs and downloads zip file
+url,hxxps[:]//fixedzip.oss-ap-southeast-5.aliyuncs.com/artist.zip,Hosts PowerShell script which connects to other URLs and downloads zip file
+url,hxxps[://]evolytix[.]com/wp-includes/fonts/CewtlSPn[.]txt,Hosts PowerShell script which connects to other URLs and downloads zip file
+ip,104[.]21[.]84[.]25,IP addresses of the C2 (Command and Control) used 
+ip,156[.]59[.]126[.]78,IP addresses of the C2 (Command and Control) used 
+ip,141[.]193[.]213[.]10,IP addresses of the C2 (Command and Control) used 
+filename,ArtistSponsorship.exe ,"File when downloaded, drops multiple files and copy all of them to produce the malicious autoit script in %temp% directory"
+sha1,SHA1:  e298cd6c5fe7b9b05a28480fd215ddcbd7aaa48a,Hash value of ArtistSponsorship.exe
+url,hxxps[://]www[.]googleadservices[.]com/pagead/aclk?sa=L&ai=DChcSEwi9isbdsrCKAxV1LXsHHZq8M0wYABAAGgJ0bQ&ae=2&aspm=1&co=1&ase=5&gclid=EAIaIQobChMIvYrG3bKwigMVdS17Bx2avDNMEAAYASAAEgKomfD_BwE&ohost=www[.]google[.]com&cid=CAASJuRosMAh_pmnrKgHnRyE4Lfiv_5QusyXIVc1HY8a6Eo87L0RZ4Qh&sig=AOD64_3NyGNBHFXQ9B_h3-F3Fyp0oe4HrQ&q&adurl&ved=2ahUKEwj95L3dsrCKAxU_zDgGHdUBKfsQ0Qx6BAgOEAE&nis=7&dct=1&suid=30426012769&ri=26,URL for malicious Google ad posing as a legitimate site
+url,hxxps[://]usermanualplatform[.]com/?gad_source=5&gclid=EAIaIQobChMIq7Dp5rKwigMVXaRmAh3uXySREAAYASAAEgLFUPD_BwE,URL that users are redirected to after clicking on the fake Google ad 
+url,hxxps[://]usermahnualplatform-14[.]site/MNL14/instruction_695-18014-012_rev[.]php,Malicious URL that presents a Fake Captcha notification
+url,hxxps[://]klipdexypoi[.]shop/wassap[.]mp4 ,URL holding the initial payload for the Lumma Stealer malware
+domain,peelyitemsn[.]click,Hosts PowerShell scripts which connect to other URLs and download zip file
+domain,sordid-snaked[.]cyou,Hosts PowerShell scripts which connect to other URLs and download zip file
+domain,immureprech[.]biz,Hosts PowerShell scripts which connect to other URLs and download zip file
+domain,deafeninggeh[.]biz,Hosts PowerShell scripts which connect to other URLs and download zip file
+domain,effecterectz[.]xyz,Hosts PowerShell scripts which connect to other URLs and download zip file
+domain,diffuculttan[.]xyz,Hosts PowerShell scripts which connect to other URLs and download zip file
+domain,debonairnukk[.]xyz,Hosts PowerShell scripts which connect to other URLs and download zip file
+domain,wrathful-jammy[.]cyou,Hosts PowerShell scripts which connect to other URLs and download zip file
+domain,awake-weaves[.]cyou ,Hosts PowerShell scripts which connect to other URLs and download zip file
+filename,Nhtfrh.csv ,"File which, when downloaded, drops multiple files and copies all of them to produce the malicious autoit script in %temp% directory"
+sha1,SHA1: 337424610694e00ebac66d36dd20e535c7a92164,Hash value of Nhtfrh.csv
