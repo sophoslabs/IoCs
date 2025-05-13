@@ -1587,3 +1587,4 @@ ip,43.133.184.179,IP of the resolved malicious domain at the time of activity an
 ip,69.49.230.198,IP of the resolved malicious domain at the time of activity and observed in EntraID sign-in logs. 
 ip,162.241.71.126,IP of the resolved malicious domain at the time of activity and observed in EntraID sign-in logs. 
 email,leonidbo4kariev[@]gmail[.]com,Email address utilized to register newer phising domains. 
+domain,malccewqaw.website,FlowerStorm phishing domain
