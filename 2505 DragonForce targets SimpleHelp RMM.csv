@@ -1,0 +1,6 @@
+﻿Indicator_type,Data,Note
+Description,https://news.sophos.com/en-us/2025/05/27/dragonforce-actors-target-simplehelp-vulnerabilities-to-attack-msp-customers/,IoCs from research in article
+file_path,C:\ProgramData\JWrapper-Remote Access\JWAppsSharedConfig\working\toolbox-9759076704687761247\win.exe ,DragonForce ransomware binary 
+sha256,cee6a7663fad90c807c9f5ea8f689afd0e4ece04f8c55d7a047a7215db6be210 ,DragonForce ransomware binary 
+filename,PUSH PUSh PUUUUUSH.bat ,Batch script to list and clear all Windows Event logs 
+file_path,C:\Users\<user>\Videos\PUSH PUSh PUUUUUSH.bat ,Batch script to list and clear all Windows Event logs 
