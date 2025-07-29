@@ -1,0 +1,22 @@
+﻿Indicator,Data,Note
+Description,https://news.sophos.com/en-us/2025/07/29/gold-blade-remote-dll-sideloading-attack-deploys-redloader/,GOLD BLADE Remote DLL Sideloading Attack Deploys RedLoader
+url,automatinghrservices[.] workers[.]dev,Gold Blade C2 server
+filepath,dav[.]automatinghrservices[.]workers[.]dev @ SSL\DavWWWRoot\CV-APP-2012-68907872.exe,renamed signed version of the Adobe ADNotificationManager.exe executable
+url,quiet[.]msftlivecloudsrv[.]workers[.]dev,Gold Blade C2 server
+url,live[.]airemoteplant[.]workers[.]dev,Gold Blade C2 server
+sha256,d302836c7df9ce8ac68a06b53263e2c685971781a48ce56b3b5a579c5bba10cc,RedLoader stage 1 deployed by Gold Blade via remote DLL sideloading
+sha256,f5203c7ac07087fd5029d83141982f0a5e78f169cdc4ab9fc097cc0e2981d926,RedLoader stage 2 deployed by Gold Blade
+sha1,369acb06aac9492df4d174dbd31ebfb1e6e0c5f3,RedLoader stage 2 deployed by Gold Blade
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,f,
