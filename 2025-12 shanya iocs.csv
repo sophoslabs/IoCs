@@ -1,0 +1,15 @@
+﻿Indicator_Type,Data,Notes
+Description,Indicators for 2025-12 Shanya EDR killer post,https://news.sophos.com/en-us/2025/12/06/inside-shanya-a-packer-as-a-service-fueling-modern-attacks/
+sha1,58995a6c6042ed15f765a11160690c45f76f8271,Early executable sample
+sha1,83317a42290ef8577e1980dc6085ab789dcc0c8f,Early executable sample
+filename,shanya_crypter.exe,Early version of executable
+filename,5h4ny4_fuck4v_0x000735A5BFC229C.dll,Early DLL version
+filename,sh4nya_fuck4v_0x000CFA853F46C84.dll,Early DLL version
+filename,shanya_fuckav_0x0001DC90D59DCDBE.dll,Early DLL version
+sha256,6645297a0a423564f99b9f474b0df234d6613d04df48a94cb67f541b8eb829d1,Variant
+filename,shanya.dll,Seen with 32-bit loader
+filename,hasherezade_pussy.dll,Seen in early version
+url,biokdsl[.]com/upd,Download server for sideloading components
+url,biklkfd[.]com/upd,Download server for sideloading components
+sha256,59906b022adfc6f63903adbdbb64c82881e0b1664d6b7f7ee42319019fcb3d7e,Sideloading components
+filename,consa.zip,Sideloading components
