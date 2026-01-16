@@ -1,0 +1,62 @@
+﻿Indicator_type,Data,Notes
+Description,IOCs related to TamperedChef malvertising campaign,https://www.sophos.com/en-us/blog/tamperedchef-serves-bad-ads-with-infostealers-as-the-main-course
+file_path,%LOCALAPPDATA%\Programs\PDF Editor,Install location
+file_path,%USERPROFILE%\PDF Editor,Install location
+scheduled_task_path,%USERPROFILE%\PDF Editor\PDF Editor.exe --cm=--partialupdate,PDFEditorScheduledTask 
+scheduled_task_path,%USERPROFILE%\PDF Editor\PDF Editor.exe --cm=--backupupdate,PDFEditorUScheduledTask
+registry_path,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\PDFEditorUpdater,TamperedChef registry key
+domain,pdf-tool.appsuites.ai7,TamperedChef domain
+domain,pdfsmartkit.com,TamperedChef domain
+domain,fastonestartpdf.com,TamperedChef domain
+domain,pdfhubspot.com,TamperedChef domain
+domain,pdfdoccentral.com,TamperedChef domain
+domain,pdffilehub.net,TamperedChef domain
+domain,pdfonestarthub.com,TamperedChef domain
+domain,pdfonestartlive.com,TamperedChef domain
+domain,download04.pdfgj.com,TamperedChef domain
+domain,pdfappsuite.com,TamperedChef domain
+domain,pdffacts.net,TamperedChef domain
+domain,pdftraining.com,TamperedChef domain
+domain,smarteasypdf.com,TamperedChef domain
+domain,pdffacts.com,TamperedChef domain
+domain,pdfonestart.com,TamperedChef domain
+domain,pdf-kiosk.net,TamperedChef domain
+domain,pdfmeta.com,TamperedChef domain
+domain,pdf-kiosk.com,TamperedChef domain
+domain,easyonestartpdf.com,TamperedChef domain
+domain,download02.pdfgj.com,TamperedChef domain
+domain,pdfworker.com,TamperedChef domain
+domain,getsmartpdf.com,TamperedChef domain
+domain,pdfscraper.com,TamperedChef domain
+domain,appsuites.ai,TamperedChef domain
+domain,pdfts.site,TamperedChef domain
+domain,click4pdf.com,TamperedChef domain
+domain,onestartbrowser.com,TamperedChef domain
+domain,vault.appsuites.ai,TamperedChef domain
+domain,fullpdf.com,TamperedChef domain
+filename,pdfeditor.js,TamperedChef malware
+filename,ManualFinderApp.exe,TamperedChef malware
+sha256,ee1c374311170810dc722a21545aca9e9278d03c,pdfeditor.js
+sha256,71edb9f9f757616fe62a49f2d5b55441f91618904517337abd9d0725b07c2a51,ManualFinderApp.exe
+filename,PDFEditorSetup.exe,TamperedChef malware
+filename,PDF Editor.exe ,TamperedChef malware
+url_path,vault.appsuites.ai/AppSuite-PDF.msi,TamperedChef malware
+filename,AppSuite-PDF.msi ,TamperedChef malware
+filename,ManualFinder-v2.0.196.msi,TamperedChef malware
+url_path,https://portal.manualfinder.app/sapi/iidsuccesssrc\main.rs,TamperedChef domain
+url_path,https://portal.manualfinder.app/sapi/reg,TamperedChef domain
+sha256,13698b05960edbda52fa8f4836526f27e8fc519ca0f4a7bc776990568523113e,PDF Editor.exe
+sha256,2e224a7a7bc6e85f8d16ae4258ee5f88a5bcc104148c0612250e6c2faf37a187,PDF Editor.exe
+sha256,abbb3e96b910c9d1e2074dc05fd51e78984941f03bcb7d443714838849a7a928,PDF Editor.exe
+sha256,bd21360149904ce42c6927d9c3fb482316f2537a4a7bce8b64990428e27a54ac,PDF Editor.exe
+sha256,cb15e1ec1a472631c53378d54f2043ba57586e3a28329c9dbf40cb69d7c10d2c,PDF Editor.exe
+sha256,ce0019424497040351c9054aa2ee6b07fc610024cc2cb2cc810de80f838c7a14,PDF Editor.exe
+sha256,cf5194e7f63de52903b5d61109fd0d898b73dd3a07512e151077fba23cdf4800,PDF Editor.exe
+sha256,09207f1dfdd000b42b3433b85d051e8e446a1a1f2f63ab66d47edb9b196f618c,pdfeditorsetup.exe
+sha256,da3c6ec20a006ec4b289a90488f824f0f72098a2f5c2d3f37d7a2d4a83b344a0,pdfeditorsetup.exe
+sha256,afb0c6b4b0af0a14ac725c025ac70e8b2d8b392094ecdb10e8a2afe2ecf47ea8,pdfeditorsetup.exe
+sha256,b66d89ee13a48e9c8d4a7aa2e3e1cb2b79f0b95e4f74f4184b85628656281588,AppSuite-PDF.msi
+sha256,b9b4375c1992b71f9dc08ee613b2b316b8df8b9e1fdd2c7a1e98d89f43a1625f,AppSuite-PDF.msi
+sha256,f748022beadc73f905f9cd2d5b94be2095265433f6c9770860facda2f6b623c6,AppSuite-PDF.msi
+sha256,fde67ba523b2c1e517d679ad4eaf87925c6bbf2f171b9212462dc9a855faa34b,AppSuite-PDF.msi
+sha256,ed797beb927738d68378cd718ea0dc74e605df0e66bd5670f557217720fb2871,ManualFinderApp
