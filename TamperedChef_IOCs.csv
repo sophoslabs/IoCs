@@ -5,7 +5,7 @@ file_path,%USERPROFILE%\PDF Editor,Install location
 scheduled_task_path,%USERPROFILE%\PDF Editor\PDF Editor.exe --cm=--partialupdate,PDFEditorScheduledTask 
 scheduled_task_path,%USERPROFILE%\PDF Editor\PDF Editor.exe --cm=--backupupdate,PDFEditorUScheduledTask
 registry_path,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\PDFEditorUpdater,TamperedChef registry key
-domain,pdf-tool.appsuites.ai7,TamperedChef domain
+domain,pdf-tool.appsuites.ai,TamperedChef domain
 domain,pdfsmartkit.com,TamperedChef domain
 domain,fastonestartpdf.com,TamperedChef domain
 domain,pdfhubspot.com,TamperedChef domain
@@ -60,3 +60,4 @@ sha256,b9b4375c1992b71f9dc08ee613b2b316b8df8b9e1fdd2c7a1e98d89f43a1625f,AppSuite
 sha256,f748022beadc73f905f9cd2d5b94be2095265433f6c9770860facda2f6b623c6,AppSuite-PDF.msi
 sha256,fde67ba523b2c1e517d679ad4eaf87925c6bbf2f171b9212462dc9a855faa34b,AppSuite-PDF.msi
 sha256,ed797beb927738d68378cd718ea0dc74e605df0e66bd5670f557217720fb2871,ManualFinderApp
+
