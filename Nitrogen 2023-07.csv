@@ -2,7 +2,7 @@
 Description,https://news.sophos.com/en-us/2023/07/26/into-the-tank-with-nitrogen/,"Indicators of compromise associated with the Nitrogen initial-access campaign, July 2023"
 sha256,0af013ad0548b992d50287e3b11963cad9aa0af1f1e47e254637d28ee05208d8,file downloaded from Cobalt Strike server -- *work3
 sha256,0daf5c0f374e9a03fbe24dbcb4f0a24837a35bc2f0ca76ca35bb705f8c079486,ISO installers
-sha256,0dbce3ef7f5be8+B53:B88e1008bfa15341d2729724fef8e128555d014ac67ecc205bd76,msi.dll (NitrogenInstaller)
+sha256,0dbce3ef7f5be8e1008bfa15341d2729724fef8e128555d014ac67ecc205bd76,msi.dll (NitrogenInstaller)
 ip,104.18.25.181,C2 server
 ip,104.234.11.121,C2 server
 ip,104.234.11.236,C2 server
